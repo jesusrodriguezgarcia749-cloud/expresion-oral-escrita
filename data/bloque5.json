@@ -1,0 +1,165 @@
+{
+  "bloque": 5,
+  "nombre": "Redacción de informes",
+  "introduccion": "Si el Tema 4 se centró en los escritos de naturaleza académica, este tema se enfoca en un formato que acompañará a cualquier profesionista durante toda su vida laboral: el informe. A diferencia del ensayo, el informe no busca convencer con una interpretación personal, sino comunicar de forma clara, ordenada y verificable información relevante para la toma de decisiones. El tema recorre los distintos tipos de informe, cómo esquematizar una argumentación, qué elementos no deben faltar, cuándo usar tablas o gráficas, la metodología para elaborarlo, la diferencia entre monografía y reporte, y los niveles de formalidad y plantillas más usadas en el mundo de los negocios.",
+  "subtemas": [
+    {
+      "id": "5.1",
+      "titulo": "Tipos de escritos",
+      "contenido": [
+        "Tipo de escrito — Propósito principal",
+        "Informe descriptivo — Presenta hechos o situaciones tal como son, sin proponer acciones.",
+        "Informe expositivo — Explica un proceso, un fenómeno o cómo funciona algo.",
+        "Informe argumentativo o de recomendación — Presenta evidencia y concluye con una recomendación de acción concreta.",
+        "Memorándum — Comunicación breve interna, generalmente de una sola idea u orden.",
+        "Minuta o acta — Registro formal de lo tratado y acordado en una reunión."
+      ]
+    },
+    {
+      "id": "5.1.1",
+      "titulo": "Más tipos de informe según su función",
+      "contenido": [
+        "Además de la clasificación general anterior, en el ámbito profesional se reconocen tipos de informe más específicos, cada uno con una estructura y un propósito particular que conviene distinguir.",
+        "Tipo de informe — Cuándo se usa — Elemento distintivo",
+        "Informe técnico — Para documentar procesos, especificaciones o resultados de carácter especializado — Lenguaje técnico preciso, apoyado en datos, diagramas o especificaciones exactas",
+        "Informe de factibilidad — Antes de emprender un proyecto, para evaluar si conviene o no realizarlo — Analiza viabilidad técnica, económica, legal y operativa; concluye con una recomendación de sí/no",
+        "Informe de avance (o de progreso) — Durante la ejecución de un proyecto, para comunicar el estado actual — Compara lo planeado contra lo realmente logrado hasta la fecha",
+        "Informe de incidentes — Cuando ocurre un evento no planeado (accidente, falla, queja grave) — Cronología precisa de los hechos, causas identificadas, acciones correctivas",
+        "Informe de auditoría — Para verificar el cumplimiento de normas, procesos o estados financieros — Alto nivel de objetividad y evidencia documental verificable"
+      ]
+    },
+    {
+      "id": "5.2",
+      "titulo": "Esquema de la argumentación",
+      "contenido": [
+        "Retomando lo visto en el Tema 3 sobre el desarrollo del argumento, un informe que busca justificar una recomendación necesita organizar su evidencia de forma especialmente clara, ya que quien lo lee —frecuentemente un directivo con poco tiempo— debe poder seguir el razonamiento sin esfuerzo.",
+        "Esquema típico de argumentación en un informe — Contenido",
+        "Situación actual — Qué está pasando y por qué representa un problema u oportunidad.",
+        "Análisis de causas — Por qué está ocurriendo esa situación.",
+        "Opciones consideradas — Qué alternativas se evaluaron para resolverla.",
+        "Recomendación — Cuál opción se propone y por qué es la mejor de las consideradas.",
+        "Próximos pasos — Qué se necesita para implementar la recomendación."
+      ]
+    },
+    {
+      "id": "5.3",
+      "titulo": "Puntos básicos de un informe",
+      "contenido": [
+        "Independientemente del tipo específico de informe, existen elementos que casi cualquier informe profesional bien estructurado debe incluir:",
+        "Elemento — Función",
+        "Portada o encabezado — Identifica el título, autor, destinatario y fecha del informe.",
+        "Resumen ejecutivo — Síntesis de una página (o menos) con lo esencial, para lectores que no tienen tiempo de leer todo el documento.",
+        "Cuerpo del informe — El desarrollo completo, organizado en secciones con subtítulos claros.",
+        "Conclusiones y/o recomendaciones — El cierre que responde directamente a la pregunta que originó el informe.",
+        "Anexos — Material de soporte (tablas extensas, gráficas, documentos referidos) que no es indispensable en el cuerpo principal.",
+        "RECUERDA: El resumen ejecutivo no es una introducción: es un resumen completo y autónomo de las conclusiones más importantes, pensado para quien solo tendrá tiempo de leer esa única página."
+      ]
+    },
+    {
+      "id": "5.3.1",
+      "titulo": "Uso de tablas y gráficas en informes",
+      "contenido": [
+        "Una parte importante de la claridad de un informe moderno depende de saber cuándo presentar información en texto corrido y cuándo conviene resumirla visualmente. Una mala decisión en este sentido —una tabla saturada de datos que podría ser una frase, o un párrafo denso de cifras que sería más claro en una gráfica— reduce la eficacia del documento.",
+        "Formato — Cuándo conviene usarlo",
+        "Texto corrido — Para explicar causas, contexto, argumentos o recomendaciones: todo lo que requiere matiz.",
+        "Tabla — Para comparar varios elementos con las mismas categorías de datos (como se ha hecho en todo este libro).",
+        "Gráfica de barras — Para comparar cantidades entre distintas categorías (ventas por región, por ejemplo).",
+        "Gráfica de líneas — Para mostrar la evolución de un dato a lo largo del tiempo.",
+        "Gráfica circular (pastel) — Para mostrar la proporción de partes dentro de un total (úsese con moderación: es fácil de saturar visualmente con más de 5-6 categorías).",
+        "NOTA: Un principio muy citado en el diseño de informes de negocios, atribuido al estadístico Edward Tufte, es minimizar la “tinta no informativa”: todo elemento visual (colores, bordes, sombreados) que no aporte información debe eliminarse, porque distrae de los datos reales."
+      ]
+    },
+    {
+      "id": "5.4",
+      "titulo": "Metodología para un informe",
+      "contenido": [
+        "Elaborar un buen informe sigue, en la práctica, un proceso ordenado que rara vez se salta con éxito, aunque a veces se haga con prisa:",
+        "Paso — Descripción",
+        "1. Definir el propósito y el destinatario — ¿Para qué se escribe este informe y quién lo va a leer?",
+        "2. Recopilar la información — Reunir datos, cifras, entrevistas o documentos necesarios.",
+        "3. Organizar la información — Ordenar los hallazgos antes de empezar a redactar el texto corrido.",
+        "4. Redactar un primer borrador — Escribir sin buscar la perfección desde la primera versión.",
+        "5. Revisar y editar — Corregir claridad, orden, ortografía y extensión.",
+        "6. Dar formato final — Aplicar el formato institucional correspondiente (portada, tipografía, numeración)."
+      ]
+    },
+    {
+      "id": "5.5",
+      "titulo": "Monografía y reporte",
+      "contenido": [
+        "Estos dos términos suelen confundirse, aunque tienen matices distintos. La monografía es un escrito que desarrolla, de forma más extensa y documentada, un solo tema específico desde varios ángulos, generalmente con fines educativos o de divulgación. El reporte, en cambio, suele ser más breve y estar orientado a comunicar resultados concretos de un periodo o de una actividad específica.",
+        "Característica — Monografía — Reporte",
+        "Extensión típica — Media a extensa — Breve a media",
+        "Enfoque temporal — Puede abarcar un periodo histórico amplio — Casi siempre se refiere a un periodo acotado y reciente",
+        "Propósito principal — Explicar y documentar a fondo un tema — Informar resultados o avances concretos"
+      ]
+    },
+    {
+      "id": "5.6",
+      "titulo": "Informes en los negocios",
+      "contenido": [
+        "En el entorno empresarial, el informe es probablemente el documento escrito más producido y consultado, y de su claridad depende directamente la calidad de las decisiones que se toman a partir de él.",
+        "IMPORTANTE: “Un buen informe de negocios no impresiona al lector con su vocabulario: le ahorra tiempo y le facilita decidir.” — Principio general recogido en manuales de redacción ejecutiva y comunicación corporativa.",
+        "NOTA: Muchas empresas de consultoría de primer nivel (como McKinsey & Company) exigen a sus consultores redactar el resumen ejecutivo de cualquier informe usando lo que se conoce como “el principio de la pirámide”: comenzar siempre con la conclusión o recomendación principal, y solo después desarrollar los argumentos y datos que la sustentan; el orden inverso al que muchos estudiantes usan de forma natural al escribir."
+      ]
+    },
+    {
+      "id": "5.6.1",
+      "titulo": "Niveles de formalidad en la redacción de negocios",
+      "contenido": [
+        "No todo documento de negocios requiere el mismo grado de formalidad. Saber elegir el registro adecuado —retomando el principio de adecuación visto en el Tema 3— es una habilidad tan importante como la redacción misma.",
+        "Nivel de formalidad — Cuándo se usa — Ejemplo de apertura",
+        "Muy formal — Comunicación externa con autoridades, clientes desconocidos, documentos legales — “Por medio de la presente, me permito informar a usted...”",
+        "Formal estándar — Comunicación profesional habitual entre empresas o con superiores — “Estimado(a) [nombre]: Le escribo para informarle sobre...”",
+        "Semiformal — Comunicación interna entre colegas de confianza, pero aún profesional — “Hola [nombre], te comento que...”",
+        "Informal — Chat de equipo, mensajería instantánea entre compañeros cercanos — “Oye, ¿ya viste el reporte de ayer?”",
+        "RECUERDA: Un error común de quien empieza su vida profesional es usar un registro demasiado informal en su primera comunicación con un cliente o jefe nuevo, o —en el extremo opuesto— un formalismo excesivo con colegas cercanos que puede sonar distante o artificial."
+      ]
+    },
+    {
+      "id": "5.6.2",
+      "titulo": "Plantillas básicas de uso común",
+      "contenido": [
+        "A continuación se presentan modelos estructurales de los documentos de oficina más solicitados en cualquier entorno de trabajo, listos para adaptarse a una situación real.",
+        "§ Plantilla de memorándum",
+        "Encabezado — MEMORÁNDUM: Para: [destinatario] / De: [remitente] / Fecha: [fecha] / Asunto: [tema en una línea]",
+        "Cuerpo — Un solo párrafo breve y directo con la información u orden principal.",
+        "Cierre — Firma o nombre del remitente; sin despedida extensa, a diferencia de una carta.",
+        "§ Plantilla de carta formal",
+        "Encabezado — Lugar y fecha / Nombre y cargo del destinatario / Asunto",
+        "Saludo — “Estimado(a) [nombre o cargo]:”",
+        "Cuerpo — Párrafo de apertura (motivo de la carta) + desarrollo + cierre con la petición o conclusión clara.",
+        "Despedida y firma — “Atentamente,” + nombre completo y cargo del remitente.",
+        "§ Plantilla de minuta de reunión",
+        "Encabezado — Fecha, hora, lugar, asistentes y ausentes.",
+        "Cuerpo — Lista de temas tratados, en el orden en que se discutieron, con una síntesis breve de cada uno.",
+        "Acuerdos y compromisos — Tabla con: acuerdo tomado, responsable, y fecha límite.",
+        "Cierre — Hora de finalización y fecha de la próxima reunión, si aplica.",
+        "• Puntos clave del Tema 5",
+        "• Existen tipos de informe según su propósito general (descriptivo, expositivo, de recomendación) y según su función específica (técnico, de factibilidad, de avance, de incidentes, de auditoría).",
+        "• Las tablas comparan categorías; las gráficas de barras comparan cantidades; las de líneas muestran evolución en el tiempo.",
+        "• El registro de un documento de negocios debe adecuarse al destinatario: muy formal, formal estándar, semiformal o informal.",
+        "• El memorándum, la carta formal y la minuta de reunión son los documentos de oficina más solicitados, cada uno con su propia estructura estándar.",
+        "§ Actividad sugerida",
+        "Elabora un informe breve (una cuartilla) sobre un problema real de tu entorno escolar o laboral, siguiendo el esquema de argumentación del subtema 5.2.",
+        "§ Actividad sugerida",
+        "Redacta, usando las plantillas del subtema 5.6.2, un memorándum, una carta formal breve y una minuta de una reunión imaginaria de tu carrera, ajustando el nivel de formalidad a cada caso."
+      ]
+    },
+    {
+      "id": "5.9",
+      "titulo": "Ficha de consulta rápida — Tema 5",
+      "contenido": [
+        "Concepto — En una frase",
+        "Informe técnico — Documenta procesos o especificaciones con lenguaje especializado.",
+        "Informe de factibilidad — Evalúa si conviene o no emprender un proyecto.",
+        "Informe de avance — Compara lo planeado contra lo realmente logrado.",
+        "Esquema de argumentación — Situación actual, causas, opciones, recomendación, próximos pasos.",
+        "Resumen ejecutivo — Síntesis autónoma de una página con las conclusiones principales.",
+        "Principio de la pirámide — Empezar por la conclusión, luego los argumentos que la sustentan.",
+        "Niveles de formalidad — Muy formal, formal estándar, semiformal, informal, según destinatario.",
+        "Memorándum — Comunicación interna breve, un solo asunto."
+      ]
+    }
+  ]
+}
