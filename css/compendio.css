@@ -1,0 +1,33 @@
+/* ============ COMPENDIO (lista de bloques) ============ */
+
+.comp-hero{background:var(--charcoal); color:var(--cream); padding:64px 0 48px;}
+.comp-hero h1{color:var(--cream); font-size:clamp(2.2rem,5vw,3rem);}
+.hero-sub-light{color:#D8D0BE; max-width:60ch;}
+
+.comp-main{padding:44px 24px 100px;}
+
+.comp-block{margin-bottom:56px;}
+.comp-block-header{margin-bottom:18px;}
+.comp-block-header .section-eyebrow{margin-bottom:4px;}
+.comp-block-header p{color:var(--ink-soft); max-width:70ch; font-size:.95rem;}
+
+.comp-topic-list{
+  display:flex; flex-direction:column; gap:10px;
+  list-style:none; margin:0; padding:0;
+}
+.comp-topic-list a{
+  display:flex; align-items:center; gap:12px;
+  background:var(--cream); border-radius:10px; box-shadow:var(--shadow-card);
+  padding:16px 18px; text-decoration:none; color:var(--ink);
+  border-left:4px solid var(--card-accent, var(--saffron));
+  font-size:.98rem; font-weight:500;
+}
+.comp-topic-list a:active, .comp-topic-list a:hover{background:#FFFDF8;}
+.comp-topic-list .topic-id{
+  font-family:var(--font-display); font-style:italic; font-weight:500;
+  color:var(--card-accent, var(--saffron)); flex-shrink:0; min-width:2.4em;
+}
+
+mark{background:rgba(201,138,44,0.35); color:inherit; border-radius:2px;}
+
+.no-results{padding:60px 20px; text-align:center; color:var(--ink-soft);}
