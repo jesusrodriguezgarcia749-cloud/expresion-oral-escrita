@@ -1,0 +1,162 @@
+{
+  "bloque": 2,
+  "nombre": "Ortografía",
+  "introduccion": "Este es, por extensión, el tema más importante de todo el libro para la vida profesional cotidiana: una carta, un correo o un informe con errores ortográficos comunica, antes que nada, descuido, independientemente de qué tan buena sea la idea de fondo. La buena noticia es que la ortografía del español es en su mayoría un sistema de reglas lógicas y aprendibles, no una lista interminable de excepciones para memorizar una por una. Este tema avanza de los fundamentos de fonética (por qué confundimos ciertas letras) a los errores más comunes (B/V, S/C/Z, G/J, H, LL/Y, X, parónimos) y después a las reglas avanzadas de acentuación y puntuación, incluida la actualización de la RAE de 2010.",
+  "subtemas": [
+    {
+      "id": "2.0",
+      "titulo": "Fundamentos de fonética española básica",
+      "contenido": [
+        "Antes de entrar a las reglas ortográficas propiamente dichas, conviene entender —aunque sea de forma introductoria— cómo se producen los sonidos del español, porque esto explica el origen de casi todas las confusiones ortográficas que se estudian en este tema. La fonética es la disciplina que estudia los sonidos del habla desde un punto de vista físico y articulatorio.",
+        "Grupo de sonidos — Cómo se producen — Ejemplos",
+        "Vocales — Se producen sin obstrucción del aire en la boca; en español son solo 5: a, e, i, o, u — casa, mesa, lima, sol, luna",
+        "Consonantes oclusivas — El aire se detiene por completo un instante y luego se libera de golpe — p, b, t, d, k, g",
+        "Consonantes fricativas — El aire pasa por un canal estrecho, generando fricción continua — f, s, z, j",
+        "Consonantes nasales — El aire sale por la nariz, no por la boca — m, n, ñ",
+        "Consonantes líquidas — El aire pasa con poca obstrucción, permitiendo un sonido continuo — l, r, rr",
+        "El fenómeno del seseo —pronunciar la c (ante e, i) y la z exactamente igual que la s— es, desde el punto de vista fonético, la fusión de dos sonidos que en el español del centro y norte de España siguen siendo distintos: un sonido interdental (similar al “th” inglés de “think”) para la z y la c ante e/i, y un sonido alveolar para la s. En la inmensa mayoría de América Latina, Canarias y buena parte de Andalucía, ambos sonidos se fusionaron en uno solo hace varios siglos, lo que explica por qué millones de hispanohablantes deben aprender de memoria (no de oído) cuál letra corresponde a cada palabra.",
+        "NOTA: El yeísmo (pronunciar la ll exactamente igual que la y) sigue el mismo patrón histórico que el seseo: dos sonidos que en el español antiguo eran distintos —uno lateral palatal para la ll, y una semiconsonante para la y— se fusionaron con el tiempo en la mayoría de las regiones hispanohablantes, incluyendo casi toda América Latina.",
+        "RECUERDA: El seseo (s=c=z) y el yeísmo (ll=y) no son “errores” de pronunciación: son fenómenos fonéticos legítimos y mayoritarios en el mundo hispanohablante. El reto es exclusivamente ortográfico: al escribir, hay que saber la regla porque el oído no distingue."
+      ]
+    },
+    {
+      "id": "2.1",
+      "titulo": "Errores comunes",
+      "contenido": [
+        "Este subtema agrupa los errores ortográficos más frecuentes del español, casi todos derivados de que dos o más letras comparten el mismo sonido (B/V, S/C/Z, G/J, LL/Y) o de que una letra no representa ningún sonido propio (H). Los siguientes subtemas (2.1.1 a 2.1.7) desarrollan cada caso con sus reglas y ejemplos."
+      ]
+    },
+    {
+      "id": "2.1.1",
+      "titulo": "Uso de la B y la V",
+      "contenido": [
+        "El español no distingue en la pronunciación entre B y V —ambas se pronuncian igual en la inmensa mayoría del mundo hispanohablante—, lo cual es precisamente la razón por la que resulta tan fácil confundirlas al escribir. No existe una regla única que lo resuelva todo, pero sí un conjunto de reglas que cubren la mayoría de los casos.",
+        "Se escribe con B cuando... — Ejemplos",
+        "Antes de otra consonante (l, r) o al final de sílaba — blanco, brazo, obtener, abstracto",
+        "En las terminaciones -aba, -abas, -ábamos, -abais, -aban del pretérito imperfecto de los verbos de la primera conjugación (-ar) — caminaba, jugábamos, cantaban",
+        "En las palabras que empiezan con bibl-, o con los prefijos bi-, bis-, biz- (dos) — biblioteca, bilingüe, bisnieto, bizcocho",
+        "Después de las sílabas cu-, ha-, he-, hi-, ho-, hu- al inicio de palabra — cubierta, hábil, hebilla, hibernar, hoble, hueso",
+        "En los verbos deber, beber, caber, haber, saber y sus derivados — debía, bebimos, cabía, había, sabía",
+        "Se escribe con V cuando... — Ejemplos",
+        "Después de las consonantes b, d y n — subvención, adverbio, invierno, enviar",
+        "En los adjetivos terminados en -ava, -avo, -eva, -eve, -evo, -iva, -ivo — octava, esclavo, nueva, breve, longevo, activa, decisivo",
+        "En los verbos terminados en -olver — resolver, envolver, disolver",
+        "Después de la sílaba “pre-”, “pri-”, “pro-” y “pol-” en muchos casos — prevenir, privado, provincia, polvo",
+        "En las palabras que empiezan con villa-, salvo “billar” y “bíceps” — villano, villancico",
+        "Un caso especial y muy consultado es el de los pretéritos de los verbos irregulares (estar, andar, tener), que se escriben siempre con V: estuve, anduve, tuve — nunca con B, a pesar de que sí existe la regla de “imperfecto en -aba con B” para otros verbos.",
+        "NOTA: Existen en español pares de palabras que cambian completamente de significado según se escriban con B o V, llamados parónimos: “bello” (hermoso) y “vello” (pelo corporal); “basto” (tosco) y “vasto” (extenso); “grabar” (registrar sonido/imagen) y “gravar” (imponer un impuesto); “tubo” (cilindro hueco) y “tuvo” (del verbo tener); “sabia” (con sabiduría) y “savia” (líquido de las plantas)."
+      ]
+    },
+    {
+      "id": "2.1.2",
+      "titulo": "Uso de la S, C y Z",
+      "contenido": [
+        "Este es probablemente el grupo de letras que más confusión genera entre hablantes de zonas con seseo —es decir, la gran mayoría de América Latina y parte de España—, donde la S, la C (ante e, i) y la Z suenan exactamente igual, como se explicó en el subtema 2.0. En cambio, en el centro y norte de España (con distinción), la Z y la C ante e/i se pronuncian distinto de la S. Esto significa que, para gran parte de los hablantes de español, la única forma confiable de acertar es aprender las reglas ortográficas, no confiar en el oído.",
+        "Se escribe con S cuando... — Ejemplos",
+        "En las terminaciones -sión de sustantivos relacionados con verbos terminados en -der, -dir, -sor, -so — comprensión (de comprender), división (de dividir), impresión (de impreso)",
+        "En los adjetivos terminados en -oso, -osa — hermoso, cariñosa, famoso",
+        "En las terminaciones -ismo, -ista — turismo, periodista, comunismo",
+        "En los gentilicios terminados en -ense — canadiense, costarricense",
+        "En los superlativos terminados en -ísimo, -ísima — grandísimo, hermosísima",
+        "Se escribe con Z cuando... — Ejemplos",
+        "En sustantivos abstractos terminados en -anza, -ez, -eza — esperanza, timidez, pobreza, belleza",
+        "En los aumentativos y despectivos terminados en -azo, -aza (cuando indican golpe o gran tamaño) — portazo, manaza, cabezazo",
+        "Al final de sílaba en muchas palabras que en plural cambian a -ces — lápiz/lápices, luz/luces, pez/peces",
+        "En los verbos terminados en -izar — organizar, realizar, memorizar",
+        "Se escribe con C (ante e, i) cuando... — Ejemplos",
+        "En las terminaciones -ción de sustantivos relacionados con verbos terminados en -ar, -to, -do — información (de informar), operación (de operar)",
+        "En muchas palabras terminadas en -ancia, -encia — importancia, paciencia, inteligencia",
+        "En los diminutivos -cito, -cita cuando la palabra base termina en -e, -n o -r — canción→cancioncita, amor→amorcito",
+        "IMPORTANTE: “La confusión entre s, c y z es, con enorme diferencia, el error ortográfico más frecuente entre hablantes de zonas seseantes, precisamente por la ausencia de diferencia fonética que oriente al oído.” — Idea recogida de manuales de ortografía práctica para hispanohablantes americanos."
+      ]
+    },
+    {
+      "id": "2.1.3",
+      "titulo": "Uso de la G y la J",
+      "contenido": [
+        "Se escribe con G cuando... — Ejemplos",
+        "Antes de a, o, u (sonido suave /g/) — gato, gorra, guante",
+        "Antes de e, i, combinada con u muda (gue, gui) para conservar el sonido suave — guerra, guitarra, águila",
+        "En palabras que contienen geo-, gen-, gest-, ger- (con excepciones como “jengibre”) — geografía, generoso, gesto, gerente",
+        "En los verbos terminados en -ger, -gir (excepto tejer y crujir) — proteger, dirigir, exigir",
+        "Se escribe con J cuando... — Ejemplos",
+        "Antes de a, o, u con sonido fuerte — jamás, joven, juntos",
+        "En las palabras terminadas en -aje, -eje, -jero, -jería — viaje, hereje, extranjero, relojería",
+        "En el pretérito y derivados de verbos como decir, traer, y todos los terminados en -ducir — dije, traje, conduje, produje",
+        "NOTA: El verbo “conducir” y todos los que terminan en “-ducir” (traducir, producir, reducir) forman su pretérito con J: “condujo”, no “conducío”; y sin la I intermedia en la tercera persona del plural: “condujeron”, no “condujieron” — un error muy común incluso entre hablantes nativos."
+      ]
+    },
+    {
+      "id": "2.1.4",
+      "titulo": "Uso de la H",
+      "contenido": [
+        "La H es la única letra del alfabeto español que no representa ningún sonido (es muda) en la inmensa mayoría de las palabras, lo que la vuelve, junto con la B/V, una de las más propensas al error. No hay una regla fonética que ayude; hay que aprender en qué palabras aparece.",
+        "Se escribe con H cuando... — Ejemplos",
+        "La palabra empieza con los diptongos ia, ie, ue, ui — hiato, hierba, huevo, huida",
+        "La palabra empieza con hum-, hosp-, herm-, hist-, holg- — humano, hospital, hermano, historia, holgazán",
+        "Se trata de formas del verbo haber o hacer — he, has, ha, hemos, han; hago, hice, haremos",
+        "La palabra deriva del latín con F- inicial que se perdió con el tiempo — hijo (de filius), harina (de farina), humo (de fumus)",
+        "NOTA: Existen parónimos donde la única diferencia es la H: “hola” (saludo) y “ola” (de agua); “hecho” (del verbo hacer) y “echo” (del verbo echar); “ha” (del verbo haber) y “a” (preposición); “habría” (del verbo haber) y “abría” (del verbo abrir)."
+      ]
+    },
+    {
+      "id": "2.1.5",
+      "titulo": "Uso de la LL y la Y",
+      "contenido": [
+        "Desde la Ortografía de 2010, la RAE ya no considera a la LL y a la CH como letras propias del abecedario, sino como dígrafos (combinaciones de dos letras que representan un solo sonido); este cambio se explica con más detalle en el subtema 2.2.1. Pero el reto práctico sigue siendo el mismo: en la mayor parte de Hispanoamérica y de España, el fenómeno llamado yeísmo (ya presentado en el subtema 2.0) hace que LL y Y se pronuncien exactamente igual, lo que genera confusión constante al escribir.",
+        "Se escribe con LL cuando... — Ejemplos",
+        "En muchas palabras terminadas en -alla, -alle, -ello, -illo, -illa — batalla, calle, cuello, cepillo, sencilla",
+        "En los verbos terminados en -ullar, -ullir — bullir, arrullar",
+        "Se escribe con Y cuando... — Ejemplos",
+        "Es la conjunción “y” — pan y agua",
+        "Al final de palabra, después de una vocal, cuando no lleva acento propio — rey, buey, soy, hoy, muy",
+        "En formas de los verbos ir, ser, oír, caer, huir en ciertas conjugaciones — voy, vaya, oyó, cayó, huyó"
+      ]
+    },
+    {
+      "id": "2.1.6",
+      "titulo": "Uso de la X",
+      "contenido": [
+        "Se escribe con X cuando... — Ejemplos",
+        "En palabras que llevan los prefijos ex- (fuera de) y extra- — exportar, extraordinario, expresidente",
+        "Antes de las sílabas -pla, -ple, -pli, -plo, -pre, -pri, -pro — explicar, expresar, exprimir, exponer",
+        "En palabras de origen náhuatl referentes a topónimos mexicanos, donde conserva el sonido antiguo /š/ — México, Oaxaca, Xochimilco, Texcoco",
+        "NOTA: La X en palabras como “México” u “Oaxaca” se pronuncia como “j” (sonido /x/), no como “ks” — un resto fonético del náhuatl que la RAE respeta explícitamente como excepción ortográfica reconocida, para mantener la identidad histórica y cultural del topónimo."
+      ]
+    },
+    {
+      "id": "2.1.7",
+      "titulo": "Parónimos y homófonos frecuentes",
+      "contenido": [
+        "Los homófonos son palabras que suenan igual pero se escriben distinto y tienen significados distintos. Son, junto con los ya mencionados, una de las causas más comunes de error ortográfico porque el oído no ofrece ninguna pista de cuál es la forma correcta. La siguiente tabla amplía la lista ya vista, agrupando los casos más consultados en la redacción cotidiana y profesional.",
+        "Par (o trío) de homófonos — Significado de cada uno",
+        "a ver / haber — “a ver” (preposición + infinitivo de mirar) vs. “haber” (infinitivo del verbo o sustantivo contable)",
+        "ay / hay / ahí — interjección de dolor / forma del verbo haber / adverbio de lugar",
+        "tuvo / tubo — del verbo tener / cilindro hueco",
+        "valla / vaya / baya — cerca de madera / del verbo ir / fruto pequeño",
+        "rayo / rallo — descarga eléctrica / del verbo rallar (desmenuzar)",
+        "sabia / savia — que tiene sabiduría / líquido interno de las plantas",
+        "cocer / coser — cocinar con calor / unir tela con hilo y aguja",
+        "asar / azar — cocinar al fuego directo / la casualidad, el destino",
+        "actitud / aptitud — disposición de ánimo / capacidad o habilidad para algo",
+        "absolver / absorber — perdonar o liberar de culpa / atraer y retener un líquido",
+        "bienes / vienes — posesiones o propiedades / del verbo venir",
+        "cabo / cavo — extremo o rango militar / del verbo cavar",
+        "callo / cayo — dureza en la piel, o del verbo callar / isla pequeña",
+        "errar / herrar — equivocarse / poner herraduras a un caballo",
+        "hierba / hierva — planta / del verbo hervir",
+        "ves / vez — del verbo ver / ocasión, turno",
+        "votar / botar — emitir un voto / lanzar, tirar, o hacer rebotar",
+        "• Puntos clave del subtema 2.1",
+        "• La mayoría de los errores ortográficos en español no provienen de mala memoria, sino de que varias letras comparten el mismo sonido (B/V, S/C/Z, LL/Y) o de letras mudas (H).",
+        "• El seseo y el yeísmo son fenómenos fonéticos legítimos, no errores de pronunciación; el reto es exclusivamente ortográfico.",
+        "• Existen reglas ortográficas confiables para la gran mayoría de los casos de B/V, S/C/Z, G/J, LL/Y y X; no es necesario memorizar palabra por palabra.",
+        "• Los parónimos y homófonos deben distinguirse por significado y contexto, no por sonido.",
+        "§ Actividad sugerida",
+        "Redacta 10 oraciones, cada una usando correctamente un par de parónimos u homófonos distintos de los vistos en clase.",
+        "§ Actividad sugerida",
+        "Elige 5 palabras de origen náhuatl usadas en México (además de los topónimos vistos) e investiga su ortografía correcta y su significado original."
+      ]
+    }
+  ]
+}
