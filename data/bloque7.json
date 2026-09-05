@@ -1,0 +1,152 @@
+{
+  "bloque": 7,
+  "nombre": "Comunicación oral",
+  "introduccion": "Hablar en público sigue siendo, según encuestas repetidas durante décadas en distintos países, uno de los mayores temores sociales reportados por adultos, a la par o incluso por encima del miedo a la muerte en algunas de esas encuestas. Este tema ofrece herramientas concretas para reducir ese temor con preparación técnica, y aborda además los errores de dicción más comunes que debilitan un discurso incluso cuando el contenido es bueno, cerrando con los tipos de discurso según su propósito y las técnicas de debate formal.",
+  "subtemas": [
+    {
+      "id": "7.1",
+      "titulo": "Técnicas básicas para hablar en público",
+      "contenido": [
+        "La oratoria —el arte de hablar en público de forma persuasiva— tiene una historia de más de dos mil años, desde que los pensadores de la Antigua Grecia sistematizaron sus principios.",
+        "IMPORTANTE: “La retórica es la facultad de teorizar lo que es adecuado en cada caso para convencer.” — Aristóteles, Retórica, siglo IV a.C.",
+        "Aristóteles identificó tres tipos de apelación persuasiva que un buen orador debe combinar, y que siguen siendo la base de cualquier manual moderno de oratoria y de técnicas de venta o negociación:",
+        "Apelación aristotélica — En qué consiste — Ejemplo actual",
+        "Ethos — La credibilidad y el carácter percibido del orador — Mencionar la experiencia o las credenciales propias antes de argumentar",
+        "Pathos — La apelación a las emociones del público — Una historia personal que conecta emocionalmente con la audiencia",
+        "Logos — La apelación a la razón, con datos y argumentos lógicos — Presentar estadísticas o un razonamiento estructurado",
+        "Más allá de la teoría clásica, existen técnicas prácticas y muy concretas para mejorar cualquier intervención oral:",
+        "Técnica — Por qué funciona",
+        "Respiración diafragmática antes de hablar — Reduce la tensión física y estabiliza el tono de voz.",
+        "Contacto visual repartido con distintas zonas del público — Genera sensación de cercanía y mantiene la atención.",
+        "Pausas deliberadas (no solo para respirar) — Da tiempo al público para procesar una idea importante, y transmite seguridad.",
+        "Variar el volumen y el ritmo — Evita la monotonía, que es la principal causa de que un público pierda la atención.",
+        "Practicar en voz alta, no solo mentalmente — El ensayo mental no entrena los músculos del habla ni revela problemas de tiempo real.",
+        "NOTA: El miedo a hablar en público tiene nombre técnico: glosofobia. Es considerada una de las fobias sociales más extendidas, y a diferencia de otras fobias, la evidencia indica que se reduce de forma medible con la exposición práctica repetida y con técnicas de preparación, no principalmente con “talento natural”, como suele creerse.",
+        "RECUERDA: Un buen discurso combina ethos (credibilidad), pathos (emoción) y logos (razón). Ninguno de los tres, usado solo, resulta tan persuasivo como los tres combinados."
+      ]
+    },
+    {
+      "id": "7.1.1",
+      "titulo": "Ejemplos históricos de discursos memorables",
+      "contenido": [
+        "A lo largo de la historia, algunos discursos se han vuelto referencia obligada en el estudio de la oratoria precisamente por combinar con maestría las tres apelaciones aristotélicas. Estos son ejemplos de dominio público, breves y muy citados en manuales de comunicación.",
+        "Discurso — Contexto — Apelación dominante",
+        "Discurso de Gettysburg (Abraham Lincoln, 1863) — Pronunciado en el campo de batalla de la Guerra Civil estadounidense, dura apenas unos minutos y es célebre por su brevedad y solemnidad — Pathos y ethos, con una estructura de logos muy depurada",
+        "“Tengo un sueño” (Martin Luther King Jr., 1963) — Discurso durante la Marcha sobre Washington por el empleo y la libertad, en defensa de los derechos civiles — Pathos predominante, con repetición retórica de la frase que da título al discurso",
+        "Discurso de investidura (varios líderes históricos) — Los discursos de toma de posesión suelen combinar promesas de logos (planes concretos) con pathos de unidad nacional — Combinación equilibrada de las tres apelaciones",
+        "NOTA: El discurso de Gettysburg de Lincoln dura apenas alrededor de dos minutos y contiene poco más de 270 palabras, y sin embargo se estudia hasta la fecha como un ejemplo de concisión persuasiva, recordando el principio de la cualidad de concisión visto en el Tema 3."
+      ]
+    },
+    {
+      "id": "7.2",
+      "titulo": "Vicios de dicción",
+      "contenido": [
+        "Se llama vicios de dicción a los errores en el uso del lenguaje oral que dificultan la comprensión del mensaje o distraen al público, independientemente de qué tan buena sea la técnica de oratoria empleada. Conocerlos permite identificarlos y corregirlos con práctica consciente."
+      ]
+    },
+    {
+      "id": "7.2.1",
+      "titulo": "Barbarismos",
+      "contenido": [
+        "Un barbarismo es el uso incorrecto de una palabra, ya sea por pronunciarla mal, escribirla mal, usar una palabra que no existe en el idioma, o aplicar un extranjerismo innecesario cuando ya existe una palabra en español para lo mismo.",
+        "Tipo de barbarismo — Ejemplo incorrecto — Forma correcta",
+        "Fonético (mala pronunciación) — “dentrar” — entrar",
+        "Morfológico (mala conjugación) — “satisfací” — satisfice",
+        "Extranjerismo innecesario — “parquear el carro” — estacionar el auto",
+        "Palabra inexistente — “nadien” — nadie"
+      ]
+    },
+    {
+      "id": "7.2.2",
+      "titulo": "Anfibología",
+      "contenido": [
+        "La anfibología ocurre cuando una oración puede interpretarse de más de una manera debido a una construcción gramatical ambigua, no necesariamente por culpa de una sola palabra. Suele producirse por un mal uso del orden de las palabras o por pronombres que no dejan claro a qué se refieren.",
+        "Ejemplo con anfibología — Posibles interpretaciones",
+        "“Vi a un hombre con un telescopio.” — ¿Quién tenía el telescopio, el hablante o el hombre visto?",
+        "“El perro de mi vecino que ladra mucho.” — ¿Quién ladra mucho, el perro o el vecino?"
+      ]
+    },
+    {
+      "id": "7.2.3",
+      "titulo": "Ambigüedad",
+      "contenido": [
+        "La ambigüedad, en un sentido más amplio que la anfibología, se refiere a cualquier falta de precisión en el mensaje que permite más de una interpretación válida, ya sea por el uso de una palabra polisémica (con varios significados) sin suficiente contexto, o por una idea expresada de forma vaga.",
+        "Ejemplo ambiguo — Por qué es ambiguo",
+        "“Necesitamos un banco cerca de la oficina.” — “Banco” puede referirse a una institución financiera o a un asiento.",
+        "“La reunión será breve.” — “Breve” no especifica cuánto tiempo exactamente; puede significar cosas distintas para cada persona."
+      ]
+    },
+    {
+      "id": "7.2.4",
+      "titulo": "Cacofonía",
+      "contenido": [
+        "La cacofonía es la repetición molesta de sonidos similares dentro de una misma oración, generalmente por casualidad y no de forma intencional, que produce un efecto sonoro desagradable o cómico al oído y distrae del contenido del mensaje.",
+        "Ejemplo con cacofonía — Por qué suena mal",
+        "“La mamá ama a Ana en la cama.” — Repetición excesiva del sonido “ma/ama”.",
+        "“Como poco coco como, poco coco compro.” — Repetición forzada de “co”, más propia de un trabalenguas que de un discurso serio.",
+        "RECUERDA: Barbarismo: uso incorrecto de una palabra. Anfibología: ambigüedad por construcción gramatical. Ambigüedad: falta de precisión general en el mensaje. Cacofonía: repetición desagradable de sonidos similares."
+      ]
+    },
+    {
+      "id": "7.2.5",
+      "titulo": "Muletillas y monotonía",
+      "contenido": [
+        "Además de los cuatro vicios de dicción clásicos, existen dos hábitos orales extremadamente comunes que debilitan cualquier intervención, incluso una técnicamente correcta en todo lo demás.",
+        "Hábito — En qué consiste — Cómo corregirlo",
+        "Muletillas — Palabras o sonidos de relleno repetidos de forma inconsciente (“este”, “o sea”, “como que”, “¿verdad?”) — Sustituir la muletilla por una pausa silenciosa breve; grabarse para tomar conciencia de las propias muletillas",
+        "Monotonía — Hablar con el mismo tono, volumen y ritmo durante toda la intervención, sin ninguna variación — Practicar deliberadamente cambios de énfasis en las palabras clave de cada idea",
+        "NOTA: Un ejercicio muy usado en la capacitación de oratoria consiste en grabarse en video dando una breve exposición y contar, al revisarla, cuántas veces se repite la misma muletilla: la mayoría de las personas se sorprende de la frecuencia real, muy superior a la que percibían mientras hablaban."
+      ]
+    },
+    {
+      "id": "7.3",
+      "titulo": "Tipos de discurso según su propósito",
+      "contenido": [
+        "Tipo de discurso — Propósito principal — Ejemplo",
+        "Informativo — Transmitir datos o conocimiento nuevo, sin buscar persuadir hacia una postura — Una charla técnica sobre un nuevo procedimiento de trabajo",
+        "Persuasivo — Convencer al público de adoptar una opinión o realizar una acción — Un discurso de campaña, un pitch de ventas",
+        "De ocasión (ceremonial) — Marcar un evento social o institucional específico — Un discurso de graduación, un brindis, un homenaje",
+        "Motivacional o inspiracional — Generar un estado emocional de ánimo o impulso en el público — Una conferencia de desarrollo personal"
+      ]
+    },
+    {
+      "id": "7.4",
+      "titulo": "Técnicas de debate formal",
+      "contenido": [
+        "El debate formal es una modalidad estructurada de discusión oral en la que dos o más posturas opuestas argumentan frente a un público o un jurado, siguiendo reglas explícitas de tiempo y turnos. Practicarlo desarrolla, de forma simultánea, las habilidades de argumentación (Tema 3), oratoria (subtema 7.1) y escucha activa (Tema 6).",
+        "Elemento del debate formal — Función",
+        "Postura o moción — El enunciado concreto sobre el que se debate (“Se debe/no se debe...”).",
+        "Argumentación inicial — Cada equipo presenta sus argumentos principales, sin interrupciones.",
+        "Refutación — Cada equipo responde directamente a los argumentos del equipo contrario, señalando sus debilidades.",
+        "Réplica final — Un cierre breve que sintetiza por qué la propia postura resultó más convincente.",
+        "Moderador — Controla los tiempos y el orden de participación, sin tomar partido.",
+        "RECUERDA: Un buen debatiente no solo defiende su postura: escucha activamente los argumentos contrarios para poder refutarlos con precisión, en vez de repetir su propio guion sin responder a lo que realmente se dijo.",
+        "• Puntos clave del Tema 7",
+        "• La retórica clásica de Aristóteles (ethos, pathos, logos) sigue siendo la base de la oratoria persuasiva actual.",
+        "• La glosofobia se reduce con práctica y técnica, no solo con talento natural.",
+        "• Los vicios de dicción son: barbarismo, anfibología, ambigüedad, cacofonía, además de muletillas y monotonía.",
+        "• El discurso puede clasificarse en informativo, persuasivo, de ocasión o motivacional según su propósito.",
+        "• El debate formal estructura la discusión en argumentación inicial, refutación y réplica final.",
+        "§ Actividad sugerida",
+        "Prepara una intervención oral de 2 minutos sobre un tema libre, aplicando conscientemente al menos dos técnicas del subtema 7.1. Grábate o pide a un compañero que te escuche y señale si detecta algún vicio de dicción o muletilla.",
+        "§ Actividad sugerida",
+        "Organiza con tus compañeros un mini-debate formal (3 minutos por postura) sobre un tema de actualidad relacionado con tu carrera, siguiendo la estructura del subtema 7.4."
+      ]
+    },
+    {
+      "id": "7.9",
+      "titulo": "Ficha de consulta rápida — Tema 7",
+      "contenido": [
+        "Concepto — En una frase",
+        "Ethos, pathos, logos — Credibilidad, emoción, razón: las tres apelaciones aristotélicas.",
+        "Glosofobia — Miedo a hablar en público; se reduce con práctica.",
+        "Barbarismo — Uso incorrecto de una palabra.",
+        "Anfibología — Ambigüedad por construcción gramatical.",
+        "Cacofonía — Repetición desagradable de sonidos similares.",
+        "Muletillas — Palabras de relleno repetidas inconscientemente.",
+        "Tipos de discurso — Informativo, persuasivo, de ocasión, motivacional.",
+        "Debate formal — Argumentación inicial, refutación, réplica final, con moderador."
+      ]
+    }
+  ]
+}
