@@ -1,0 +1,172 @@
+{
+  "bloque": 4,
+  "actividades": [
+    {
+      "id": "4.1-a",
+      "subtema": "4.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "A diferencia de un reporte de investigación, el ensayo:",
+      "opciones": [
+        "Prohíbe la opinión personal del autor",
+        "Permite e incluso espera la voz e interpretación propia del autor, bien fundamentada",
+        "Debe seguir siempre la estructura IMRYD",
+        "Nunca debe tener conclusión"
+      ],
+      "correcta": 1,
+      "explicacion": "El ensayo se distingue por dar libertad de estilo e interpretación personal, siempre con rigor argumentativo."
+    },
+    {
+      "id": "4.1-b",
+      "subtema": "4.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "La reseña se mantiene más centrada en describir y evaluar una obra específica, con menos espacio para la digresión personal que el ensayo.",
+      "correcta": true,
+      "explicacion": "El ensayo desarrolla una idea propia usando el tema como pretexto; la reseña describe y valora una obra concreta."
+    },
+    {
+      "id": "4.1.1-a",
+      "subtema": "4.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un ensayo que relata una experiencia propia y reflexiona sobre su significado se clasifica como:",
+      "opciones": ["Argumentativo", "Expositivo", "Narrativo o personal", "Crítico"],
+      "correcta": 2,
+      "explicacion": "El ensayo narrativo o personal relata una experiencia propia con reflexión sobre su significado."
+    },
+    {
+      "id": "4.1.1-b",
+      "subtema": "4.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un ensayo que evalúa y juzga una obra o fenómeno con criterios explícitos se clasifica como:",
+      "opciones": ["Descriptivo", "Crítico", "Narrativo", "Expositivo"],
+      "correcta": 1,
+      "explicacion": "El ensayo crítico evalúa y juzga con criterios explícitos, a diferencia del expositivo, que solo explica con objetividad."
+    },
+    {
+      "id": "4.1.2-a",
+      "subtema": "4.1.2",
+      "tipo": "verdadero_falso",
+      "pregunta": "Según la plantilla básica de ensayo, los párrafos de desarrollo deben ocupar aproximadamente el 70-80% del texto.",
+      "correcta": true,
+      "explicacion": "La introducción y la conclusión ocupan cada una entre 10-15%, dejando el grueso del texto al desarrollo."
+    },
+    {
+      "id": "4.2-a",
+      "subtema": "4.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "El fenómeno en el que cada nivel de simplificación de un hallazgo científico (del artículo original a redes sociales) va perdiendo matices se llama coloquialmente:",
+      "opciones": ["Efecto pirámide", "Efecto teléfono descompuesto", "Efecto IMRYD", "Efecto aparato crítico"],
+      "correcta": 1,
+      "explicacion": "Este “efecto teléfono descompuesto” puede llegar a distorsionar por completo el hallazgo original."
+    },
+    {
+      "id": "4.3-a",
+      "subtema": "4.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "La sección de un producto de investigación que explica cómo se obtuvo la información (encuesta, entrevista, experimento) se llama:",
+      "opciones": ["Planteamiento del problema", "Marco teórico", "Metodología", "Discusión"],
+      "correcta": 2,
+      "explicacion": "La metodología describe el procedimiento usado para obtener la información."
+    },
+    {
+      "id": "4.3.1-a",
+      "subtema": "4.3.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Las siglas IMRYD, usadas en artículos científicos formales, corresponden a:",
+      "opciones": [
+        "Introducción, Métodos, Resultados y Discusión",
+        "Investigación, Método, Reseña y Datos",
+        "Índice, Marco teórico, Referencias y Discusión",
+        "Introducción, Muestra, Resultados y Dictamen"
+      ],
+      "correcta": 0,
+      "explicacion": "IMRYD (o IMRAD en inglés) es el formato estandarizado internacionalmente para artículos científicos."
+    },
+    {
+      "id": "4.3.1-b",
+      "subtema": "4.3.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "La sección “Métodos” de la estructura IMRYD responde a la pregunta de qué significan los resultados obtenidos.",
+      "correcta": false,
+      "explicacion": "“Métodos” responde a cómo se investigó exactamente, para que otros puedan replicarlo; la pregunta sobre qué significan los resultados corresponde a la sección de Discusión."
+    },
+    {
+      "id": "4.4-a",
+      "subtema": "4.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "El aparato crítico (citas, notas, referencias) sirve principalmente para:",
+      "opciones": [
+        "Aumentar artificialmente la extensión de un trabajo",
+        "Permitir a cualquier lector rastrear de dónde proviene cada afirmación",
+        "Sustituir la necesidad de una idea central",
+        "Evitar por completo el uso de fuentes"
+      ],
+      "correcta": 1,
+      "explicacion": "El aparato crítico distingue un texto académico riguroso de una opinión sin fundamento."
+    },
+    {
+      "id": "4.4.1-a",
+      "subtema": "4.4.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "El sistema de citación que coloca el detalle completo de la referencia al pie de cada página, asociado al estilo Chicago/Turabian, se llama:",
+      "opciones": ["Sistema parentético", "Sistema a pie de página", "Sistema APA", "Sistema IMRYD"],
+      "correcta": 1,
+      "explicacion": "Este sistema, tradicional en historia y derecho, permite consultar la fuente sin interrumpir la lectura del cuerpo del texto."
+    },
+    {
+      "id": "4.4.2-a",
+      "subtema": "4.4.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "En el sistema parentético (estilo APA), una cita de tres o más autores se escribe:",
+      "opciones": ["(García, Pérez y López, 2020)", "(García et al., 2020)", "(García & Pérez, 2020)", "García (2020, p. 45)"],
+      "correcta": 1,
+      "explicacion": "A partir de tres autores, el formato APA usa “et al.” para abreviar la lista de autores."
+    },
+    {
+      "id": "4.4.2-b",
+      "subtema": "4.4.2",
+      "tipo": "verdadero_falso",
+      "pregunta": "En el sistema parentético, el detalle completo de cada fuente se concentra al final del documento, en la lista de referencias.",
+      "correcta": true,
+      "explicacion": "Solo el apellido del autor y el año aparecen entre paréntesis dentro del texto; el detalle completo va al final."
+    },
+    {
+      "id": "4.4.3-a",
+      "subtema": "4.4.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según el formato APA, el interlineado que debe usarse en todo el documento, incluidas las referencias, es:",
+      "opciones": ["Sencillo (1.0)", "1.5 líneas", "Doble espacio", "Variable según la sección"],
+      "correcta": 2,
+      "explicacion": "El formato APA exige doble espacio en todo el documento, incluidas las referencias."
+    },
+    {
+      "id": "4.4.3-b",
+      "subtema": "4.4.3",
+      "tipo": "verdadero_falso",
+      "pregunta": "La lista de referencias en formato APA se ordena alfabéticamente por apellido del autor, con sangría francesa.",
+      "correcta": true,
+      "explicacion": "La sangría francesa deja la primera línea de cada referencia sin sangría y las siguientes líneas con sangría."
+    },
+    {
+      "id": "4.4.4-a",
+      "subtema": "4.4.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "Presentar un trabajo propio ya entregado anteriormente en otra materia como si fuera nuevo, sin autorización, se llama:",
+      "opciones": ["Plagio directo", "Autoplagio", "Plagio de mosaico", "Plagio de fuentes secundarias"],
+      "correcta": 1,
+      "explicacion": "El autoplagio consiste en reciclar un trabajo propio ya entregado sin autorización, presentándolo como nuevo."
+    },
+    {
+      "id": "4.4.4-b",
+      "subtema": "4.4.4",
+      "tipo": "relacionar",
+      "pregunta": "Relaciona cada tipo de plagio con su definición.",
+      "pares": [
+        { "izquierda": "Plagio directo", "derecha": "Copiar texto literal sin comillas ni referencia" },
+        { "izquierda": "Plagio parafraseado", "derecha": "Cambiar algunas palabras pero mantener ideas y estructura sin dar crédito" },
+        { "izquierda": "Plagio de mosaico", "derecha": "Combinar fragmentos de varias fuentes sin citar ninguna" },
+        { "izquierda": "Plagio de fuentes secundarias", "derecha": "Citar una fuente que en realidad nunca se consultó directamente" }
+      ],
+      "explicacion": "Directo = copia literal; Parafraseado = cambia palabras pero no da crédito; Mosaico = combina fuentes sin citar; Fuentes secundarias = cita algo no consultado directamente."
+    }
+  ]
+}
