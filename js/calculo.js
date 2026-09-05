@@ -1,28 +1,43 @@
 // calculo.js — fuente única de la fórmula de calificación de Expresión Oral
 // y Escrita. Tanto mi-progreso.js (vista del alumno) como admin.js (panel
-// docente, próximamente) importan de aquí, para que nunca muestren números
-// distintos entre sí.
+// docente) importan de aquí, para que nunca muestren números distintos.
 //
 // Esquema (según la Concentradora de Calificaciones del docente):
 //   Parcial 1 y Parcial 2: Examen 40% + Tareas 25% + Participación 25%
 //                           + Asistencia 5% + Uniformes 5%
-//   Examen Final:          Asistencia 5% + Tareas y Participación 15%
-//                           + Examen/Proyecto 80%
+//   Examen Final:          Examen 40% + Proyecto "Mi Voz, Mi Historia" 40%
+//                           + Tareas y Participación 15% + Asistencia 5%
+//     El Proyecto se acumula en tres entregas a lo largo del cuatrimestre:
+//       Entrega 1 (durante Parcial 1)        -> 15 de los 40 puntos
+//       Entrega 2 (durante Parcial 2)        -> 15 de los 40 puntos
+//       Entrega final (ensayo pulido, Final) -> 10 de los 40 puntos
 //   Cuatrimestre:           Parcial 1 (25%) + Parcial 2 (25%) + Final (50%)
 //                           (criterio oficial: "dos parciales 50%, final 50%")
 //
 // Estructura de datos esperada en Firestore, por alumno
 // (grupos/{grupoId}/alumnos/{alumnoId}/...):
-//   - tareas          (colección): { parcial: 'p1'|'p2'|'final', nombre, fecha, calificacion (0-10) }
-//   - participaciones (colección): { parcial: 'p1'|'p2'|'final', nombre, fecha, calificacion (0-10) }
-//   - asistencias     (colección): { parcial: 'p1'|'p2'|'final', fecha, estado: 'presente'|'justificado'|'retardo'|'falta' }
-//   - uniformes       (documentos 'p1' y 'p2' dentro de la colección "uniformes"): { faltas: number }
-//   - examenes        (documentos 'p1', 'p2', 'final' dentro de la colección "examenes"): { calificacion (0-10) }
+//   - tareas          (coleccion): { parcial: 'p1'|'p2'|'final', nombre, fecha, calificacion (0-10) }
+//   - participaciones (coleccion): { parcial: 'p1'|'p2'|'final', nombre, fecha, calificacion (0-10) }
+//   - asistencias     (coleccion): { parcial: 'p1'|'p2'|'final', fecha, estado: 'presente'|'justificado'|'retardo'|'falta' }
+//   - uniformes       (documentos 'p1' y 'p2'): { faltas: number }
+//   - examenes        (documentos 'p1', 'p2', 'final'): { calificacion (0-10) }
+//   - proyecto        (documentos 'entrega1', 'entrega2', 'entregaFinal'): { calificacion (0-10) }
+//     -- "Mi Voz, Mi Historia": Entrega 1 y Entrega 2 se capturan durante los
+//     parciales correspondientes, pero su peso vive por completo en el Final.
 
 export const TOPES = {
   p1:    { examen: 40, tareas: 25, participacion: 25, asistencia: 5, uniformes: 5 },
   p2:    { examen: 40, tareas: 25, participacion: 25, asistencia: 5, uniformes: 5 },
-  final: { examen: 80, tareasParticipacion: 15, asistencia: 5 },
+  final: { examen: 40, proyecto: 40, tareasParticipacion: 15, asistencia: 5 },
+};
+
+// Reparto interno de los 40 puntos del Proyecto entre sus tres entregas.
+export const TOPES_PROYECTO = { entrega1: 15, entrega2: 15, entregaFinal: 10 };
+
+export const NOMBRES_ENTREGA_PROYECTO = {
+  entrega1: 'Entrega 1 (Parcial 1)',
+  entrega2: 'Entrega 2 (Parcial 2)',
+  entregaFinal: 'Entrega final (Examen Final)',
 };
 
 export const PESO_CUATRIMESTRE = { p1: 0.25, p2: 0.25, final: 0.50 };
@@ -50,7 +65,7 @@ function calcularAsistencia(registros, tope) {
 
 function calcularUniformes(datoUniforme, tope) {
   const faltas = datoUniforme ? Number(datoUniforme.faltas) || 0 : 0;
-  // Regla del docente: 2 o más faltas de uniforme en el parcial = 0 automático.
+  // Regla del docente: 2 o mas faltas de uniforme en el parcial = 0 automatico.
   if (faltas >= 2) return { pts: 0, tope, faltas };
   if (faltas === 1) return { pts: tope / 2, tope, faltas };
   return { pts: tope, tope, faltas };
@@ -70,7 +85,22 @@ function calcularExamen(dato, tope) {
   return { pts, tope, calificacion };
 }
 
-// datos = { tareas: [...], participaciones: [...], asistencias: [...], uniformes: {p1:{...}, p2:{...}}, examenes: {p1:{...}, p2:{...}, final:{...}} }
+// Suma (no promedia) las tres entregas del proyecto -- cada una tiene su
+// propio tope fijo, asi que una entrega faltante simplemente aporta 0 sin
+// diluir el valor de las demas.
+function calcularProyecto(datosProyecto) {
+  const detalle = {};
+  let pts = 0;
+  Object.entries(TOPES_PROYECTO).forEach(([entrega, tope]) => {
+    const dato = (datosProyecto || {})[entrega];
+    const r = calcularExamen(dato, tope);
+    detalle[entrega] = r;
+    pts += r.pts;
+  });
+  return { pts, tope: 40, detalle };
+}
+
+// datos = { tareas, participaciones, asistencias, uniformes, examenes, proyecto }
 export function calcularParcial(parcial, datos) {
   const tareasDelParcial = (datos.tareas || []).filter(t => t.parcial === parcial);
   const participacionDelParcial = (datos.participaciones || []).filter(p => p.parcial === parcial);
@@ -82,8 +112,9 @@ export function calcularParcial(parcial, datos) {
     const tareasParticipacion = calcularRubroPromedio(combinado, tope.tareasParticipacion);
     const examen = calcularExamen((datos.examenes || {}).final, tope.examen);
     const asistencia = calcularAsistencia(asistenciaDelParcial, tope.asistencia);
-    const total = tareasParticipacion.pts + examen.pts + asistencia.pts;
-    return { parcial, total, examen, tareasParticipacion, asistencia };
+    const proyecto = calcularProyecto(datos.proyecto);
+    const total = tareasParticipacion.pts + examen.pts + asistencia.pts + proyecto.pts;
+    return { parcial, total, examen, tareasParticipacion, asistencia, proyecto };
   }
 
   const tope = TOPES[parcial];
