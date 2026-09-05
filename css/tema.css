@@ -1,0 +1,86 @@
+/* ============ TEMA (subtema individual) ============ */
+
+.tema-main{padding:36px 24px 100px; max-width:820px; margin:0 auto;}
+
+.back-link{
+  display:inline-block; margin-bottom:24px; font-size:.9rem; font-weight:600;
+  text-decoration:none; color:var(--ink-soft);
+}
+.back-link:hover{color:var(--ink);}
+
+.tema-card{
+  background:var(--cream); border-radius:var(--radius); box-shadow:var(--shadow-card);
+  padding:32px 30px 28px;
+}
+.tema-block-label{
+  text-transform:uppercase; letter-spacing:.12em; font-size:.75rem;
+  font-weight:600; color:var(--saffron-dark); margin-bottom:10px;
+}
+.tema-head{display:flex; align-items:baseline; gap:12px; margin-bottom:16px;}
+.tema-id{
+  font-family:var(--font-display); font-style:italic; font-weight:500;
+  color:var(--saffron-dark); font-size:1.1rem;
+}
+.tema-card h1{font-size:1.7rem; margin:0;}
+.tema-card p{color:var(--ink-soft); font-size:1rem;}
+.tema-card p + p{margin-top:1em;}
+
+.activity-grid{
+  display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:26px;
+}
+@media (max-width:600px){ .activity-grid{grid-template-columns:1fr;} }
+.activity-box{
+  background:#fff; border-radius:10px; padding:16px 18px;
+  border-left:3px solid var(--saffron);
+}
+.activity-box.independiente{border-left-color:var(--sage);}
+.activity-box h4{
+  font-family:var(--font-body); text-transform:uppercase; letter-spacing:.06em;
+  font-size:.72rem; font-weight:700; color:var(--ink-soft); margin:0 0 8px;
+}
+.activity-box p{font-size:.88rem; margin:0; color:var(--ink);}
+.hours-tag{
+  display:inline-block; margin-top:18px; font-size:.8rem; color:var(--ink-soft);
+}
+
+.tema-pager{
+  display:flex; justify-content:space-between; gap:16px; margin-top:28px;
+}
+.tema-pager a{
+  flex:1; text-decoration:none; background:var(--cream); border-radius:10px;
+  box-shadow:var(--shadow-card); padding:14px 16px; color:var(--ink);
+}
+.tema-pager a.next{text-align:right;}
+.tema-pager .pager-label{
+  display:block; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em;
+  color:var(--ink-soft); margin-bottom:4px;
+}
+.tema-pager .pager-title{font-weight:600; font-size:.92rem;}
+.tema-pager .placeholder{flex:1;}
+
+/* ===== Añadido: secciones cortas, cajas Recuerda, listas de puntos clave ===== */
+.tema-section-title{
+  font-size:1.15rem; margin:28px 0 10px; color:var(--ink);
+  border-bottom:2px solid var(--saffron); display:inline-block; padding-bottom:2px;
+}
+.tema-card h3.tema-section-title:first-of-type{margin-top:22px;}
+
+.tema-callout{
+  background:rgba(201,138,44,0.1); border-left:4px solid var(--saffron);
+  border-radius:8px; padding:14px 18px; margin:18px 0;
+}
+.tema-callout-tag{
+  display:block; font-size:.72rem; font-weight:700; letter-spacing:.08em;
+  color:var(--saffron-dark); margin-bottom:4px;
+}
+.tema-callout p{margin:0; color:var(--ink); font-size:.94rem;}
+
+.tema-bullet-list{
+  margin:14px 0; padding-left:0; list-style:none; display:flex; flex-direction:column; gap:8px;
+}
+.tema-bullet-list li{
+  padding-left:22px; position:relative; font-size:.94rem; color:var(--ink);
+}
+.tema-bullet-list li::before{
+  content:'✓'; position:absolute; left:0; color:var(--sage); font-weight:700;
+                }
