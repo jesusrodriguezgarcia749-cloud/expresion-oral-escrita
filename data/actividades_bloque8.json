@@ -1,0 +1,177 @@
+{
+  "bloque": 8,
+  "actividades": [
+    {
+      "id": "8.1-a",
+      "subtema": "8.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "El primer paso en la preparación de una presentación, antes incluso de investigar el contenido, es:",
+      "opciones": ["Ensayar en voz alta", "Definir el objetivo (qué se quiere que el público piense, sienta o haga)", "Elegir el diseño de las diapositivas", "Definir el tiempo disponible"],
+      "correcta": 1,
+      "explicacion": "El objetivo de una presentación nunca es “informar” en abstracto; conviene definirlo como una acción o cambio concreto esperado en el público."
+    },
+    {
+      "id": "8.1-b",
+      "subtema": "8.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "Ensayar en voz alta sirve principalmente para verificar si el tiempo real de la presentación coincide con el tiempo planeado.",
+      "correcta": true,
+      "explicacion": "Es el último paso de la preparación, y responde justo a esa pregunta."
+    },
+    {
+      "id": "8.2-a",
+      "subtema": "8.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "El principio de organización que sugiere agrupar los puntos principales de tres en tres, por ser más fáciles de recordar, se llama:",
+      "opciones": ["Progresión lógica", "Regla de tres", "Storytelling", "Carga cognitiva"],
+      "correcta": 1,
+      "explicacion": "La regla de tres facilita que el público recuerde los puntos principales frente a listas más largas."
+    },
+    {
+      "id": "8.2-b",
+      "subtema": "8.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "El principio “diles lo que les vas a decir, díselo, y diles lo que les dijiste” corresponde a:",
+      "opciones": ["Una idea por diapositiva", "Anuncia, desarrolla, resume", "Progresión lógica", "Regla de tres"],
+      "correcta": 1,
+      "explicacion": "Este principio clásico de estructura repite el mensaje central en tres momentos distintos de la presentación."
+    },
+    {
+      "id": "8.2.1-a",
+      "subtema": "8.2.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "En el storytelling aplicado a presentaciones, el momento en que se introduce la solución o la propuesta se llama:",
+      "opciones": ["Situación inicial", "Conflicto o tensión", "Punto de giro", "Resolución"],
+      "correcta": 2,
+      "explicacion": "El punto de giro introduce la solución, después de haber planteado el conflicto o tensión."
+    },
+    {
+      "id": "8.2.1-b",
+      "subtema": "8.2.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "Estudios de neurociencia han encontrado que el cerebro procesa y recuerda mejor una lista de datos aislados que una historia bien estructurada.",
+      "correcta": false,
+      "explicacion": "Es al contrario: el cerebro procesa y recuerda mucho mejor los relatos que las listas de datos sueltos."
+    },
+    {
+      "id": "8.3-a",
+      "subtema": "8.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "El recurso de apoyo verbal que explica algo desconocido comparándolo con algo que el público ya conoce se llama:",
+      "opciones": ["Anécdota", "Analogía", "Transición explícita", "Ejemplo concreto"],
+      "correcta": 1,
+      "explicacion": "La analogía traduce lo desconocido a términos ya familiares para la audiencia."
+    },
+    {
+      "id": "8.4-a",
+      "subtema": "8.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según la teoría de la carga cognitiva de John Sweller, saturar una diapositiva de texto mientras el presentador habla de otra cosa:",
+      "opciones": [
+        "Mejora la retención porque hay más información disponible",
+        "Hace que ambos canales compitan por los recursos mentales limitados del público",
+        "No tiene ningún efecto medible",
+        "Solo afecta a audiencias muy grandes"
+      ],
+      "correcta": 1,
+      "explicacion": "La memoria de trabajo humana solo procesa una cantidad limitada de información nueva a la vez; saturar los dos canales (visual y auditivo) los hace competir entre sí."
+    },
+    {
+      "id": "8.4-b",
+      "subtema": "8.4",
+      "tipo": "verdadero_falso",
+      "pregunta": "El apoyo visual debe sustituir al discurso oral cuando el contenido es muy técnico.",
+      "correcta": false,
+      "explicacion": "El apoyo visual debe complementar el discurso oral, nunca sustituirlo ni competir con él."
+    },
+    {
+      "id": "8.4.1-a",
+      "subtema": "8.4.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Para compensar la pérdida de comunicación no verbal completa en una presentación virtual, se recomienda principalmente:",
+      "opciones": [
+        "Hablar más despacio sin ningún otro cambio",
+        "Aumentar la variación vocal, las pausas claras y la interacción explícita con el público",
+        "Evitar por completo las preguntas del público",
+        "Usar únicamente texto en las diapositivas"
+      ],
+      "correcta": 1,
+      "explicacion": "El presentador debe compensar conscientemente la pérdida no verbal con mayor expresividad vocal e interacción explícita."
+    },
+    {
+      "id": "8.4.1-b",
+      "subtema": "8.4.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "Tener un plan B (versión en PDF de las diapositivas, número telefónico alterno) es una recomendación ante el riesgo de fallas técnicas en una presentación virtual.",
+      "correcta": true,
+      "explicacion": "Las fallas técnicas son uno de los retos específicos de presentar por videollamada."
+    },
+    {
+      "id": "8.5-a",
+      "subtema": "8.5",
+      "tipo": "opcion_multiple",
+      "pregunta": "El formato de exposición grupal en el que varios expertos dialogan libremente entre sí ante el público, sin buscar necesariamente un acuerdo, se llama:",
+      "opciones": ["Panel", "Mesa redonda", "Simposio", "Foro"],
+      "correcta": 1,
+      "explicacion": "A diferencia del panel (que responde preguntas con poco diálogo entre panelistas) y el simposio (exposiciones consecutivas sin debate), la mesa redonda implica diálogo directo entre los expositores."
+    },
+    {
+      "id": "8.5-b",
+      "subtema": "8.5",
+      "tipo": "opcion_multiple",
+      "pregunta": "El formato en el que varios expertos exponen, de forma consecutiva y sin debatir entre ellos, distintos aspectos de un mismo tema general se llama:",
+      "opciones": ["Debate", "Simposio", "Entrevista", "Charla"],
+      "correcta": 1,
+      "explicacion": "El simposio se caracteriza precisamente por la ausencia de debate entre los expositores, a diferencia de la mesa redonda."
+    },
+    {
+      "id": "8.5-c",
+      "subtema": "8.5",
+      "tipo": "relacionar",
+      "pregunta": "Relaciona cada formato de exposición con su dinámica correspondiente.",
+      "pares": [
+        { "izquierda": "Panel", "derecha": "Los expertos responden preguntas con poco diálogo entre ellos" },
+        { "izquierda": "Foro", "derecha": "Tras una exposición inicial, se abre la participación libre del público" },
+        { "izquierda": "Conferencia", "derecha": "Exposición formal a cargo de una sola persona experta" },
+        { "izquierda": "Debate", "derecha": "Confrontación formal y reglamentada de posturas opuestas" }
+      ],
+      "explicacion": "Panel = responde preguntas con poco diálogo; Foro = participación libre tras exposición; Conferencia = una sola persona experta; Debate = confrontación reglamentada."
+    },
+    {
+      "id": "8.6-a",
+      "subtema": "8.6",
+      "tipo": "opcion_multiple",
+      "pregunta": "Repetir o parafrasear una pregunta del público antes de responderla sirve, entre otras cosas, para:",
+      "opciones": [
+        "Evitar responderla directamente",
+        "Dar tiempo para pensar y asegurar que todo el público la escuchó",
+        "Cambiar el tema de la presentación",
+        "Demostrar que la pregunta era incorrecta"
+      ],
+      "correcta": 1,
+      "explicacion": "Esta estrategia da tiempo al presentador y garantiza que toda la sala escuchó la pregunta, no solo quien la hizo."
+    },
+    {
+      "id": "8.6-b",
+      "subtema": "8.6",
+      "tipo": "verdadero_falso",
+      "pregunta": "Decir “no lo sé, pero lo investigo y te confirmo” ante una pregunta difícil genera menos credibilidad que inventar una respuesta.",
+      "correcta": false,
+      "explicacion": "Es al contrario: admitir honestamente el desconocimiento y ofrecer confirmar después genera MÁS credibilidad que improvisar una respuesta insegura."
+    },
+    {
+      "id": "8.6.1-a",
+      "subtema": "8.6.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Ante un participante confrontativo que busca desafiar públicamente al presentador, la estrategia recomendada es:",
+      "opciones": [
+        "Responder con el mismo tono agresivo para no parecer débil",
+        "Mantener un tono calmado, reconocer el punto válido si lo hay, y responder con datos",
+        "Ignorar la pregunta por completo",
+        "Terminar la presentación de inmediato"
+      ],
+      "correcta": 1,
+      "explicacion": "Responder con el mismo tono agresivo casi siempre empeora la percepción del público sobre el presentador; la serenidad y los datos son más persuasivos."
+    }
+  ]
+}
