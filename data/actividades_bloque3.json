@@ -1,0 +1,184 @@
+{
+  "bloque": 3,
+  "actividades": [
+    {
+      "id": "3.0-a",
+      "subtema": "3.0",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes NO es una de las seis cualidades de la buena redacción?",
+      "opciones": ["Claridad", "Cohesión", "Originalidad exclusiva", "Adecuación"],
+      "correcta": 2,
+      "explicacion": "Las seis cualidades son claridad, concisión, coherencia, cohesión, corrección y adecuación; la “originalidad exclusiva” no es una de ellas."
+    },
+    {
+      "id": "3.0-b",
+      "subtema": "3.0",
+      "tipo": "opcion_multiple",
+      "pregunta": "Que un texto use el registro y el tono apropiados según el destinatario y el propósito corresponde a la cualidad de:",
+      "opciones": ["Cohesión", "Adecuación", "Corrección", "Concisión"],
+      "correcta": 1,
+      "explicacion": "La adecuación implica que no se escribe igual un mensaje a un amigo que un informe a un director general."
+    },
+    {
+      "id": "3.0-c",
+      "subtema": "3.0",
+      "tipo": "verdadero_falso",
+      "pregunta": "Un texto puede ser gramaticalmente correcto y aun así fallar en claridad, coherencia o adecuación.",
+      "correcta": true,
+      "explicacion": "Las seis cualidades son independientes entre sí: hay que revisar cada una por separado al editar un texto."
+    },
+    {
+      "id": "3.0.1-a",
+      "subtema": "3.0.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un conector como “sin embargo” o “no obstante” señala una relación de:",
+      "opciones": ["Adición", "Contraste u oposición", "Causa", "Ejemplificación"],
+      "correcta": 1,
+      "explicacion": "Estos conectores expresan contraste u oposición entre dos ideas."
+    },
+    {
+      "id": "3.0.1-b",
+      "subtema": "3.0.1",
+      "tipo": "relacionar",
+      "pregunta": "Relaciona cada conector con el tipo de relación lógica que señala.",
+      "pares": [
+        { "izquierda": "Por lo tanto", "derecha": "Consecuencia" },
+        { "izquierda": "Puesto que", "derecha": "Causa" },
+        { "izquierda": "Además", "derecha": "Adición" },
+        { "izquierda": "Por ejemplo", "derecha": "Ejemplificación" }
+      ],
+      "explicacion": "Por lo tanto = consecuencia; Puesto que = causa; Además = adición; Por ejemplo = ejemplificación."
+    },
+    {
+      "id": "3.0.2-a",
+      "subtema": "3.0.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "Escribir “subir arriba” o “salir afuera” es un ejemplo del vicio de redacción llamado:",
+      "opciones": ["Anacoluto", "Redundancia (pleonasmo)", "Monotonía léxica", "Queísmo"],
+      "correcta": 1,
+      "explicacion": "La redundancia o pleonasmo repite una idea con palabras distintas de forma innecesaria."
+    },
+    {
+      "id": "3.0.2-b",
+      "subtema": "3.0.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "Cambiar la estructura gramatical a mitad de una oración, dejándola incoherente, se llama:",
+      "opciones": ["Anacoluto", "Cacofonía", "Redundancia", "Muletilla escrita"],
+      "correcta": 0,
+      "explicacion": "El anacoluto rompe la coherencia gramatical de una oración a la mitad de su construcción."
+    },
+    {
+      "id": "3.0.3-a",
+      "subtema": "3.0.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "El párrafo que presenta primero ejemplos o datos particulares y cierra con la idea principal como conclusión se llama:",
+      "opciones": ["Deductivo", "Inductivo", "De encuadre", "Comparativo"],
+      "correcta": 1,
+      "explicacion": "El párrafo inductivo construye el argumento paso a paso, generando expectativa antes de llegar a la conclusión."
+    },
+    {
+      "id": "3.0.3-b",
+      "subtema": "3.0.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "El párrafo que organiza la información señalando semejanzas y diferencias entre dos o más elementos se llama:",
+      "opciones": ["Cronológico", "Comparativo o de contraste", "Deductivo", "De encuadre"],
+      "correcta": 1,
+      "explicacion": "El párrafo comparativo se usa, por ejemplo, al comparar opciones, posturas o épocas."
+    },
+    {
+      "id": "3.1-a",
+      "subtema": "3.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Al evaluar si un texto “presenta hechos verificables o defiende una sola postura sin contraste”, se está revisando el criterio de:",
+      "opciones": ["Autoría", "Actualidad", "Objetividad", "Origen editorial"],
+      "correcta": 2,
+      "explicacion": "La objetividad evalúa si el texto contrasta posturas o solo defiende una, sin evidencia verificable."
+    },
+    {
+      "id": "3.1-b",
+      "subtema": "3.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "La lectura reflexiva implica formularse preguntas activamente mientras se lee, y no es lo mismo que la lectura superficial.",
+      "correcta": true,
+      "explicacion": "Este tipo de lectura activa es la base de cualquier trabajo de redacción posterior."
+    },
+    {
+      "id": "3.2-a",
+      "subtema": "3.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "Una buena idea central debe ser concreta, demostrable y:",
+      "opciones": ["Lo más amplia posible", "Del tamaño adecuado al espacio disponible", "Repetida varias veces en el texto", "Escrita siempre en forma de pregunta"],
+      "correcta": 1,
+      "explicacion": "Una idea demasiado amplia para un ensayo corto obliga a tratarla de forma superficial."
+    },
+    {
+      "id": "3.2-b",
+      "subtema": "3.2",
+      "tipo": "verdadero_falso",
+      "pregunta": "“La comunicación es importante” es un buen ejemplo de idea central concreta y demostrable.",
+      "correcta": false,
+      "explicacion": "Es precisamente el ejemplo de idea vaga que el libro contrasta con una idea central concreta y defendible."
+    },
+    {
+      "id": "3.2.1-a",
+      "subtema": "3.2.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes es la versión más concreta y demostrable de una idea central?",
+      "opciones": [
+        "“Las redes sociales son importantes”",
+        "“El uso excesivo de redes sociales entre universitarios reduce medible mente su tiempo de lectura profunda”",
+        "“La comunicación en las empresas es un problema”",
+        "“La tecnología cambia todo”"
+      ],
+      "correcta": 1,
+      "explicacion": "Esta versión es específica, defendible y del tamaño adecuado, a diferencia de las vaguedades de las otras opciones."
+    },
+    {
+      "id": "3.3-a",
+      "subtema": "3.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "“Conocí a dos abogados deshonestos; todos los abogados son deshonestos” es un ejemplo de la falacia lógica de:",
+      "opciones": ["Falsa dicotomía", "Ataque personal", "Generalización apresurada", "Falacia de autoridad"],
+      "correcta": 2,
+      "explicacion": "Sacar una conclusión general a partir de muy pocos casos es una generalización apresurada."
+    },
+    {
+      "id": "3.3-b",
+      "subtema": "3.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "“No hay que escucharlo, si ni siquiera terminó la universidad” es un ejemplo de:",
+      "opciones": ["Ataque personal (ad hominem)", "Falsa dicotomía", "Generalización apresurada", "Falacia de autoridad"],
+      "correcta": 0,
+      "explicacion": "El ataque personal desacredita a la persona en vez de responder a su argumento."
+    },
+    {
+      "id": "3.3-c",
+      "subtema": "3.3",
+      "tipo": "relacionar",
+      "pregunta": "Relaciona cada parte del argumento con su función.",
+      "pares": [
+        { "izquierda": "Premisa o afirmación", "derecha": "La idea que se quiere defender" },
+        { "izquierda": "Evidencia o soporte", "derecha": "Datos o ejemplos que la respaldan" },
+        { "izquierda": "Conclusión", "derecha": "La consecuencia lógica que se desprende" }
+      ],
+      "explicacion": "Premisa = idea a defender; Evidencia = datos que la respaldan; Conclusión = consecuencia lógica."
+    },
+    {
+      "id": "3.4-a",
+      "subtema": "3.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "Presentar como propias las ideas de otra persona sin dar crédito constituye:",
+      "opciones": ["Una cita parafraseada correcta", "Plagio", "Una cita de cita válida", "Un recurso retórico aceptado"],
+      "correcta": 1,
+      "explicacion": "No dar crédito a una fuente es plagio, una falta grave tanto académica como legalmente."
+    },
+    {
+      "id": "3.4-b",
+      "subtema": "3.4",
+      "tipo": "verdadero_falso",
+      "pregunta": "Una cita textual de más de 40 palabras se incorpora entre comillas dentro del propio párrafo, igual que una cita corta.",
+      "correcta": false,
+      "explicacion": "Las citas largas (más de 40 palabras) se separan en un bloque con sangría propia y SIN comillas, a diferencia de las citas cortas."
+    }
+  ]
+}
