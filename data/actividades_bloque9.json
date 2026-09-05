@@ -1,0 +1,178 @@
+{
+  "bloque": 9,
+  "actividades": [
+    {
+      "id": "9.1-a",
+      "subtema": "9.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "Dos personas pueden leer exactamente el mismo texto y comprenderlo de forma distinta, según su experiencia y vocabulario previos.",
+      "correcta": true,
+      "explicacion": "La lectura es una actividad cognitiva compleja que integra el conocimiento previo del lector, no una simple decodificación de letras."
+    },
+    {
+      "id": "9.1.1-a",
+      "subtema": "9.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "El nivel de comprensión lectora que consiste en deducir información que el texto no dice explícitamente, pero que se desprende de él, se llama:",
+      "opciones": ["Literal", "Inferencial", "Crítico o valorativo", "Fonético"],
+      "correcta": 1,
+      "explicacion": "El nivel inferencial responde preguntas como “¿por qué crees que actuó así?”, que van más allá de lo dicho literalmente."
+    },
+    {
+      "id": "9.1.1-b",
+      "subtema": "9.1.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "La mayoría de los exámenes escolares de comprensión lectora se quedan en el nivel literal, aunque la comprensión profesional real exige también los niveles inferencial y crítico.",
+      "correcta": true,
+      "explicacion": "Tomar decisiones a partir de un informe o un contrato exige ir más allá de la comprensión literal."
+    },
+    {
+      "id": "9.2-a",
+      "subtema": "9.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "El campo visual en la lectura se refiere a:",
+      "opciones": [
+        "La velocidad con la que se mueve el ojo entre líneas",
+        "La cantidad de texto que el ojo puede captar con nitidez en una sola mirada",
+        "El tamaño de la letra de un texto",
+        "El tiempo total que dura una sesión de lectura"
+      ],
+      "correcta": 1,
+      "explicacion": "Un lector entrenado logra abarcar varias palabras o una frase corta en una sola mirada, a diferencia de un lector que enfoca una palabra a la vez."
+    },
+    {
+      "id": "9.3-a",
+      "subtema": "9.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "Los pequeños saltos rápidos que realiza el ojo al leer, entre los cuales el cerebro no capta información nueva, se llaman:",
+      "opciones": ["Fijaciones", "Sacadas", "Regresiones", "Percepciones"],
+      "correcta": 1,
+      "explicacion": "Entre una fijación y otra, durante la sacada (el salto ocular), el cerebro no procesa información nueva."
+    },
+    {
+      "id": "9.3-b",
+      "subtema": "9.3",
+      "tipo": "verdadero_falso",
+      "pregunta": "Un lector entrenado realiza más fijaciones por línea, cada una más corta, que un lector poco entrenado.",
+      "correcta": false,
+      "explicacion": "Es al revés: un lector entrenado realiza POCAS fijaciones por línea, pero cada una abarca varias palabras."
+    },
+    {
+      "id": "9.4-a",
+      "subtema": "9.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "La capacidad del cerebro para reconocer patrones de letras como palabras completas, en vez de descifrarlas letra por letra, se llama:",
+      "opciones": ["Fijación", "Percepción visual", "Sacada", "Regresión"],
+      "correcta": 1,
+      "explicacion": "Esta capacidad se desarrolla con la práctica y la exposición constante a la lectura."
+    },
+    {
+      "id": "9.5-a",
+      "subtema": "9.5",
+      "tipo": "verdadero_falso",
+      "pregunta": "Cuando el movimiento horizontal de lectura se interrumpe constantemente por regresiones innecesarias, la velocidad y la comprensión se ven afectadas negativamente.",
+      "correcta": true,
+      "explicacion": "El movimiento horizontal debe ser fluido y hacia adelante para una lectura eficiente."
+    },
+    {
+      "id": "9.6-a",
+      "subtema": "9.6",
+      "tipo": "opcion_multiple",
+      "pregunta": "El movimiento de retorno que realiza el ojo al llegar al final de una línea, bajando a la siguiente y regresando al margen izquierdo, se llama movimiento:",
+      "opciones": ["Horizontal", "Vertical", "De sacada", "De fijación"],
+      "correcta": 1,
+      "explicacion": "Este movimiento vertical también puede entrenarse para hacerse más eficiente."
+    },
+    {
+      "id": "9.7.1-a",
+      "subtema": "9.7.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "El cerebro humano puede realizar bien varias tareas cognitivas complejas de forma verdaderamente simultánea durante la lectura.",
+      "correcta": false,
+      "explicacion": "Las investigaciones sobre atención coinciden en que esto NO es así; por eso la concentración plena, sin distracciones, es condición previa de la lectura eficaz."
+    },
+    {
+      "id": "9.7.2-a",
+      "subtema": "9.7.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "Leer en silencio, sin pronunciar las palabras ni siquiera mentalmente, es más rápido que la lectura en voz alta porque:",
+      "opciones": [
+        "El proceso visual y de comprensión avanza más rápido que el aparato articulatorio del habla",
+        "El cerebro descansa más al leer en silencio",
+        "No es realmente más rápido, es un mito",
+        "Depende únicamente del tamaño de la letra"
+      ],
+      "correcta": 0,
+      "explicacion": "El habla impone un ritmo más lento que el que permite el proceso visual y mental de la lectura."
+    },
+    {
+      "id": "9.7.3-a",
+      "subtema": "9.7.3",
+      "tipo": "verdadero_falso",
+      "pregunta": "Hacer pausas breves y deliberadas al terminar un párrafo perjudica la velocidad de lectura.",
+      "correcta": false,
+      "explicacion": "Al contrario: las pausas deliberadas permiten al cerebro consolidar lo leído, mejorando la retención sin perjudicar realmente la eficiencia."
+    },
+    {
+      "id": "9.7.4-a",
+      "subtema": "9.7.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "Distinguir activamente entre la idea principal de un párrafo y los detalles que la apoyan es una habilidad que se retoma directamente de:",
+      "opciones": ["El Tema 2 (Ortografía)", "El Tema 3 (definir la idea central)", "El Tema 6 (comunicación no verbal)", "El Tema 8 (presentaciones)"],
+      "correcta": 1,
+      "explicacion": "Es la misma habilidad necesaria para escribir un buen resumen o esquema de cualquier texto leído."
+    },
+    {
+      "id": "9.8.1-a",
+      "subtema": "9.8.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Pronunciar las palabras en voz baja o susurrada mientras se lee, limitando la velocidad al ritmo del habla, se llama:",
+      "opciones": ["Lectura regresiva", "Vocalización", "Percepción visual", "Skimming"],
+      "correcta": 1,
+      "explicacion": "La vocalización limita la velocidad de lectura al ritmo, más lento, del habla."
+    },
+    {
+      "id": "9.8.2-a",
+      "subtema": "9.8.2",
+      "tipo": "verdadero_falso",
+      "pregunta": "La lectura con los labios es una variante más sutil de la vocalización, pero tiene el mismo efecto de ralentizar la lectura.",
+      "correcta": true,
+      "explicacion": "Aunque menos evidente para quien observa, los labios se mueven formando las palabras sin emitir sonido audible."
+    },
+    {
+      "id": "9.8.4-a",
+      "subtema": "9.8.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "Volver la vista hacia atrás, releyendo palabras o líneas ya leídas por distracción o inseguridad, se llama lectura:",
+      "opciones": ["Regresiva", "Reflexiva", "Selectiva", "Skimming"],
+      "correcta": 0,
+      "explicacion": "La lectura regresiva puede llegar a representar hasta una tercera parte del tiempo total de lectura en lectores no entrenados."
+    },
+    {
+      "id": "9.9-a",
+      "subtema": "9.9",
+      "tipo": "opcion_multiple",
+      "pregunta": "Verificar la comprensión real de un texto reformulando su contenido sin copiar literalmente se llama:",
+      "opciones": ["Subrayado selectivo", "Resumen con palabras propias", "Relectura regresiva", "Formulación de preguntas antes de leer"],
+      "correcta": 1,
+      "explicacion": "Reformular con palabras propias confirma que realmente se comprendió el contenido, no solo que se memorizó."
+    },
+    {
+      "id": "9.9.1-a",
+      "subtema": "9.9.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "La técnica de lectura rápida que busca un dato específico (una fecha, un nombre) dentro de un texto, ignorando el resto, se llama:",
+      "opciones": ["Skimming", "Scanning", "Vocalización", "Percepción visual"],
+      "correcta": 1,
+      "explicacion": "El scanning es una búsqueda dirigida de un dato puntual, a diferencia del skimming, que da una vista panorámica del texto completo."
+    },
+    {
+      "id": "9.9.1-b",
+      "subtema": "9.9.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "El skimming se usa típicamente antes de decidir si un texto es relevante para lo que se investiga, como primer paso antes de la lectura detallada.",
+      "correcta": true,
+      "explicacion": "Es precisamente el propósito del skimming: obtener una idea general antes de decidir si conviene una lectura detallada."
+    }
+  ]
+}
