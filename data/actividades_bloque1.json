@@ -1,0 +1,385 @@
+{
+  "bloque": 1,
+  "actividades": [
+    {
+      "id": "1.1-a",
+      "subtema": "1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "La palabra “comunicar” proviene del latín communicare, que significa:",
+      "opciones": ["Transmitir una señal eléctrica", "Poner en común o compartir", "Convencer a una audiencia", "Escribir un documento oficial"],
+      "correcta": 1,
+      "explicacion": "Communicare significa literalmente “poner en común” o “compartir”, la raíz etimológica que define el concepto de comunicación en el subtema 1.1."
+    },
+    {
+      "id": "1.1-b",
+      "subtema": "1.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "Según el libro, comunicar es simplemente hablar o escribir.",
+      "correcta": false,
+      "explicacion": "El subtema 1.1 afirma explícitamente que comunicar NO es simplemente hablar o escribir, sino lograr que dos o más personas construyan un significado compartido."
+    },
+    {
+      "id": "1.1.1-a",
+      "subtema": "1.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "El diálogo interno de una persona antes de tomar una decisión importante es un ejemplo de comunicación:",
+      "opciones": ["Interpersonal", "Intrapersonal", "Grupal", "Organizacional"],
+      "correcta": 1,
+      "explicacion": "La comunicación intrapersonal ocurre dentro de un solo individuo (su diálogo interno), como se explica al inicio del subtema 1.1.1."
+    },
+    {
+      "id": "1.1.1-b",
+      "subtema": "1.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Una junta de trabajo de 6 personas con interacción directa entre todos es un ejemplo de comunicación:",
+      "opciones": ["Interpersonal", "Grupal", "Masiva", "Pública"],
+      "correcta": 1,
+      "explicacion": "La comunicación grupal implica un grupo reducido con posibilidad de interacción directa entre todos sus integrantes, a diferencia de la interpersonal (solo dos personas)."
+    },
+    {
+      "id": "1.1.1-c",
+      "subtema": "1.1.1",
+      "tipo": "relacionar",
+      "pregunta": "Relaciona cada tipo de comunicación con su ejemplo correspondiente.",
+      "pares": [
+        { "izquierda": "Organizacional", "derecha": "La comunicación interna de una empresa" },
+        { "izquierda": "Masiva", "derecha": "Un noticiero de televisión" },
+        { "izquierda": "Pública", "derecha": "Un discurso político ante una multitud reunida" },
+        { "izquierda": "Interpersonal", "derecha": "Una conversación entre un cliente y un vendedor" }
+      ],
+      "explicacion": "Organizacional = comunicación interna de una empresa; Masiva = noticiero de TV; Pública = discurso ante audiencia reunida; Interpersonal = cliente y vendedor."
+    },
+    {
+      "id": "1.1.1-d",
+      "subtema": "1.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un gesto, una postura corporal o el tono de voz son ejemplos del segundo criterio de clasificación de la comunicación, es decir, comunicación:",
+      "opciones": ["Intrapersonal", "Verbal", "No verbal", "Organizacional"],
+      "correcta": 2,
+      "explicacion": "Además de clasificarse por número de participantes, la comunicación se clasifica por canal: verbal (palabras) y no verbal (gestos, postura, tono), tema que se profundiza en el Tema 6."
+    },
+    {
+      "id": "1.1.2-a",
+      "subtema": "1.1.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "El concepto de “gatekeeper” o “portero”, que filtra qué información llega finalmente al público, fue propuesto por:",
+      "opciones": ["Maxwell McCombs", "Kurt Lewin", "Elisabeth Noelle-Neumann", "Marshall McLuhan"],
+      "correcta": 1,
+      "explicacion": "Kurt Lewin acuñó el concepto de gatekeeper en 1947 para describir a quien filtra la información antes de que se difunda a un grupo más amplio."
+    },
+    {
+      "id": "1.1.2-b",
+      "subtema": "1.1.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según la teoría de la agenda-setting de McCombs y Shaw, los medios de comunicación:",
+      "opciones": [
+        "Determinan exactamente qué debemos pensar sobre cada tema",
+        "No tienen ningún efecto medible sobre la audiencia",
+        "Determinan sobre qué temas pensamos, aunque no cómo pensar sobre ellos",
+        "Solo transmiten información sin ninguna selección previa"
+      ],
+      "correcta": 2,
+      "explicacion": "La agenda-setting sostiene que los medios no logran decirle a la audiencia qué pensar, pero sí son eficaces para decirle sobre qué temas pensar."
+    },
+    {
+      "id": "1.1.2-c",
+      "subtema": "1.1.2",
+      "tipo": "verdadero_falso",
+      "pregunta": "La espiral del silencio explica por qué las personas expresan con más fuerza las opiniones que perciben como minoritarias en su entorno.",
+      "correcta": false,
+      "explicacion": "Es justo al contrario: según Noelle-Neumann, las personas tienden a CALLAR las opiniones que perciben como minoritarias, por temor al aislamiento social."
+    },
+    {
+      "id": "1.1.2-d",
+      "subtema": "1.1.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "La frase “el medio es el mensaje”, que sostiene que el canal transforma el contenido y la sociedad que lo usa, pertenece a:",
+      "opciones": ["Paul Watzlawick", "Harold Lasswell", "Marshall McLuhan", "David Berlo"],
+      "correcta": 2,
+      "explicacion": "Marshall McLuhan acuñó esta frase en su libro Understanding Media (1964), explicada en el subtema 1.1.2."
+    },
+    {
+      "id": "1.2-a",
+      "subtema": "1.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "El modelo que incluye emisor, mensaje, código, canal, receptor, contexto, retroalimentación y ruido fue propuesto por:",
+      "opciones": ["David Berlo", "Claude Shannon y Warren Weaver", "Harold Lasswell", "Roman Jakobson"],
+      "correcta": 1,
+      "explicacion": "El modelo de Shannon y Weaver (1948), originalmente pensado para telefonía, es el modelo más citado en cualquier curso introductorio de comunicación."
+    },
+    {
+      "id": "1.2-b",
+      "subtema": "1.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "Cualquier interferencia física, semántica o psicológica que distorsiona el mensaje entre emisor y receptor se llama:",
+      "opciones": ["Retroalimentación", "Código", "Ruido", "Canal"],
+      "correcta": 2,
+      "explicacion": "El ruido es un elemento clave del modelo de Shannon y Weaver que se retoma y amplía en el subtema 1.4.1 (barreras)."
+    },
+    {
+      "id": "1.2-c",
+      "subtema": "1.2",
+      "tipo": "relacionar",
+      "pregunta": "Relaciona cada elemento del modelo de Shannon y Weaver con su definición.",
+      "pares": [
+        { "izquierda": "Código", "derecha": "El sistema de signos compartido, como el idioma" },
+        { "izquierda": "Canal", "derecha": "El medio físico por el que viaja el mensaje" },
+        { "izquierda": "Contexto", "derecha": "La situación que rodea al acto comunicativo" },
+        { "izquierda": "Retroalimentación", "derecha": "Respuesta del receptor que confirma o corrige el mensaje" }
+      ],
+      "explicacion": "Código = sistema de signos; Canal = medio físico; Contexto = situación que rodea el acto; Retroalimentación = respuesta del receptor."
+    },
+    {
+      "id": "1.2.1-a",
+      "subtema": "1.2.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Las siglas SMCR del modelo de David Berlo corresponden a:",
+      "opciones": [
+        "Source, Message, Channel, Receiver",
+        "Sender, Media, Code, Response",
+        "Signal, Message, Context, Result",
+        "Source, Media, Content, Receiver"
+      ],
+      "correcta": 0,
+      "explicacion": "SMCR = Source (Fuente), Message (Mensaje), Channel (Canal), Receiver (Receptor)."
+    },
+    {
+      "id": "1.2.1-b",
+      "subtema": "1.2.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "Según el modelo de Berlo, el canal se relaciona con los cinco sentidos: vista, oído, tacto, olfato y gusto.",
+      "correcta": true,
+      "explicacion": "Berlo asocia el canal directamente con los cinco sentidos por los que puede percibirse un mensaje."
+    },
+    {
+      "id": "1.2.1-c",
+      "subtema": "1.2.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "La principal aportación de Berlo frente al modelo de Shannon y Weaver es que:",
+      "opciones": [
+        "Elimina por completo el concepto de ruido",
+        "Señala que emisor y receptor están condicionados por su cultura, actitudes y conocimiento previo",
+        "Se enfoca únicamente en la tecnología del canal, ignorando a las personas",
+        "Prescinde del receptor como elemento del modelo"
+      ],
+      "correcta": 1,
+      "explicacion": "Berlo recuerda que ni el emisor ni el receptor son “máquinas neutras”: ambos llegan al acto comunicativo con su propia cultura, actitudes y conocimiento previo."
+    },
+    {
+      "id": "1.2.2-a",
+      "subtema": "1.2.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "El modelo de Lasswell (1948) resume el acto comunicativo en la pregunta:",
+      "opciones": [
+        "¿Cómo se codifica el mensaje?",
+        "¿Quién dice qué, en qué canal, a quién y con qué efecto?",
+        "¿Cuáles son los cinco sentidos del canal?",
+        "¿Qué es la disonancia cognitiva?"
+      ],
+      "correcta": 1,
+      "explicacion": "A diferencia de los modelos técnicos, Lasswell propone una fórmula sencilla de cinco preguntas encadenadas."
+    },
+    {
+      "id": "1.2.2-b",
+      "subtema": "1.2.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "La pregunta “¿con qué efecto?” del modelo de Lasswell corresponde a la disciplina de:",
+      "opciones": ["Análisis de contenido", "Análisis de control", "Análisis de efectos", "Análisis de medios"],
+      "correcta": 2,
+      "explicacion": "Cada pregunta de Lasswell corresponde a una disciplina distinta; “¿con qué efecto?” es el análisis de efectos, y es el puente hacia las teorías del subtema 1.1.2."
+    },
+    {
+      "id": "1.3-a",
+      "subtema": "1.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un boletín impreso que nadie lee es un ejemplo de:",
+      "opciones": ["Comunicación completa y exitosa", "Información sin comunicación", "Retroalimentación efectiva", "Ruido semántico"],
+      "correcta": 1,
+      "explicacion": "La información es el contenido en sí mismo; sin que exista comprensión ni posibilidad de respuesta, no hay comunicación plena, solo información."
+    },
+    {
+      "id": "1.3-b",
+      "subtema": "1.3",
+      "tipo": "verdadero_falso",
+      "pregunta": "La información puede fluir en un solo sentido, mientras que la comunicación plena implica, al menos en potencia, una vía de retorno.",
+      "correcta": true,
+      "explicacion": "Esta es la segunda diferencia central señalada en el subtema 1.3: la posibilidad de que el receptor responda, pregunte o corrija."
+    },
+    {
+      "id": "1.4-a",
+      "subtema": "1.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "El principio de la comunicación que explica por qué se recomienda releer un correo antes de enviarlo es que la comunicación:",
+      "opciones": ["Es simbólica", "Es irreversible", "Depende del contexto", "Es un proceso"],
+      "correcta": 1,
+      "explicacion": "Un mensaje ya dicho o escrito no puede “desdecirse” por completo: ese es el principio de irreversibilidad."
+    },
+    {
+      "id": "1.4-b",
+      "subtema": "1.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "Que un mismo mensaje se interprete distinto según el momento, el lugar y la relación entre las personas ejemplifica el principio de que la comunicación:",
+      "opciones": ["Es irreversible", "Depende del contexto", "Es simbólica", "Tiene contenido y relación"],
+      "correcta": 1,
+      "explicacion": "El principio de dependencia del contexto explica por qué un chiste entre amigos no funciona igual en una junta formal."
+    },
+    {
+      "id": "1.4-c",
+      "subtema": "1.4",
+      "tipo": "verdadero_falso",
+      "pregunta": "El segundo axioma de Watzlawick establece que es imposible no comunicarse.",
+      "correcta": false,
+      "explicacion": "Ese es el PRIMER axioma de Watzlawick. El segundo axioma establece que todo mensaje tiene un nivel de contenido y un nivel de relación."
+    },
+    {
+      "id": "1.4.1-a",
+      "subtema": "1.4.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Cuando un receptor no presta atención porque está preocupado por otra cosa, la barrera que interviene es:",
+      "opciones": ["Física", "Semántica", "Psicológica", "Administrativa"],
+      "correcta": 2,
+      "explicacion": "La barrera psicológica se refiere a estados emocionales o prejuicios que distorsionan la recepción del mensaje."
+    },
+    {
+      "id": "1.4.1-b",
+      "subtema": "1.4.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un gesto que resulta respetuoso en una cultura pero ofensivo en otra es un ejemplo de barrera:",
+      "opciones": ["Fisiológica", "Cultural", "Administrativa", "Semántica"],
+      "correcta": 1,
+      "explicacion": "La barrera cultural surge de diferencias de valores, costumbres o referencias entre emisor y receptor."
+    },
+    {
+      "id": "1.4.1-c",
+      "subtema": "1.4.1",
+      "tipo": "relacionar",
+      "pregunta": "Relaciona cada tipo de barrera con su ejemplo.",
+      "pares": [
+        { "izquierda": "Física", "derecha": "Ruido ambiental o mala señal telefónica" },
+        { "izquierda": "Fisiológica", "derecha": "Problemas de audición o fatiga extrema" },
+        { "izquierda": "Administrativa", "derecha": "Una instrucción que pasa por demasiados niveles jerárquicos y llega tarde" },
+        { "izquierda": "Semántica", "derecha": "Uso de tecnicismos que el receptor no conoce" }
+      ],
+      "explicacion": "Física = ruido/mala señal; Fisiológica = problemas de audición; Administrativa = instrucción distorsionada por niveles jerárquicos; Semántica = tecnicismos."
+    },
+    {
+      "id": "1.4.2-a",
+      "subtema": "1.4.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "La máxima conversacional de Grice que exige decir ni más ni menos información de la necesaria es la de:",
+      "opciones": ["Calidad", "Cantidad", "Relación", "Manera"],
+      "correcta": 1,
+      "explicacion": "La máxima de cantidad exige aportar la cantidad exacta de información requerida, ni más ni menos."
+    },
+    {
+      "id": "1.4.2-b",
+      "subtema": "1.4.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "Cuando alguien viola deliberadamente una máxima de Grice para dar a entender algo sin decirlo directamente, se genera:",
+      "opciones": ["Una barrera semántica", "Una implicatura conversacional", "Un ruido psicológico", "Una espiral del silencio"],
+      "correcta": 1,
+      "explicacion": "La implicatura conversacional es un mensaje implícito que el receptor infiere precisamente porque nota que se violó una máxima a propósito."
+    },
+    {
+      "id": "1.5-a",
+      "subtema": "1.5",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un reporte de resultados que un empleado envía a su jefe es un ejemplo de comunicación:",
+      "opciones": ["Descendente", "Ascendente", "Horizontal", "Diagonal"],
+      "correcta": 1,
+      "explicacion": "La comunicación ascendente fluye de niveles jerárquicos bajos hacia niveles altos."
+    },
+    {
+      "id": "1.5-b",
+      "subtema": "1.5",
+      "tipo": "opcion_multiple",
+      "pregunta": "La coordinación entre dos gerentes de área del mismo nivel jerárquico es un ejemplo de red:",
+      "opciones": ["Descendente", "Ascendente", "Horizontal", "Diagonal"],
+      "correcta": 2,
+      "explicacion": "La comunicación horizontal ocurre entre personas del mismo nivel jerárquico."
+    },
+    {
+      "id": "1.5-c",
+      "subtema": "1.5",
+      "tipo": "verdadero_falso",
+      "pregunta": "La comunicación diagonal ocurre entre niveles y áreas distintas, sin relación jerárquica directa entre ellas.",
+      "correcta": true,
+      "explicacion": "Un ejemplo es un especialista que asesora directamente a un director de otra área, sin que exista entre ellos una línea jerárquica directa."
+    },
+    {
+      "id": "1.6-a",
+      "subtema": "1.6",
+      "tipo": "opcion_multiple",
+      "pregunta": "El patrón de red informal en el que una sola persona difunde información a muchas otras se llama:",
+      "opciones": ["Cadena simple", "Chisme (gossip)", "Probabilidad", "Racimo"],
+      "correcta": 1,
+      "explicacion": "En el patrón de chisme, una sola persona funciona como fuente que difunde la información a muchas otras."
+    },
+    {
+      "id": "1.6-b",
+      "subtema": "1.6",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según estudios clásicos de comunicación organizacional (Keith Davis), ¿qué porcentaje de la información que circula por la “radio pasillo” resulta precisa en su núcleo factual?",
+      "opciones": ["Entre 10% y 25%", "Entre 30% y 50%", "Entre 75% y 95%", "100%, siempre es exacta"],
+      "correcta": 2,
+      "explicacion": "Aunque suele venir acompañada de exageraciones, entre el 75% y el 95% de la información de la radio pasillo resulta precisa en su núcleo factual."
+    },
+    {
+      "id": "1.6-c",
+      "subtema": "1.6",
+      "tipo": "verdadero_falso",
+      "pregunta": "El patrón “racimo”, en el que unas pocas personas selectivas difunden la información solo a su círculo de confianza, es el patrón más común en la práctica.",
+      "correcta": true,
+      "explicacion": "A pesar de que “chisme” es el patrón más conocido popularmente, el racimo es, según la evidencia, el más frecuente en la realidad."
+    },
+    {
+      "id": "1.7-a",
+      "subtema": "1.7",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según encuestas repetidas a directivos de recursos humanos, las habilidades de comunicación oral y escrita se ubican entre:",
+      "opciones": [
+        "Las competencias menos valoradas al contratar",
+        "Las tres competencias más solicitadas al momento de contratar",
+        "Habilidades relevantes solo en puestos de ventas",
+        "Aspectos sin relación con la contratación"
+      ],
+      "correcta": 1,
+      "explicacion": "Numerosas encuestas de RRHH coinciden en colocar estas habilidades entre las tres competencias más solicitadas, por encima incluso de conocimientos técnicos específicos."
+    },
+    {
+      "id": "1.7.1-a",
+      "subtema": "1.7.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Una persona que evita el conflicto y antepone las necesidades de los demás a las propias tiene un estilo de comunicación:",
+      "opciones": ["Agresivo", "Sumiso", "Asertivo", "Indiferente"],
+      "correcta": 1,
+      "explicacion": "El estilo sumiso evita el conflicto a costa de las propias necesidades, lo que a la larga acumula frustración."
+    },
+    {
+      "id": "1.7.1-b",
+      "subtema": "1.7.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "La frase “Noto un error en este reporte; propongo revisarlo juntos antes de enviarlo” corresponde a un estilo de comunicación:",
+      "opciones": ["Sumiso", "Agresivo", "Asertivo", "Pasivo-agresivo"],
+      "correcta": 2,
+      "explicacion": "El estilo asertivo expresa un punto de vista con claridad y respeto simultáneo, sin atropellar a la otra persona."
+    },
+    {
+      "id": "1.7.2-a",
+      "subtema": "1.7.2",
+      "tipo": "verdadero_falso",
+      "pregunta": "La imagen corporativa es la representación mental que el público tiene de una organización, y puede auditarse periódicamente.",
+      "correcta": true,
+      "explicacion": "La imagen corporativa se audita mediante encuestas de percepción, monitoreo de menciones y análisis de la competencia."
+    },
+    {
+      "id": "1.7.2-b",
+      "subtema": "1.7.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "La información que una organización dirige específicamente a inversionistas y accionistas sobre su desempeño económico se llama:",
+      "opciones": ["Relaciones públicas", "Comunicación financiera", "Imagen corporativa", "Comunicación de masas"],
+      "correcta": 1,
+      "explicacion": "La comunicación financiera está sujeta a regulaciones estrictas de transparencia por las decisiones de inversión que de ella dependen."
+    }
+  ]
+}
