@@ -1,0 +1,102 @@
+{
+  "bloque": 6,
+  "actividades": [
+    {
+      "id": "6.1-a",
+      "subtema": "6.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "La comunicación verbal se distingue de la no verbal por depender de un sistema de signos lingüísticos arbitrarios y convencionales.",
+      "correcta": true,
+      "explicacion": "Las palabras son signos arbitrarios: no existe una razón natural que las conecte con lo que representan."
+    },
+    {
+      "id": "6.1.1-a",
+      "subtema": "6.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "La comunicación verbal escrita, a diferencia de la oral, se caracteriza por ser:",
+      "opciones": [
+        "Inmediata y efímera",
+        "Diferida en el tiempo y permanente, con posibilidad de revisión previa",
+        "Siempre acompañada de elementos no verbales",
+        "Imposible de corregir antes de emitirse"
+      ],
+      "correcta": 1,
+      "explicacion": "La comunicación escrita permite revisión y corrección antes de “emitirse”, a diferencia de la inmediatez de la oral."
+    },
+    {
+      "id": "6.1.1-b",
+      "subtema": "6.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "El principio según el cual no existe una razón natural por la que la palabra “perro” deba nombrar a ese animal fue formulado por:",
+      "opciones": ["Marshall McLuhan", "Ferdinand de Saussure", "Paul Watzlawick", "Roman Jakobson"],
+      "correcta": 1,
+      "explicacion": "Saussure formuló el “principio de arbitrariedad del signo lingüístico” a principios del siglo XX."
+    },
+    {
+      "id": "6.2-a",
+      "subtema": "6.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según la llamada “regla del 7-38-55” de Albert Mehrabian, en situaciones de incongruencia entre lo que se dice y cómo se dice, el mayor porcentaje del mensaje emocional se atribuye a:",
+      "opciones": ["Las palabras (7%)", "El tono de voz (38%)", "El lenguaje corporal (55%)", "El contexto (0%, no se considera)"],
+      "correcta": 2,
+      "explicacion": "Mehrabian encontró que el lenguaje corporal (55%) domina el mensaje emocional cuando hay incongruencia entre canales; esta cifra se cita frecuentemente fuera de su contexto original."
+    },
+    {
+      "id": "6.2.1-a",
+      "subtema": "6.2.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "El estudio de los movimientos corporales, gestos y expresiones faciales corresponde a la dimensión:",
+      "opciones": ["Proxémica", "Kinésica", "Paralingüística", "Cronémica"],
+      "correcta": 1,
+      "explicacion": "La kinésica estudia gestos, posturas y expresiones faciales."
+    },
+    {
+      "id": "6.2.1-b",
+      "subtema": "6.2.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según las zonas proxémicas de Edward T. Hall, una distancia de 1.2 a 3.6 metros corresponde a la zona:",
+      "opciones": ["Íntima", "Personal", "Social", "Pública"],
+      "correcta": 2,
+      "explicacion": "La zona social (1.2 a 3.6 m) se asocia con compañeros de trabajo y trato formal."
+    },
+    {
+      "id": "6.2.1-c",
+      "subtema": "6.2.1",
+      "tipo": "relacionar",
+      "pregunta": "Relaciona cada dimensión no verbal con lo que estudia.",
+      "pares": [
+        { "izquierda": "Háptica", "derecha": "El uso del contacto físico o tacto" },
+        { "izquierda": "Oculésica", "derecha": "El uso de la mirada y el contacto visual" },
+        { "izquierda": "Cronémica", "derecha": "El uso y significado social del tiempo" },
+        { "izquierda": "Paralingüística", "derecha": "Los rasgos de la voz que acompañan a las palabras" }
+      ],
+      "explicacion": "Háptica = tacto; Oculésica = mirada; Cronémica = tiempo; Paralingüística = rasgos de la voz."
+    },
+    {
+      "id": "6.2.2-a",
+      "subtema": "6.2.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "El gesto del pulgar hacia arriba, que significa aprobación en gran parte de Occidente, resulta ofensivo en:",
+      "opciones": ["Todo el continente americano", "Partes de Medio Oriente y África Occidental", "Toda Europa sin excepción", "No existen variaciones culturales de este gesto"],
+      "correcta": 1,
+      "explicacion": "Este es un ejemplo claro de cómo un mismo gesto no verbal puede tener significados opuestos según la cultura."
+    },
+    {
+      "id": "6.2.2-b",
+      "subtema": "6.2.2",
+      "tipo": "verdadero_falso",
+      "pregunta": "En culturas monocrónicas como Alemania o Japón, la puntualidad estricta se asocia con profesionalismo.",
+      "correcta": true,
+      "explicacion": "En contraste, las culturas policrónicas muestran mayor flexibilidad social ante los horarios."
+    },
+    {
+      "id": "6.2.3-a",
+      "subtema": "6.2.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "Repetir con palabras propias lo que el interlocutor dijo, para confirmar que se comprendió correctamente, es la técnica de escucha activa llamada:",
+      "opciones": ["Validación emocional", "Parafraseo", "Pregunta clarificadora", "Señal de retroalimentación no verbal"],
+      "correcta": 1,
+      "explicacion": "El parafraseo confirma la comprensión repitiendo la idea del interlocutor con palabras propias."
+    }
+  ]
+}
