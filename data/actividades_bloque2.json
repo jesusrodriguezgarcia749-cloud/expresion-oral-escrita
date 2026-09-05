@@ -1,0 +1,411 @@
+{
+  "bloque": 2,
+  "actividades": [
+    {
+      "id": "2.0-a",
+      "subtema": "2.0",
+      "tipo": "opcion_multiple",
+      "pregunta": "El fenómeno por el cual la C (ante e, i) y la Z se pronuncian igual que la S se llama:",
+      "opciones": ["Yeísmo", "Seseo", "Loísmo", "Dequeísmo"],
+      "correcta": 1,
+      "explicacion": "El seseo es una fusión fonética mayoritaria en América Latina y explica por qué hay que aprender de memoria (no de oído) qué letra corresponde a cada palabra."
+    },
+    {
+      "id": "2.0-b",
+      "subtema": "2.0",
+      "tipo": "verdadero_falso",
+      "pregunta": "El yeísmo hace que la LL y la Y suenen igual en casi toda Hispanoamérica.",
+      "correcta": true,
+      "explicacion": "El yeísmo es la fusión fonética entre LL y Y, tratada también en el subtema 2.1.5."
+    },
+    {
+      "id": "2.1.1-a",
+      "subtema": "2.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de los siguientes pares de parónimos está correctamente relacionado con su significado?",
+      "opciones": [
+        "Vello = hermoso; Bello = pelo corporal",
+        "Bello = hermoso; Vello = pelo corporal",
+        "Bello y Vello significan exactamente lo mismo",
+        "Ninguna de las dos formas es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "“Bello” (con B) significa hermoso; “vello” (con V) es el pelo corporal. Son parónimos clásicos de fácil confusión."
+    },
+    {
+      "id": "2.1.1-b",
+      "subtema": "2.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Los pretéritos irregulares de los verbos estar, andar y tener (estuve, anduve, tuve) se escriben siempre con:",
+      "opciones": ["B", "V", "Cualquiera de las dos es válida", "Depende del país"],
+      "correcta": 1,
+      "explicacion": "Estos pretéritos irregulares se escriben siempre con V, nunca con B, sin excepción."
+    },
+    {
+      "id": "2.1.1-c",
+      "subtema": "2.1.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "Los verbos deber, beber, caber, haber y saber (y sus formas conjugadas como debía, había, sabía) se escriben con B.",
+      "correcta": true,
+      "explicacion": "Esta es una de las reglas específicas del uso de la B vista en el subtema 2.1.1."
+    },
+    {
+      "id": "2.1.2-a",
+      "subtema": "2.1.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "La terminación “-ción” de sustantivos derivados de verbos en -ar/-to/-do (como “información”) se escribe con:",
+      "opciones": ["S", "C", "Z", "SC"],
+      "correcta": 1,
+      "explicacion": "Esta terminación se escribe con C, como en información, operación, organización."
+    },
+    {
+      "id": "2.1.2-b",
+      "subtema": "2.1.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "Los sustantivos abstractos terminados en “-eza” o “-ez” (como belleza, timidez) se escriben con:",
+      "opciones": ["S", "C", "Z", "X"],
+      "correcta": 2,
+      "explicacion": "Esta terminación de sustantivos abstractos se escribe con Z."
+    },
+    {
+      "id": "2.1.2-c",
+      "subtema": "2.1.2",
+      "tipo": "verdadero_falso",
+      "pregunta": "Los gentilicios terminados en “-ense”, como “canadiense”, se escriben con S.",
+      "correcta": true,
+      "explicacion": "Los gentilicios en -ense es una de las reglas del uso de la S vistas en el subtema 2.1.2."
+    },
+    {
+      "id": "2.1.3-a",
+      "subtema": "2.1.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "El pretérito del verbo “conducir” se escribe correctamente como:",
+      "opciones": ["Condució", "Condujo", "Conducó", "Condusco"],
+      "correcta": 1,
+      "explicacion": "Los verbos terminados en -ducir forman su pretérito con J: condujo, no “condució”."
+    },
+    {
+      "id": "2.1.3-b",
+      "subtema": "2.1.3",
+      "tipo": "verdadero_falso",
+      "pregunta": "Los verbos terminados en -ger y -gir (excepto tejer y crujir) se escriben con G.",
+      "correcta": true,
+      "explicacion": "Ejemplos: proteger, dirigir. Tejer y crujir son las excepciones que se escriben con J."
+    },
+    {
+      "id": "2.1.4-a",
+      "subtema": "2.1.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes palabras NO se escribe con H, a pesar de sonar similar a otras que sí la llevan?",
+      "opciones": ["Hierba", "Hospital", "Armonía", "Historia"],
+      "correcta": 2,
+      "explicacion": "“Armonía” se escribe sin H en español, a diferencia de palabras con hi-/hospi-/hist- que sí la llevan; es un error frecuente por influencia del inglés “harmony”."
+    },
+    {
+      "id": "2.1.4-b",
+      "subtema": "2.1.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "Las formas del verbo haber, como “he”, “has” y “ha”, llevan:",
+      "opciones": ["V", "H", "Ninguna letra especial", "B"],
+      "correcta": 1,
+      "explicacion": "Las formas de los verbos haber y hacer se escriben con H, como se ve en el subtema 2.1.4."
+    },
+    {
+      "id": "2.1.5-a",
+      "subtema": "2.1.5",
+      "tipo": "opcion_multiple",
+      "pregunta": "Desde la Ortografía de la RAE de 2010, la LL se considera:",
+      "opciones": ["Una letra independiente del abecedario", "Un dígrafo, no una letra propia", "Una vocal", "Un signo de puntuación"],
+      "correcta": 1,
+      "explicacion": "La actualización de 2010 estableció que la LL ya no es letra propia del abecedario, sino un dígrafo (combinación de dos letras)."
+    },
+    {
+      "id": "2.1.5-b",
+      "subtema": "2.1.5",
+      "tipo": "opcion_multiple",
+      "pregunta": "La conjunción “y” y las formas de los verbos ir, ser, oír, caer y huir (como “voy”, “oyó”) se escriben con:",
+      "opciones": ["LL", "Y", "I griega con tilde", "Cualquiera de las dos formas"],
+      "correcta": 1,
+      "explicacion": "Estas formas verbales, además de la conjunción “y”, se escriben con Y."
+    },
+    {
+      "id": "2.1.6-a",
+      "subtema": "2.1.6",
+      "tipo": "opcion_multiple",
+      "pregunta": "La pronunciación de la X con sonido /j/ en palabras como “México” y “Oaxaca” se debe a:",
+      "opciones": [
+        "Un error ortográfico que debería corregirse",
+        "Su origen náhuatl, respetado como excepción histórico-cultural",
+        "Una regla general de la Ortografía de 2010",
+        "La influencia del idioma inglés"
+      ],
+      "correcta": 1,
+      "explicacion": "Estos topónimos conservan el sonido antiguo /š/ del náhuatl, que la RAE respeta como excepción reconocida."
+    },
+    {
+      "id": "2.1.6-b",
+      "subtema": "2.1.6",
+      "tipo": "verdadero_falso",
+      "pregunta": "La X puede representar más de un sonido en español: /ks/, /s/ y, en topónimos de origen náhuatl, /j/.",
+      "correcta": true,
+      "explicacion": "Por eso la X se describe como “una letra con dos (o tres) sonidos” en el subtema 2.1.6."
+    },
+    {
+      "id": "2.1.7-a",
+      "subtema": "2.1.7",
+      "tipo": "relacionar",
+      "pregunta": "Relaciona cada palabra con su significado correcto.",
+      "pares": [
+        { "izquierda": "Tuvo", "derecha": "Del verbo tener (pretérito)" },
+        { "izquierda": "Tubo", "derecha": "Pieza cilíndrica y hueca" },
+        { "izquierda": "Sabia", "derecha": "Que tiene sabiduría" },
+        { "izquierda": "Savia", "derecha": "Líquido que circula por las plantas" }
+      ],
+      "explicacion": "Tuvo (verbo tener) / Tubo (cilindro hueco); Sabia (con sabiduría) / Savia (líquido de las plantas)."
+    },
+    {
+      "id": "2.1.7-b",
+      "subtema": "2.1.7",
+      "tipo": "opcion_multiple",
+      "pregunta": "“Asar” y “azar” son parónimos que significan, respectivamente:",
+      "opciones": [
+        "Cocinar al fuego / casualidad",
+        "Casualidad / cocinar al fuego",
+        "Ambas significan lo mismo: casualidad",
+        "Ambas significan lo mismo: cocinar"
+      ],
+      "correcta": 0,
+      "explicacion": "Asar = cocinar directamente al fuego; azar = casualidad o suerte."
+    },
+    {
+      "id": "2.2.1-a",
+      "subtema": "2.2.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según la actualización de la RAE de 2010, la palabra “solo” (adverbio, equivalente a “solamente”):",
+      "opciones": [
+        "Siempre debe llevar tilde",
+        "Ya no debe llevar tilde, ni siquiera en casos de posible ambigüedad",
+        "Cambió de significado por completo",
+        "Debe escribirse con mayúscula inicial"
+      ],
+      "correcta": 1,
+      "explicacion": "La Ortografía de 2010 eliminó la obligatoriedad de la tilde diacrítica en “solo”, incluso cuando podría generar ambigüedad con el contexto."
+    },
+    {
+      "id": "2.2.1-b",
+      "subtema": "2.2.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "Según la actualización de 2010, los pronombres demostrativos (este, ese, aquel) ya no deben llevar tilde.",
+      "correcta": true,
+      "explicacion": "Esta es otra de las simplificaciones de la Ortografía de 2010 vistas en el subtema 2.2.1."
+    },
+    {
+      "id": "2.2.2-a",
+      "subtema": "2.2.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "Las palabras que llevan el acento en la penúltima sílaba y se tildan cuando NO terminan en n, s o vocal se llaman:",
+      "opciones": ["Agudas", "Graves o llanas", "Esdrújulas", "Sobresdrújulas"],
+      "correcta": 1,
+      "explicacion": "Las palabras graves o llanas siguen esta regla de acentuación, opuesta a la de las agudas."
+    },
+    {
+      "id": "2.2.2-b",
+      "subtema": "2.2.2",
+      "tipo": "verdadero_falso",
+      "pregunta": "Las palabras esdrújulas y sobresdrújulas se tildan siempre, sin excepción.",
+      "correcta": true,
+      "explicacion": "A diferencia de agudas y graves, esta es una regla sin excepciones dentro de la acentuación general."
+    },
+    {
+      "id": "2.2.3-a",
+      "subtema": "2.2.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un hiato ocurre cuando:",
+      "opciones": [
+        "Dos vocales fuertes están juntas, o una vocal débil tónica se junta con una fuerte",
+        "Tres vocales seguidas forman una sola sílaba",
+        "Dos consonantes forman una sola sílaba",
+        "Una palabra no tiene ninguna vocal"
+      ],
+      "correcta": 0,
+      "explicacion": "El hiato rompe la unión silábica normal de un diptongo, ya sea por dos vocales fuertes o por el acento en la vocal débil (como en “ma-í-z”)."
+    },
+    {
+      "id": "2.2.3-b",
+      "subtema": "2.2.3",
+      "tipo": "verdadero_falso",
+      "pregunta": "Un triptongo es la unión de tres vocales (débil-fuerte-débil) en una sola sílaba.",
+      "correcta": true,
+      "explicacion": "Ejemplo: la sílaba “guay” en “Paraguay”."
+    },
+    {
+      "id": "2.2.4-a",
+      "subtema": "2.2.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "La sílaba tónica de una palabra es:",
+      "opciones": [
+        "Siempre la primera sílaba",
+        "La sílaba que se pronuncia con mayor intensidad",
+        "Siempre la última sílaba",
+        "Una sílaba que obligatoriamente lleva tilde"
+      ],
+      "correcta": 1,
+      "explicacion": "La sílaba tónica es la de mayor intensidad de pronunciación, lleve tilde o no."
+    },
+    {
+      "id": "2.2.5-a",
+      "subtema": "2.2.5",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según la ortografía académica, los nombres de los meses y los días de la semana se escriben:",
+      "opciones": [
+        "Siempre con mayúscula inicial",
+        "Con minúscula, salvo al inicio de una oración",
+        "Con mayúscula solo en textos formales",
+        "Depende del país"
+      ],
+      "correcta": 1,
+      "explicacion": "A diferencia del inglés, en español los meses y días de la semana se escriben con minúscula."
+    },
+    {
+      "id": "2.2.6-a",
+      "subtema": "2.2.6",
+      "tipo": "verdadero_falso",
+      "pregunta": "Las siglas, como ONU o UNESCO, se escriben generalmente sin puntos entre sus letras.",
+      "correcta": true,
+      "explicacion": "A diferencia de las abreviaturas tradicionales (que sí usan punto, como “Sr.”), las siglas modernas se escriben sin puntos."
+    },
+    {
+      "id": "2.2.7-a",
+      "subtema": "2.2.7",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según la norma académica, los números del cero al nueve en un texto general deben escribirse preferentemente:",
+      "opciones": ["Siempre con dígitos (0-9)", "Con letras (cero, uno, dos...)", "Con números romanos", "Da igual, no existe una recomendación"],
+      "correcta": 1,
+      "explicacion": "La convención editorial recomienda escribir con letra los números del cero al nueve, y con dígitos a partir de diez."
+    },
+    {
+      "id": "2.2.8-a",
+      "subtema": "2.2.8",
+      "tipo": "opcion_multiple",
+      "pregunta": "En la enumeración “compré manzanas, peras y uvas”, la ausencia de coma antes de “y” se debe a que:",
+      "opciones": [
+        "Es un error ortográfico grave",
+        "En español, por regla general, no se coloca coma antes de la conjunción que cierra una enumeración",
+        "Solo se aplica en textos informales",
+        "Depende del número de elementos enumerados"
+      ],
+      "correcta": 1,
+      "explicacion": "A diferencia de la “serial comma” del inglés, el español no coloca coma antes de la “y” final de una enumeración simple."
+    },
+    {
+      "id": "2.2.9-a",
+      "subtema": "2.2.9",
+      "tipo": "verdadero_falso",
+      "pregunta": "Los dos puntos se utilizan, entre otros casos, antes de una enumeración anunciada o para introducir una cita textual.",
+      "correcta": true,
+      "explicacion": "Este es uno de los usos principales de los dos puntos en la puntuación académica."
+    },
+    {
+      "id": "2.2.10-a",
+      "subtema": "2.2.10",
+      "tipo": "opcion_multiple",
+      "pregunta": "Los puntos suspensivos son, exactamente:",
+      "opciones": ["Dos puntos seguidos", "Tres puntos seguidos, ni más ni menos", "Cuatro puntos seguidos", "Un número variable de puntos según el énfasis deseado"],
+      "correcta": 1,
+      "explicacion": "Los puntos suspensivos son siempre tres, nunca más ni menos, aunque coloquialmente se usen de forma incorrecta con más puntos."
+    },
+    {
+      "id": "2.2.11-a",
+      "subtema": "2.2.11",
+      "tipo": "verdadero_falso",
+      "pregunta": "Los corchetes se usan, entre otros casos, para insertar una aclaración propia dentro de una cita textual de otro autor.",
+      "correcta": true,
+      "explicacion": "Esto distingue los corchetes [ ] de los paréntesis ( ), que se usan para incisos del propio autor del texto."
+    },
+    {
+      "id": "2.2.12-a",
+      "subtema": "2.2.12",
+      "tipo": "opcion_multiple",
+      "pregunta": "En español, los signos de interrogación y exclamación:",
+      "opciones": [
+        "Solo se escriben al final de la oración, como en inglés",
+        "Se escriben al inicio y al final de la oración o frase",
+        "Se escriben solo al inicio",
+        "Son opcionales en textos formales"
+      ],
+      "correcta": 1,
+      "explicacion": "A diferencia del inglés, el español exige el signo de apertura (¿ ¡) además del de cierre."
+    },
+    {
+      "id": "2.2.13-a",
+      "subtema": "2.2.13",
+      "tipo": "verdadero_falso",
+      "pregunta": "La raya (—) y el guion (-) son el mismo signo con distinto nombre.",
+      "correcta": false,
+      "explicacion": "Son signos distintos: el guion es corto y se usa en palabras compuestas o para cortar palabras a final de línea; la raya es más larga y se usa para incisos o diálogos."
+    },
+    {
+      "id": "2.2.14-a",
+      "subtema": "2.2.14",
+      "tipo": "opcion_multiple",
+      "pregunta": "El uso incorrecto de “le” en lugar de “lo” como complemento directo masculino (por ejemplo, “le vi” en vez de “lo vi”) se llama:",
+      "opciones": ["Laísmo", "Loísmo", "Leísmo", "Dequeísmo"],
+      "correcta": 2,
+      "explicacion": "El leísmo consiste precisamente en usar “le” donde correspondería “lo” o “la” como complemento directo."
+    },
+    {
+      "id": "2.2.14-b",
+      "subtema": "2.2.14",
+      "tipo": "opcion_multiple",
+      "pregunta": "“Pienso de que”, en lugar de la forma correcta “pienso que”, es un ejemplo de:",
+      "opciones": ["Queísmo", "Dequeísmo", "Leísmo", "Laísmo"],
+      "correcta": 1,
+      "explicacion": "El dequeísmo es el uso indebido de “de que” cuando el verbo no lo requiere."
+    },
+    {
+      "id": "2.2.15-a",
+      "subtema": "2.2.15",
+      "tipo": "verdadero_falso",
+      "pregunta": "Los extranjerismos ya adaptados al español, como “fútbol”, se escriben conforme a las reglas ortográficas del español, no del idioma de origen.",
+      "correcta": true,
+      "explicacion": "“Fútbol” es la adaptación gráfica y ortográfica al español de “football”, con tilde según las reglas de acentuación del español."
+    },
+    {
+      "id": "2.2.16-a",
+      "subtema": "2.2.16",
+      "tipo": "opcion_multiple",
+      "pregunta": "Los regionalismos propios de una zona, como los del sureste mexicano (Campeche/Yucatán), en un registro formal deben:",
+      "opciones": [
+        "Evitarse siempre en cualquier contexto, incluso informal",
+        "Reconocerse como válidos en su contexto, pero sustituirse por su forma estándar en registro formal",
+        "Usarse siempre porque son parte de la identidad regional",
+        "Prohibirse por la RAE oficialmente"
+      ],
+      "correcta": 1,
+      "explicacion": "El subtema reconoce el valor cultural de los regionalismos, pero recomienda su adecuación al registro formal cuando el contexto lo exige (principio de adecuación visto también en el Tema 3)."
+    },
+    {
+      "id": "2.2.17-a",
+      "subtema": "2.2.17",
+      "tipo": "opcion_multiple",
+      "pregunta": "Una palabra extranjera usada sin adaptar y generalmente escrita en cursiva, como “marketing”, se llama:",
+      "opciones": ["Barbarismo corregido", "Extranjerismo crudo o no adaptado", "Neologismo académico", "Parónimo"],
+      "correcta": 1,
+      "explicacion": "Los extranjerismos no adaptados conservan su grafía original y se marcan tipográficamente (cursiva o comillas) para señalar que no son palabras españolas."
+    },
+    {
+      "id": "2.3-a",
+      "subtema": "2.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un vulgarismo, a diferencia de un regionalismo, se caracteriza principalmente por:",
+      "opciones": [
+        "Ser exclusivo de una región geográfica específica",
+        "Ser una forma no aceptada por la norma culta en ningún registro, asociada a un uso poco cuidado del idioma",
+        "Ser siempre una palabra de origen extranjero",
+        "Ser una regla ortográfica reciente de la RAE"
+      ],
+      "correcta": 1,
+      "explicacion": "El vulgarismo se aparta de la norma culta en cualquier contexto, mientras que el regionalismo puede ser válido dentro de su propia región."
+    }
+  ]
+}
