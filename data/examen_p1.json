@@ -1,0 +1,508 @@
+{
+  "parcial": "p1",
+  "titulo": "Examen Parcial 1 — Comunicación y Ortografía",
+  "config": { "preguntasPorExamen": 50, "minutos": 60 },
+  "reactivos": [
+
+    { "id": "p1-001", "subtema": "1.1", "tipo": "opcion_multiple",
+      "pregunta": "Un correo perfectamente redactado, sin errores, llega a un cliente que nunca lo abre. Según la definición del subtema 1.1, ¿qué falta para que haya ocurrido comunicación plena?",
+      "opciones": [
+        "La expectativa de una respuesta y la comprensión efectiva por parte del receptor",
+        "Que el mensaje se haya codificado en un idioma reconocible",
+        "Que exista una intención explícita por parte del emisor",
+        "Que el canal utilizado sea de naturaleza escrita y no oral"
+      ], "correcta": 0,
+      "explicacion": "El mensaje se emitió y se codificó bien, pero si nunca hubo comprensión ni posibilidad de respuesta, no se completó el proceso comunicativo: sigue siendo información, no comunicación plena." },
+
+    { "id": "p1-002", "subtema": "1.1.1", "tipo": "opcion_multiple",
+      "pregunta": "Un director da un discurso en un auditorio lleno de empleados, sin que estos puedan interrumpir. ¿Qué tipo de comunicación es, según el criterio de número de participantes?",
+      "opciones": [
+        "Pública",
+        "Organizacional",
+        "Masiva",
+        "Grupal"
+      ], "correcta": 0,
+      "explicacion": "Es pública porque hay un emisor frente a una audiencia reunida físicamente. No es masiva porque no es dispersa ni mediada por tecnología, y no es grupal porque no hay interacción directa entre todos." },
+
+    { "id": "p1-003", "subtema": "1.1.2", "tipo": "opcion_multiple",
+      "pregunta": "Una empresa nota que, tras cubrir repetidamente un tema en sus redes, el público empieza a discutirlo espontáneamente en otros espacios. ¿Qué mecanismo explica mejor este efecto?",
+      "opciones": [
+        "Agenda-setting: la cobertura repetida instala el tema en la conversación pública",
+        "Espiral del silencio: el público se siente obligado a opinar por presión social",
+        "Disonancia cognitiva: el público busca confirmar lo que ya pensaba",
+        "Determinismo tecnológico: el canal transforma el contenido del mensaje"
+      ], "correcta": 0,
+      "explicacion": "La agenda-setting no dice qué pensar, pero sí logra que un tema cubierto insistentemente se vuelva relevante para la conversación pública — justo lo descrito." },
+
+    { "id": "p1-004", "subtema": "1.1.2", "tipo": "opcion_multiple",
+      "pregunta": "En un grupo de WhatsApp, varias personas piensan distinto a la mayoría pero nadie lo dice en voz alta. ¿Qué concepto describe mejor esta situación?",
+      "opciones": [
+        "Espiral del silencio",
+        "Gatekeeper",
+        "Usos y gratificaciones",
+        "Agenda de atributos"
+      ], "correcta": 0,
+      "explicacion": "La espiral del silencio ocurre cuando la opinión minoritaria se calla por temor al aislamiento, aunque en realidad más personas la compartan de lo que parece." },
+
+    { "id": "p1-005", "subtema": "1.2", "tipo": "opcion_multiple",
+      "pregunta": "Un mensaje de voz llega distorsionado por mala señal, y el receptor entiende otra palabra distinta a la enviada. ¿Qué elemento del modelo de Shannon y Weaver está en juego principalmente?",
+      "opciones": [
+        "Ruido físico",
+        "Retroalimentación",
+        "Código",
+        "Contexto"
+      ], "correcta": 0,
+      "explicacion": "La distorsión por mala señal es ruido de tipo físico. El código sería el idioma en sí, y la retroalimentación es la respuesta del receptor, no la causa del malentendido." },
+
+    { "id": "p1-006", "subtema": "1.2.1", "tipo": "opcion_multiple",
+      "pregunta": "Dos personas de culturas distintas interpretan de forma opuesta el mismo chiste. ¿Qué elemento del modelo de Berlo explica mejor esta diferencia?",
+      "opciones": [
+        "La cultura y el sistema social del receptor, que condicionan su interpretación",
+        "El canal por el que se transmitió el chiste",
+        "La estructura gramatical del mensaje",
+        "El código lingüístico compartido entre ambos"
+      ], "correcta": 0,
+      "explicacion": "Berlo señala que el receptor —igual que el emisor— está condicionado por su cultura y contexto social, lo que puede alterar por completo la interpretación de un mismo mensaje objetivo." },
+
+    { "id": "p1-007", "subtema": "1.2.2", "tipo": "opcion_multiple",
+      "pregunta": "Un equipo de marketing evalúa si su campaña realmente cambió la decisión de compra del público. Según el modelo de Lasswell, ¿qué tipo de análisis están haciendo?",
+      "opciones": [
+        "Análisis de efectos",
+        "Análisis de contenido",
+        "Análisis de control",
+        "Análisis de audiencia"
+      ], "correcta": 0,
+      "explicacion": "Medir si el mensaje cambió una conducta corresponde a «¿con qué efecto?», el análisis de efectos — distinto de analizar quién controla el mensaje o quiénes lo reciben." },
+
+    { "id": "p1-008", "subtema": "1.3", "tipo": "opcion_multiple",
+      "pregunta": "Un letrero en la pared dice «Prohibido fumar» y nadie lo lee nunca. Según la distinción entre información y comunicación, ¿qué es exactamente ese letrero mientras nadie lo lee?",
+      "opciones": [
+        "Información sin proceso comunicativo completo",
+        "Comunicación plena, porque el mensaje está codificado correctamente",
+        "Retroalimentación pendiente de activarse",
+        "Un acto comunicativo interrumpido por ruido semántico"
+      ], "correcta": 0,
+      "explicacion": "Mientras nadie lo comprende ni puede reaccionar a él, es solo información fluyendo en un sentido; la comunicación exige, al menos en potencia, la posibilidad de respuesta." },
+
+    { "id": "p1-009", "subtema": "1.4", "tipo": "opcion_multiple",
+      "pregunta": "Un gerente envía un correo con una crítica dura y después se arrepiente de su tono, pero ya fue leído. ¿Qué principio de la comunicación ilustra mejor esta situación?",
+      "opciones": [
+        "Es irreversible: el efecto ya se produjo aunque se intente corregir después",
+        "Es simbólica: el correo usó palabras en vez de símbolos visuales",
+        "Depende del contexto: el correo se leyó en un momento inoportuno",
+        "Es un proceso: la comunicación seguirá ajustándose con el tiempo"
+      ], "correcta": 0,
+      "explicacion": "Aunque el emisor puede disculparse después, el efecto emocional del mensaje original ya ocurrió: ilustra directamente el principio de irreversibilidad." },
+
+    { "id": "p1-010", "subtema": "1.4.1", "tipo": "opcion_multiple",
+      "pregunta": "Un capacitador usa términos muy técnicos frente a un grupo que no los conoce, y el grupo deja de entender la explicación. ¿Qué tipo de barrera es esta?",
+      "opciones": [
+        "Semántica",
+        "Fisiológica",
+        "Administrativa",
+        "Física"
+      ], "correcta": 0,
+      "explicacion": "El problema es que emisor y receptor asignan (o no comparten) significado a las mismas palabras: eso es exactamente una barrera semántica, no un problema del canal ni del cuerpo del receptor." },
+
+    { "id": "p1-011", "subtema": "1.4.1", "tipo": "opcion_multiple",
+      "pregunta": "Una orden de un director debe pasar por cuatro niveles de mando antes de llegar al operador, y llega tarde y distorsionada. ¿Qué tipo de barrera ilustra este caso?",
+      "opciones": [
+        "Administrativa u organizacional",
+        "Cultural",
+        "Psicológica",
+        "Semántica"
+      ], "correcta": 0,
+      "explicacion": "El problema nace de la estructura jerárquica y burocrática por la que debe pasar el mensaje, no de significados de palabras ni de estados emocionales: es una barrera administrativa." },
+
+    { "id": "p1-012", "subtema": "1.4.2", "tipo": "opcion_multiple",
+      "pregunta": "Alguien pregunta «¿cómo estuvo la fiesta?» y la respuesta es únicamente «hubo comida». Según Grice, ¿qué se puede inferir de esa respuesta tan escueta?",
+      "opciones": [
+        "Una implicatura: probablemente la fiesta no estuvo particularmente buena",
+        "Una violación de la máxima de calidad, porque la respuesta podría ser falsa",
+        "Una violación de la máxima de relación, porque cambia de tema",
+        "Ninguna implicatura, porque la respuesta es literalmente cierta"
+      ], "correcta": 0,
+      "explicacion": "Al violar la máxima de cantidad (dar mucha menos información de la esperada), el receptor puede inferir —sin que se diga explícitamente— que hay poco más positivo que contar sobre la fiesta." },
+
+    { "id": "p1-013", "subtema": "1.5", "tipo": "opcion_multiple",
+      "pregunta": "Un empleado sugiere una mejora de proceso directamente a su jefe inmediato. ¿Qué tipo de red formal describe mejor este flujo?",
+      "opciones": [
+        "Ascendente",
+        "Descendente",
+        "Horizontal",
+        "Diagonal"
+      ], "correcta": 0,
+      "explicacion": "El mensaje va de un nivel jerárquico bajo hacia uno alto: eso es ascendente, no descendente (que sería al revés) ni horizontal (mismo nivel)." },
+
+    { "id": "p1-014", "subtema": "1.6", "tipo": "opcion_multiple",
+      "pregunta": "En una empresa, solo un pequeño grupo de confianza se entera de un rumor y lo comparte únicamente dentro de ese círculo cerrado. ¿Qué patrón de red informal es este?",
+      "opciones": [
+        "Racimo (cluster)",
+        "Cadena simple",
+        "Chisme (gossip)",
+        "Probabilidad"
+      ], "correcta": 0,
+      "explicacion": "El racimo ocurre cuando pocas personas selectivas difunden la información solo a su círculo de confianza — es, de hecho, el patrón más común en la práctica, aunque «chisme» sea el más conocido popularmente." },
+
+    { "id": "p1-015", "subtema": "1.7", "tipo": "opcion_multiple",
+      "pregunta": "Al contratar, muchas empresas priorizan las habilidades de comunicación oral y escrita incluso sobre conocimientos técnicos específicos. ¿Cuál es la razón de fondo que da el compendio?",
+      "opciones": [
+        "Los conocimientos técnicos se pueden capacitar después, pero la comunicación es transversal a toda actividad profesional",
+        "La ley laboral exige priorizar habilidades blandas sobre técnicas",
+        "Las habilidades técnicas ya no son relevantes en el mercado actual",
+        "Los reclutadores no pueden evaluar conocimientos técnicos en una entrevista"
+      ], "correcta": 0,
+      "explicacion": "El argumento no es que lo técnico no importe, sino que puede enseñarse después; la comunicación, en cambio, atraviesa cualquier puesto y es más difícil de entrenar rápido." },
+
+    { "id": "p1-016", "subtema": "1.7.1", "tipo": "opcion_multiple",
+      "pregunta": "Un colaborador dice: «No hay problema, yo me quedo tarde otra vez» aunque por dentro está frustrado por la carga desigual de trabajo. ¿Qué estilo de comunicación está usando?",
+      "opciones": [
+        "Sumiso",
+        "Asertivo",
+        "Agresivo",
+        "Pasivo-agresivo"
+      ], "correcta": 0,
+      "explicacion": "Antepone las necesidades del otro a las propias y evita el conflicto, acumulando frustración — el patrón característico del estilo sumiso, no del asertivo (que sí expresaría su punto de vista)." },
+
+    { "id": "p1-017", "subtema": "1.7.2", "tipo": "opcion_multiple",
+      "pregunta": "Una empresa oculta información relevante para inducir una decisión de compra, aunque no diga nada técnicamente falso. ¿Qué principio de comunicación ética está violando?",
+      "opciones": [
+        "No manipular ocultando información relevante, aunque no se mienta explícitamente",
+        "El axioma de que es imposible no comunicarse",
+        "El principio de que la comunicación es irreversible",
+        "La regla de adecuación del registro al destinatario"
+      ], "correcta": 0,
+      "explicacion": "La ética en la comunicación exige no manipular ocultando información relevante; decir solo verdades parciales de forma calculada para inducir una decisión sigue siendo una falta ética." },
+
+    { "id": "p1-018", "subtema": "2.0", "tipo": "opcion_multiple",
+      "pregunta": "Un hablante de una región donde no hay distinción entre ‘s’, ‘c’ y ‘z’ escribe «cierra» como «sierra» por error. ¿Qué fenómeno fonético explica la raíz de esa confusión?",
+      "opciones": [
+        "El seseo, que fusiona esos sonidos en la mayoría del mundo hispanohablante",
+        "El yeísmo, que afecta a la LL y la Y",
+        "El leísmo, un fenómeno gramatical no fonético",
+        "La caída de la H muda, típica del español americano"
+      ], "correcta": 0,
+      "explicacion": "El seseo fusiona los sonidos de s, c (ante e,i) y z, por lo que quien lo tiene no puede distinguir por oído cuál letra corresponde; debe aprender la regla, no confiar en la pronunciación." },
+
+    { "id": "p1-019", "subtema": "2.1.1", "tipo": "opcion_multiple",
+      "pregunta": "¿En cuál de las siguientes palabras la regla de la terminación verbal decide correctamente la B, y no una excepción?",
+      "opciones": [
+        "Cantaba (pretérito imperfecto de un verbo terminado en -ar)",
+        "Estuve (pretérito del verbo estar)",
+        "Anduve (pretérito del verbo andar)",
+        "Tuve (pretérito del verbo tener)"
+      ], "correcta": 0,
+      "explicacion": "Los imperfectos de verbos en -ar (cantaba) sí siguen la regla de la B; en cambio, estuve, anduve y tuve son justamente la excepción que se escribe con V a pesar de tratarse de pretéritos." },
+
+    { "id": "p1-020", "subtema": "2.1.2", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas palabras NO sigue la regla general de terminación en «-ción» con C?",
+      "opciones": [
+        "Ninguna: todas las terminadas en -ción llevan C por regla general",
+        "Información",
+        "Organización",
+        "Operación"
+      ], "correcta": 0,
+      "explicacion": "Las tres palabras de las otras opciones sí siguen la regla estándar; no hay ninguna excepción entre ellas para esta terminación específica." },
+
+    { "id": "p1-021", "subtema": "2.1.3", "tipo": "opcion_multiple",
+      "pregunta": "¿En qué caso el verbo SÍ pertenece a la excepción de los terminados en -ger/-gir que se escriben con J?",
+      "opciones": [
+        "Tejer",
+        "Proteger",
+        "Dirigir",
+        "Exigir"
+      ], "correcta": 0,
+      "explicacion": "Tejer (junto con crujir) es la excepción que se escribe con J, mientras que proteger, dirigir y exigir siguen la regla general de escribirse con G." },
+
+    { "id": "p1-022", "subtema": "2.1.4", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas palabras no lleva H, a pesar de que su pronunciación podría sugerir que sí?",
+      "opciones": [
+        "Armonía",
+        "Hospital",
+        "Hierba",
+        "Historia"
+      ], "correcta": 0,
+      "explicacion": "«Armonía» se escribe sin H, a diferencia de «hospital», «hierba» e «historia», que sí siguen el patrón de palabras que comienzan con hi-/hosp-/hist-." },
+
+    { "id": "p1-023", "subtema": "2.1.5", "tipo": "opcion_multiple",
+      "pregunta": "Desde la Ortografía de 2010, ¿qué implica que la LL sea un dígrafo y no una letra independiente?",
+      "opciones": [
+        "Que el abecedario español pasó a tener 27 letras, no 29",
+        "Que la LL ya no se pronuncia igual que la Y en ninguna región",
+        "Que las palabras con LL deben escribirse ahora con Y",
+        "Que la LL solo puede usarse en palabras de origen extranjero"
+      ], "correcta": 0,
+      "explicacion": "El cambio fue de clasificación ortográfica (dígrafo, no letra propia), lo que redujo el abecedario a 27 letras; no cambió cómo se pronuncia ni cómo se escriben las palabras existentes." },
+
+    { "id": "p1-024", "subtema": "2.1.6", "tipo": "opcion_multiple",
+      "pregunta": "¿Por qué “México” conserva la X con sonido /j/ en vez de /ks/?",
+      "opciones": [
+        "Por su origen náhuatl, respetado como excepción histórico-cultural por la RAE",
+        "Porque toda X en posición inicial de sílaba se pronuncia /j/ en español",
+        "Por una errata ortográfica que se normalizó con el tiempo",
+        "Porque la RAE simplificó la pronunciación de todos los topónimos americanos"
+      ], "correcta": 0,
+      "explicacion": "Es una excepción reconocida por su origen náhuatl, no una regla general aplicable a cualquier X inicial ni un error normalizado por descuido." },
+
+    { "id": "p1-025", "subtema": "2.1.7", "tipo": "relacionar",
+      "pregunta": "Relaciona cada palabra con su significado correcto.",
+      "pares": [
+        { "izquierda": "Basto", "derecha": "Tosco, poco refinado" },
+        { "izquierda": "Vasto", "derecha": "Extenso, muy amplio" },
+        { "izquierda": "Grabar", "derecha": "Registrar sonido o imagen" },
+        { "izquierda": "Gravar", "derecha": "Imponer un impuesto o carga" }
+      ],
+      "explicacion": "Estos cuatro parónimos B/V se confunden con frecuencia porque suenan exactamente igual; solo el contexto y la ortografía correcta distinguen su significado." },
+
+    { "id": "p1-026", "subtema": "2.2.1", "tipo": "opcion_multiple",
+      "pregunta": "Según la actualización de la RAE de 2010, ¿cuál de estas oraciones está correctamente escrita?",
+      "opciones": [
+        "Trabaja solo los domingos.",
+        "Trabaja sólo los domingos.",
+        "Este es mi carro, aquél es el tuyo.",
+        "¿5 ó 6 personas vendrán?"
+      ], "correcta": 0,
+      "explicacion": "Desde 2010, “solo” nunca lleva tilde (aunque exista ambigüedad de contexto), los demostrativos como pronombres tampoco, y la “o” entre números se escribe siempre sin tilde." },
+
+    { "id": "p1-027", "subtema": "2.2.2", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes palabras es esdrújula?",
+      "opciones": [
+        "Música",
+        "Camión",
+        "Árbol",
+        "Autobús"
+      ], "correcta": 0,
+      "explicacion": "«Música» lleva el acento en la antepenúltima sílaba (esdrújula). «Camión» y «autobús» son agudas, y «árbol» es grave." },
+
+    { "id": "p1-028", "subtema": "2.2.3", "tipo": "opcion_multiple",
+      "pregunta": "¿Por qué la palabra “país” lleva tilde en la “í” si termina en consonante, lo que no correspondería a la regla de agudas?",
+      "opciones": [
+        "Porque se trata de un hiato acentual: la vocal débil tónica rompe el diptongo con la fuerte",
+        "Porque todas las palabras de dos sílabas llevan tilde obligatoriamente",
+        "Porque “país” es un extranjerismo que conserva su acentuación original",
+        "Porque termina en “s”, y esa es justo la regla general de las agudas"
+      ], "correcta": 0,
+      "explicacion": "“País” no sigue la regla general de agudas, sino la del hiato acentual: la vocal débil (í) lleva el acento y por eso «rompe» el diptongo con la vocal fuerte (a), formando dos sílabas distintas." },
+
+    { "id": "p1-029", "subtema": "2.2.4", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes palabras está dividida correctamente en sílabas?",
+      "opciones": [
+        "Re-tra-to",
+        "Ret-ra-to",
+        "R-e-tra-to",
+        "Retra-to"
+      ], "correcta": 0,
+      "explicacion": "El grupo consonántico “tr” es inseparable, por lo que no puede dividirse entre la t y la r; “re-tra-to” respeta esa regla." },
+
+    { "id": "p1-030", "subtema": "2.2.6", "tipo": "opcion_multiple",
+      "pregunta": "En una carta formal, ¿cuál de estas oraciones usa correctamente la coma?",
+      "opciones": [
+        "El nuevo reglamento de la empresa entrará en vigor el lunes.",
+        "El nuevo reglamento de la empresa, entrará en vigor el lunes.",
+        "El nuevo, reglamento de la empresa entrará en vigor el lunes.",
+        "El nuevo reglamento, de la empresa, entrará en vigor, el lunes."
+      ], "correcta": 0,
+      "explicacion": "Nunca se coloca una coma entre el sujeto y el verbo, sin importar qué tan largo sea el sujeto; la primera opción es la única sin esa coma indebida." },
+
+    { "id": "p1-031", "subtema": "2.2.9", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes oraciones usa correctamente los dos puntos?",
+      "opciones": [
+        "Necesito tres cosas: tiempo, dinero y paciencia.",
+        "Necesito: tres cosas, tiempo, dinero y paciencia.",
+        "Necesito tres cosas, tiempo: dinero y paciencia.",
+        "Necesito tres, cosas: tiempo dinero y paciencia."
+      ], "correcta": 0,
+      "explicacion": "Los dos puntos se usan correctamente antes de una enumeración explícita anunciada previamente, como en la primera oración." },
+
+    { "id": "p1-032", "subtema": "2.2.10", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes opciones usa correctamente los puntos suspensivos?",
+      "opciones": [
+        "Necesito comprar leche, pan, huevos...",
+        "Necesito comprar leche, pan, huevos..., etc.",
+        "Necesito comprar leche, pan, huevos....",
+        "Necesito comprar leche, pan, huevos.."
+      ], "correcta": 0,
+      "explicacion": "Los puntos suspensivos son siempre exactamente tres, y no deben combinarse con “etc.” en la misma enumeración: usar ambos es redundante." },
+
+    { "id": "p1-033", "subtema": "2.2.12", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes oraciones respeta correctamente las reglas de mayúsculas del español?",
+      "opciones": [
+        "El martes de enero llegó la delegación francesa.",
+        "El Martes de Enero llegó la delegación Francesa.",
+        "el martes de enero llegó la Delegación francesa.",
+        "El martes de Enero llegó la delegación Francesa."
+      ], "correcta": 0,
+      "explicacion": "En español, días, meses y gentilicios se escriben con minúscula (a diferencia del inglés); solo la primera opción respeta esa regla de forma consistente." },
+
+    { "id": "p1-034", "subtema": "2.2.13", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas afirmaciones sobre el leísmo es correcta según la RAE?",
+      "opciones": [
+        "Se acepta como uso culto el leísmo de persona masculino singular, pero no cuando el complemento es femenino, plural o una cosa",
+        "El leísmo está completamente prohibido en cualquier contexto y registro",
+        "El leísmo y el laísmo son exactamente el mismo fenómeno gramatical",
+        "El leísmo solo ocurre quienes hablan español como segunda lengua"
+      ], "correcta": 0,
+      "explicacion": "La RAE hace una excepción específica: el leísmo de persona masculino singular («le vi» por un hombre) se acepta por su extensión histórica, pero no en los demás casos." },
+
+    { "id": "p1-035", "subtema": "2.2.14", "tipo": "opcion_multiple",
+      "pregunta": "Un compañero dice: «Estoy seguro de que va a llover». ¿Este uso de “de que” es correcto o es un caso de dequeísmo?",
+      "opciones": [
+        "Es correcto: “estar seguro” exige la preposición “de” antes de “que”",
+        "Es dequeísmo, porque nunca debe usarse “de que” en ningún verbo",
+        "Es queísmo, porque falta agregar más información antes del “que”",
+        "Es incorrecto porque debería decir “estoy seguro que va a llover”"
+      ], "correcta": 0,
+      "explicacion": "El dequeísmo es agregar “de” cuando el verbo NO lo requiere; “estar seguro de algo” sí requiere esa preposición, así que “estoy seguro de que…” es la forma correcta." },
+
+    { "id": "p1-036", "subtema": "2.2.15", "tipo": "opcion_multiple",
+      "pregunta": "En un informe técnico, ¿cuál de las siguientes formas de escribir una cifra es la más adecuada según la convención editorial?",
+      "opciones": [
+        "El informe registró 45 incidencias en el trimestre.",
+        "El informe registró cuarenta y cinco incidencias en el trimestre.",
+        "El informe registró 45.0 incidencias en el trimestre.",
+        "El informe registró unas cuarenta y cinco incidencias, más o menos."
+      ], "correcta": 0,
+      "explicacion": "En contextos técnicos o estadísticos, las cifras de dos o más dígitos se escriben con números, no con letra ni de forma vaga." },
+
+    { "id": "p1-037", "subtema": "2.2.16", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes es una sigla, y no un acrónimo ni una abreviatura?",
+      "opciones": [
+        "ONU",
+        "Pemex",
+        "Sr.",
+        "Láser"
+      ], "correcta": 0,
+      "explicacion": "ONU se lee letra por letra (sigla); Pemex y láser se pronuncian como palabra (acrónimos); “Sr.” es una abreviatura con punto." },
+
+    { "id": "p1-038", "subtema": "2.2.17", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes opciones refleja mejor la diferencia entre un extranjerismo adaptado y uno crudo?",
+      "opciones": [
+        "“Fútbol” es adaptado y se escribe según reglas del español; “marketing” sin adaptar se marca con cursiva",
+        "Un extranjerismo adaptado siempre conserva su grafía original en cursiva",
+        "Un extranjerismo crudo se escribe siempre con mayúscula inicial",
+        "No existe ninguna diferencia práctica entre ambos tipos"
+      ], "correcta": 0,
+      "explicacion": "El adaptado sigue las reglas ortográficas del español (fútbol, con tilde); el crudo conserva su grafía original y se marca tipográficamente para señalar que no es una palabra plenamente española." },
+
+    { "id": "p1-039", "subtema": "2.3", "tipo": "opcion_multiple",
+      "pregunta": "Un alumno de Campeche dice «va a ver mucha gente en la fiesta» al referirse a existencia, no a la acción de mirar. ¿Cuál es la corrección adecuada en registro formal?",
+      "opciones": [
+        "“Va a haber mucha gente”, porque se refiere a existencia y no al verbo ver",
+        "Está correcto tal cual, porque ambos verbos son intercambiables",
+        "Debe decir “va haber”, sin la preposición “a”",
+        "Debe decir “habrá de ver mucha gente”"
+      ], "correcta": 0,
+      "explicacion": "Cuando se expresa existencia se usa el verbo “haber” (“va a haber”), no “ver”; es uno de los vulgarismos regionales frecuentes que conviene corregir en registro formal." },
+
+    { "id": "p1-040", "subtema": "1.1", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuáles son los tres elementos que, según casi todas las definiciones académicas, deben coincidir para que exista comunicación (y no solo información o ruido)?",
+      "opciones": [
+        "Intención de transmitir, codificación en signos, y expectativa de respuesta o efecto",
+        "Un emisor, un receptor y un canal físico de transmisión",
+        "Claridad, concisión y corrección del mensaje",
+        "Un código común, un contexto y una retroalimentación inmediata"
+      ], "correcta": 0,
+      "explicacion": "El subtema 1.1 identifica estos tres elementos específicos; las otras opciones mezclan partes del modelo de Shannon-Weaver o de las cualidades de redacción, que son marcos distintos." },
+
+    { "id": "p1-041", "subtema": "1.2", "tipo": "opcion_multiple",
+      "pregunta": "Roman Jakobson amplió el modelo de Shannon y Weaver proponiendo funciones del lenguaje según el elemento enfatizado. ¿Cuál función corresponde al canal?",
+      "opciones": [
+        "Fática, como al preguntar “¿me escuchas?”",
+        "Referencial, centrada en el contexto",
+        "Emotiva, centrada en el emisor",
+        "Poética, centrada en el mensaje mismo"
+      ], "correcta": 0,
+      "explicacion": "La función fática se centra en verificar que el canal funcione, como en “¿me escuchas?”; las otras funciones enfatizan otros elementos del proceso comunicativo." },
+
+    { "id": "p1-042", "subtema": "1.6", "tipo": "opcion_multiple",
+      "pregunta": "¿De dónde proviene históricamente el término “red de la vid” (grapevine) para describir la comunicación informal?",
+      "opciones": [
+        "Del ejército estadounidense del siglo XIX, cuyas líneas de telégrafo se enredaban como una vid",
+        "De una metáfora agrícola sobre cómo crecen los rumores sin control",
+        "De un estudio de Keith Davis publicado en la década de 1980",
+        "De la traducción literal de un término francés de la diplomacia"
+      ], "correcta": 0,
+      "explicacion": "El origen es militar: las líneas de telégrafo de campaña se tendían enredadas como una vid, distorsionando los mensajes que viajaban por ellas." },
+
+    { "id": "p1-043", "subtema": "2.1.1", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes palabras se escribe con V por pertenecer a un adjetivo terminado en -avo/-ava?",
+      "opciones": [
+        "Octava",
+        "Debía",
+        "Bilingüe",
+        "Hábil"
+      ], "correcta": 0,
+      "explicacion": "“Octava” termina en -ava y sigue la regla de adjetivos con V; las otras tres siguen reglas distintas de la B (verbos deber/haber, prefijo bi-, palabras que inician con há-)." },
+
+    { "id": "p1-044", "subtema": "2.1.2", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes palabras se escribe con Z por ser un sustantivo abstracto terminado en “-ez”?",
+      "opciones": [
+        "Timidez",
+        "Información",
+        "Canadiense",
+        "Grandísimo"
+      ], "correcta": 0,
+      "explicacion": "“Timidez” sigue la regla de sustantivos abstractos con Z; las otras siguen reglas distintas: -ción con C, gentilicios en -ense con S, y superlativos en -ísimo con S." },
+
+    { "id": "p1-045", "subtema": "2.2.2", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes palabras es sobresdrújula?",
+      "opciones": [
+        "Entrégaselo",
+        "Teléfono",
+        "Lápiz",
+        "Camión"
+      ], "correcta": 0,
+      "explicacion": "“Entrégaselo” lleva el acento antes de la antepenúltima sílaba, por los pronombres enclíticos añadidos al verbo; “teléfono” es esdrújula, “lápiz” es grave y “camión” es aguda." },
+
+    { "id": "p1-046", "subtema": "1.4.2", "tipo": "opcion_multiple",
+      "pregunta": "Un jefe pregunta “¿el reporte está listo?” y el empleado responde con un párrafo largo sin decir sí o no claramente. ¿Qué máxima de Grice está violando?",
+      "opciones": [
+        "La máxima de manera (claridad y orden)",
+        "La máxima de calidad (verdad de lo dicho)",
+        "La máxima de relación (pertinencia del tema)",
+        "El principio de cooperación en su totalidad, sin poder identificar una máxima específica"
+      ], "correcta": 0,
+      "explicacion": "Responder de forma desordenada y poco directa a una pregunta de sí/no es una violación de la máxima de manera, que exige claridad, brevedad y orden." },
+
+    { "id": "p1-047", "subtema": "2.1.5", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes palabras se escribe con Y por ser una forma del verbo “oír”?",
+      "opciones": [
+        "Oyó",
+        "Batalla",
+        "Cepillo",
+        "Sencilla"
+      ], "correcta": 0,
+      "explicacion": "“Oyó” es una forma verbal que se escribe con Y; las otras tres son ejemplos de palabras terminadas en -alla, -illo o -illa que se escriben con LL." },
+
+    { "id": "p1-048", "subtema": "1.5", "tipo": "opcion_multiple",
+      "pregunta": "Un especialista de sistemas asesora directamente al director de otra área, sin que exista una línea jerárquica entre ambos. ¿Qué tipo de red formal es esta?",
+      "opciones": [
+        "Diagonal",
+        "Ascendente",
+        "Descendente",
+        "Horizontal"
+      ], "correcta": 0,
+      "explicacion": "La comunicación diagonal ocurre entre niveles y áreas distintas sin relación jerárquica directa, precisamente el caso descrito." },
+
+    { "id": "p1-049", "subtema": "2.2.11", "tipo": "opcion_multiple",
+      "pregunta": "En una cita académica, se necesita aclarar quién es “él” dentro de una frase textual de otro autor. ¿Qué signo se usa correctamente para esa aclaración?",
+      "opciones": [
+        "Corchetes: “Él [Hernán Cortés] llegó a México en 1519”",
+        "Paréntesis: “Él (Hernán Cortés) llegó a México en 1519”",
+        "Comillas simples: “Él ‘Hernán Cortés’ llegó a México en 1519”",
+        "Raya: “Él —Hernán Cortés— llegó a México en 1519”"
+      ], "correcta": 0,
+      "explicacion": "Los corchetes se reservan específicamente para aclaraciones del editor dentro de una cita textual de otro autor; el paréntesis se usa para incisos del propio autor del texto." },
+
+    { "id": "p1-050", "subtema": "1.7.1", "tipo": "opcion_multiple",
+      "pregunta": "Un colega dice, con voz elevada: “esto está mal otra vez, ¿es que nadie revisa nada aquí?”. ¿Qué estilo de comunicación ejemplifica, y qué riesgo profesional conlleva a largo plazo?",
+      "opciones": [
+        "Agresivo; genera un ambiente de miedo que desalienta la retroalimentación honesta del equipo",
+        "Asertivo; defiende un punto de vista válido con claridad y respeto",
+        "Sumiso; evita señalar el problema directamente por temor al conflicto",
+        "Pasivo; no comunica realmente ninguna crítica concreta"
+      ], "correcta": 0,
+      "explicacion": "Imponer el punto de vista, interrumpir y culpar a otros en tono elevado es el patrón agresivo, cuyo riesgo principal es inhibir que el equipo dé retroalimentación honesta por miedo." }
+
+  ]
+}
