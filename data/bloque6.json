@@ -1,0 +1,106 @@
+{
+  "bloque": 6,
+  "nombre": "Comunicación verbal y no verbal",
+  "introduccion": "Cuando dos personas conversan cara a cara, la comunicación ocurre simultáneamente en dos canales distintos: las palabras que se pronuncian (comunicación verbal) y todo lo demás —el tono, los gestos, la postura, la mirada— que acompaña a esas palabras (comunicación no verbal). Comprender ambos canales, y sobre todo entender cómo se relacionan entre sí, es indispensable antes de abordar los Temas 7 y 8 de este libro, dedicados específicamente a la comunicación oral y a las presentaciones.",
+  "subtemas": [
+    {
+      "id": "6.1",
+      "titulo": "Comunicación verbal",
+      "contenido": [
+        "La comunicación verbal es aquella que utiliza el lenguaje —hablado o escrito— como código. Se distingue de la comunicación no verbal precisamente por depender de un sistema de signos lingüísticos arbitrarios y convencionales (palabras) compartidos por una comunidad de hablantes."
+      ]
+    },
+    {
+      "id": "6.1.1",
+      "titulo": "Tipos y características",
+      "contenido": [
+        "Tipo de comunicación verbal — Características",
+        "Oral — Inmediata, efímera (a menos que se grabe), acompañada siempre de elementos no verbales, permite retroalimentación instantánea.",
+        "Escrita — Diferida en el tiempo, permanente, permite revisión y corrección antes de “emitirse”, carece de los apoyos no verbales del habla.",
+        "Una característica fundamental de la comunicación verbal, señalada por la lingüística estructural desde principios del siglo XX, es que la relación entre una palabra y lo que representa es arbitraria: no existe ninguna razón natural por la que la secuencia de sonidos “perro” deba referirse a ese animal y no a otro; es simplemente una convención que la comunidad de hablantes acordó y transmite de generación en generación.",
+        "NOTA: El lingüista suizo Ferdinand de Saussure, considerado el fundador de la lingüística moderna, formuló a principios del siglo XX el llamado “principio de arbitrariedad del signo lingüístico”: la unión entre el significante (la secuencia de sonidos) y el significado (el concepto) no tiene ninguna motivación natural, solo convención social."
+      ]
+    },
+    {
+      "id": "6.2",
+      "titulo": "Comunicación no verbal",
+      "contenido": [
+        "La comunicación no verbal abarca todos los mensajes que se transmiten sin usar palabras: gestos, postura corporal, distancia física, contacto visual, tono de voz, e incluso el uso del espacio y del tiempo. Diversos estudios de comunicación interpersonal han señalado, con distintos porcentajes según la metodología, que una parte muy significativa del impacto emocional de un mensaje hablado proviene de estos elementos no verbales, no del contenido literal de las palabras.",
+        "IMPORTANTE: “No se puede no comunicar: incluso el silencio y la inmovilidad transmiten un mensaje dentro de una interacción.” — Idea derivada del primer axioma de la comunicación humana de Paul Watzlawick, presentado en el Tema 1.",
+        "NOTA: Es muy citada —y con frecuencia malinterpretada— la llamada “regla del 7-38-55” del psicólogo Albert Mehrabian (1967), según la cual, en situaciones donde existe una incongruencia entre lo que se dice y cómo se dice, solo el 7% del mensaje emocional se atribuye a las palabras, el 38% al tono de voz y el 55% al lenguaje corporal. Mehrabian estudió específicamente la comunicación de sentimientos y actitudes en casos de incongruencia entre canales, no la comunicación en general, por lo que la cifra suele citarse fuera de contexto."
+      ]
+    },
+    {
+      "id": "6.2.1",
+      "titulo": "Tipos y características",
+      "contenido": [
+        "Tipo de comunicación no verbal — Qué estudia — Ejemplos",
+        "Kinésica — Los movimientos corporales, gestos y expresiones faciales — Un asentimiento con la cabeza, cruzar los brazos, una sonrisa",
+        "Proxémica — El uso y la percepción del espacio físico entre las personas — La distancia “cómoda” al conversar varía según la cultura y la confianza",
+        "Paralingüística — Los rasgos de la voz que acompañan a las palabras, sin ser palabras en sí — El volumen, el ritmo, las pausas, el tono",
+        "Cronémica — El uso y el significado social del tiempo — Llegar puntual o tarde comunica algo distinto según la cultura profesional",
+        "Háptica — El uso y el significado del contacto físico o tacto — Un apretón de manos firme, una palmada en el hombro",
+        "Oculésica — El uso de la mirada y el contacto visual — Sostener la mirada como señal de confianza; evitarla como señal de incomodidad o, en ciertas culturas, de respeto",
+        "El antropólogo estadounidense Edward T. Hall, pionero del estudio de la proxémica en los años 1960, identificó cuatro zonas de distancia interpersonal en la cultura estadounidense —íntima, personal, social y pública—, cada una asociada a un tipo distinto de relación e interacción.",
+        "Zona proxémica (Edward T. Hall) — Distancia aproximada — Tipo de relación",
+        "Íntima — 0 a 45 cm — Pareja, familia muy cercana",
+        "Personal — 45 cm a 1.2 m — Amigos, conversación cotidiana",
+        "Social — 1.2 a 3.6 m — Compañeros de trabajo, trato formal",
+        "Pública — Más de 3.6 m — Conferencias, discursos públicos"
+      ]
+    },
+    {
+      "id": "6.2.2",
+      "titulo": "Diferencias culturales en la comunicación no verbal",
+      "contenido": [
+        "Uno de los errores más frecuentes al estudiar comunicación no verbal es asumir que sus significados son universales. En realidad, buena parte de los gestos, distancias y usos del contacto visual varían considerablemente entre culturas, lo cual resulta indispensable conocer en un mundo profesional cada vez más globalizado.",
+        "Elemento no verbal — Ejemplo de variación cultural",
+        "Contacto visual — Sostener la mirada se interpreta como confianza y honestidad en gran parte de la cultura occidental, pero puede considerarse un gesto de confrontación o falta de respeto en algunas culturas de Asia Oriental.",
+        "Distancia proxémica — Las culturas mediterráneas y latinoamericanas suelen tolerar distancias interpersonales más cortas que las culturas del norte de Europa o del este asiático.",
+        "Gesto del pulgar hacia arriba — Significa aprobación en gran parte de Occidente, pero es un gesto ofensivo en partes de Medio Oriente y África Occidental.",
+        "Puntualidad (cronémica) — En culturas monocrónicas (Alemania, Japón, Estados Unidos) la puntualidad estricta se asocia con profesionalismo; en culturas policrónicas (varios países de América Latina y el mundo árabe), existe mayor flexibilidad social ante los horarios.",
+        "Contacto físico (háptica) — Los saludos con abrazo o beso en la mejilla son comunes en América Latina y el sur de Europa, pero pueden resultar incómodos en contextos profesionales del norte de Europa o Asia Oriental.",
+        "RECUERDA: Antes de asumir que un gesto o comportamiento no verbal “significa” algo universal, conviene preguntarse si esa interpretación aplica también fuera del propio contexto cultural: un error común en comunicación intercultural de negocios."
+      ]
+    },
+    {
+      "id": "6.2.3",
+      "titulo": "La escucha activa",
+      "contenido": [
+        "La escucha activa es una técnica de comunicación interpersonal que consiste en prestar atención completa al interlocutor, con la intención genuina de comprender su mensaje —no solo de esperar el turno para responder—, y demostrarlo mediante señales verbales y no verbales concretas.",
+        "Técnica de escucha activa — En qué consiste",
+        "Parafraseo — Repetir con palabras propias lo que el interlocutor dijo, para confirmar que se comprendió correctamente.",
+        "Señales de retroalimentación no verbal — Asentir con la cabeza, mantener contacto visual apropiado, inclinar ligeramente el cuerpo hacia el interlocutor.",
+        "Preguntas clarificadoras — Pedir que se amplíe o precise un punto, en vez de asumir que se entendió.",
+        "Evitar interrupciones — Dejar que el interlocutor termine su idea antes de responder.",
+        "Validación emocional — Reconocer el estado emocional del interlocutor, sin necesariamente estar de acuerdo con su postura (“entiendo que esto te frustra”).",
+        "IMPORTANTE: “La mayoría de las personas no escuchan con la intención de comprender; escuchan con la intención de responder.” — Idea ampliamente difundida en la literatura de comunicación interpersonal y desarrollo de habilidades directivas.",
+        "• Puntos clave del Tema 6",
+        "• La comunicación verbal se basa en signos lingüísticos arbitrarios y convencionales (principio de Saussure).",
+        "• La comunicación no verbal se estudia en al menos seis dimensiones: kinésica, proxémica, paralingüística, cronémica, háptica y oculésica.",
+        "• Los significados de la comunicación no verbal varían considerablemente entre culturas; no deben asumirse como universales.",
+        "• La escucha activa combina parafraseo, señales no verbales, preguntas clarificadoras y validación emocional.",
+        "§ Actividad sugerida",
+        "Observa una conversación cotidiana (en persona o en un video) durante 5 minutos, sin poner atención al contenido verbal. Registra por escrito qué elementos no verbales identificas (kinésicos, proxémicos, paralingüísticos, hápticos, oculésicos) y qué crees que comunican.",
+        "§ Actividad sugerida",
+        "Practica la escucha activa en una conversación real de al menos 5 minutos con otra persona, aplicando conscientemente el parafraseo y las preguntas clarificadoras. Redacta después una breve reflexión sobre qué cambió en la calidad de la conversación."
+      ]
+    },
+    {
+      "id": "6.9",
+      "titulo": "Ficha de consulta rápida — Tema 6",
+      "contenido": [
+        "Concepto — En una frase",
+        "Arbitrariedad del signo — No hay relación natural entre una palabra y lo que representa (Saussure).",
+        "Kinésica — Movimientos corporales, gestos, expresiones faciales.",
+        "Proxémica — Uso y percepción del espacio físico entre personas (Edward T. Hall).",
+        "Paralingüística — Rasgos de la voz: volumen, ritmo, pausas, tono.",
+        "Cronémica — Uso y significado social del tiempo.",
+        "Háptica — Uso y significado del contacto físico.",
+        "Oculésica — Uso de la mirada y el contacto visual.",
+        "Regla 7-38-55 (Mehrabian) — Aplica solo a mensajes emocionales incongruentes, no a toda comunicación.",
+        "Escucha activa — Parafraseo, señales no verbales, preguntas clarificadoras, validación emocional."
+      ]
+    }
+  ]
+}
