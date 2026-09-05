@@ -1,0 +1,161 @@
+{
+  "bloque": 3,
+  "nombre": "Redacción",
+  "introduccion": "Redactar bien no es lo mismo que conocer bien la ortografía. Se puede escribir sin ninguna falta ortográfica y, aun así, producir un texto confuso, desordenado o aburrido. La redacción es el arte de organizar las ideas propias —o las de una fuente que se está resumiendo— en un texto claro, coherente y con un propósito definido. Este tema cubre el proceso completo, desde que se elige un texto de referencia hasta que se desarrolla un argumento propio por escrito: las seis cualidades de la buena redacción, los conectores y vicios más comunes, los tipos de párrafo, cómo definir una idea central, cómo desarrollar un argumento evitando falacias, y cómo citar correctamente.",
+  "subtemas": [
+    {
+      "id": "3.0",
+      "titulo": "Las seis cualidades de la buena redacción",
+      "contenido": [
+        "Antes de entrar al proceso de redacción paso a paso, conviene tener un marco de referencia claro sobre qué distingue a un texto bien escrito de uno deficiente. La tradición de los manuales de redacción y estilo coincide, con distintos nombres, en un conjunto de seis cualidades que debe cumplir cualquier texto profesional o académico.",
+        "Cualidad — En qué consiste — Cómo se logra",
+        "Claridad — El lector entiende el mensaje sin esfuerzo ni ambigüedad — Frases cortas, vocabulario preciso, evitar tecnicismos innecesarios",
+        "Concisión — Se dice lo necesario, sin palabras ni ideas de sobra — Eliminar redundancias y rodeos (subtema 3.0.2)",
+        "Coherencia — Las ideas del texto tienen una relación lógica entre sí, sin contradicciones — Organizar el contenido siguiendo un orden lógico (causa-efecto, cronológico, de lo general a lo particular)",
+        "Cohesión — Las oraciones y párrafos están bien conectados entre sí gramaticalmente — Uso adecuado de conectores textuales (subtema 3.0.1) y de pronombres que retoman ideas anteriores",
+        "Corrección — El texto respeta las normas ortográficas y gramaticales del idioma — Aplicación de todo lo visto en el Tema 2",
+        "Adecuación — El texto usa el registro y el tono apropiados según el destinatario y el propósito — No es lo mismo escribir un mensaje a un amigo que un informe a un director general",
+        "RECUERDA: Un texto puede ser gramaticalmente correcto y aun así fallar en claridad, coherencia o adecuación. Las seis cualidades son independientes entre sí: hay que revisar cada una por separado al editar un texto."
+      ]
+    },
+    {
+      "id": "3.0.1",
+      "titulo": "Conectores textuales",
+      "contenido": [
+        "Los conectores (también llamados marcadores o nexos discursivos) son palabras o frases que señalan la relación lógica entre dos ideas, oraciones o párrafos. Un texto sin conectores adecuados puede tener ideas correctas mal hilvanadas, lo que dificulta seguir el razonamiento del autor.",
+        "Tipo de relación — Conectores más usados",
+        "Adición (sumar ideas) — además, también, asimismo, incluso, del mismo modo",
+        "Contraste u oposición — sin embargo, no obstante, pero, aunque, en cambio, por el contrario",
+        "Causa — porque, debido a, ya que, puesto que, dado que",
+        "Consecuencia — por lo tanto, en consecuencia, por consiguiente, así que, de modo que",
+        "Orden o secuencia — en primer lugar, a continuación, finalmente, por último",
+        "Ejemplificación — por ejemplo, en particular, tal como, a saber",
+        "Conclusión o cierre — en conclusión, en síntesis, en resumen, para concluir",
+        "Condición — si, siempre que, a menos que, en caso de que",
+        "NOTA: El uso repetitivo del mismo conector a lo largo de un texto (por ejemplo, iniciar cada párrafo con “además”) es uno de los signos más claros de un texto poco trabajado. Un buen redactor varía los conectores según la relación lógica exacta que quiere expresar, no solo por costumbre.",
+        "§ Actividad sugerida",
+        "Toma un párrafo propio de una tarea anterior y subraya todos los conectores que usaste. Si repites el mismo conector más de dos veces, sustituye al menos una repetición por un sinónimo de la tabla anterior."
+      ]
+    },
+    {
+      "id": "3.0.2",
+      "titulo": "Vicios de redacción",
+      "contenido": [
+        "Así como el Tema 7 estudiará los vicios de dicción propios del habla oral, existen vicios propios de la redacción escrita que debilitan un texto incluso cuando es gramaticalmente correcto.",
+        "Vicio de redacción — En qué consiste — Ejemplo con vicio — Versión corregida",
+        "Redundancia (pleonasmo) — Repetir una idea con palabras distintas de forma innecesaria — “Subir arriba”, “salir afuera”, “volar por el aire” — “Subir”, “salir”, “volar”",
+        "Monotonía léxica — Repetir la misma palabra varias veces en un espacio corto, cuando existen sinónimos — “El informe es bueno. El resultado es bueno. La estrategia es buena.” — “El informe es sólido. El resultado es favorable. La estrategia es acertada.”",
+        "Queísmo/dequeísmo — Ya visto en el Tema 2, subtema 2.2.14 — “Pienso de que...” — “Pienso que...”",
+        "Ambigüedad sintáctica — Ya vista en el Tema 7 como anfibología: construcción que permite más de una lectura — “Vi al perro en el balcón” (¿el perro o el hablante estaba en el balcón?) — “Vi al perro que estaba en el balcón”",
+        "Anacoluto — Cambiar la estructura gramatical a mitad de la oración, dejándola incoherente — “El problema que tenemos, no sabemos cómo resolverlo” — “No sabemos cómo resolver el problema que tenemos”",
+        "Muletillas escritas — Expresiones de relleno sin aportar contenido real — “Cabe mencionar que, como ya se dijo, obviamente...” (usadas en exceso) — Eliminar o usar con moderación"
+      ]
+    },
+    {
+      "id": "3.0.3",
+      "titulo": "Tipos de párrafo según su estructura",
+      "contenido": [
+        "El párrafo es la unidad básica de organización de cualquier texto extenso: un conjunto de oraciones relacionadas entre sí que desarrollan una sola idea. Existen distintos patrones de organización interna, y reconocerlos ayuda tanto a escribir con más variedad como a identificar la estructura de un texto ajeno al leerlo (habilidad retomada en el Tema 9).",
+        "Tipo de párrafo — Estructura — Cuándo conviene usarlo",
+        "Deductivo — Inicia con la idea principal y después la desarrolla con ejemplos o argumentos — Cuando se quiere que el lector capte de inmediato la idea central, sin rodeos",
+        "Inductivo — Presenta primero ejemplos o datos particulares, y cierra con la idea principal como conclusión — Cuando se busca generar expectativa o “construir” el argumento paso a paso",
+        "Encuadrado (o de encuadre) — La idea principal aparece al inicio y se repite, reforzada, al final del párrafo — En textos persuasivos donde se busca que la idea central quede muy fija en la memoria del lector",
+        "Comparativo o de contraste — Organiza la información señalando semejanzas y diferencias entre dos o más elementos — Al comparar opciones, posturas o épocas (como se hizo, por ejemplo, en el libro de Origen de las Cocinas)",
+        "Cronológico o secuencial — Organiza la información en el orden temporal en que ocurrieron los hechos — Narraciones, procesos, informes de avance",
+        "• Puntos clave del subtema 3.0",
+        "• Las seis cualidades de la redacción son: claridad, concisión, coherencia, cohesión, corrección y adecuación.",
+        "• Los conectores textuales señalan la relación lógica entre ideas y deben variarse, no repetirse mecánicamente.",
+        "• Los principales vicios de redacción son: redundancia, monotonía léxica, queísmo/dequeísmo, ambigüedad, anacoluto y muletillas escritas.",
+        "• Los párrafos pueden organizarse de forma deductiva, inductiva, de encuadre, comparativa o cronológica, según el propósito del texto."
+      ]
+    },
+    {
+      "id": "3.1",
+      "titulo": "Selección, lectura y reflexión de textos",
+      "contenido": [
+        "Todo buen texto propio nace, casi siempre, de la lectura previa de otros textos. Antes de escribir, un redactor competente dedica tiempo a seleccionar fuentes confiables, leerlas de forma activa y reflexionar sobre lo que dicen, en vez de simplemente copiar o resumir sin criterio propio.",
+        "Criterio de selección de fuentes — Qué revisar",
+        "Autoría — ¿Quién escribió el texto? ¿Tiene credenciales o experiencia reconocida en el tema?",
+        "Actualidad — ¿Cuándo se publicó? ¿Sigue vigente la información, o existen datos más recientes?",
+        "Objetividad — ¿El texto presenta hechos verificables, o defiende una sola postura sin contraste?",
+        "Origen editorial — ¿Proviene de una editorial académica, un medio reconocido, o de una fuente sin revisión?",
+        "La lectura reflexiva —a diferencia de la lectura superficial— implica formularse preguntas activamente mientras se lee: ¿cuál es la idea principal de este párrafo?, ¿qué evidencia presenta el autor para sostenerla?, ¿estoy de acuerdo o encuentro algún punto débil en el argumento? Este tipo de lectura activa es la base de cualquier trabajo de redacción posterior, y se retoma con más profundidad en el Tema 9 de este libro.",
+        "RECUERDA: Antes de redactar cualquier texto propio, es indispensable seleccionar fuentes confiables (autoría, actualidad, objetividad) y leerlas de forma reflexiva, no solo superficial."
+      ]
+    },
+    {
+      "id": "3.2",
+      "titulo": "Definir la idea central",
+      "contenido": [
+        "Todo texto bien redactado —desde un correo de dos líneas hasta una tesis de cientos de páginas— gira alrededor de una sola idea central, también llamada tesis o idea rectora. Un error muy común entre redactores principiantes es intentar decir demasiadas cosas a la vez, lo que diluye el mensaje y confunde al lector.",
+        "Una buena idea central cumple tres condiciones: es concreta (no una vaguedad como “la comunicación es importante”, sino algo específico y defendible), es demostrable (se puede sustentar con argumentos o evidencia) y es del tamaño adecuado al espacio disponible (una idea demasiado amplia para un ensayo corto obliga a tratarla de forma superficial).",
+        "IMPORTANTE: “Si no puedes explicar tu idea central en una sola oración, probablemente todavía no la tienes clara.” — Principio ampliamente citado en manuales de redacción académica y periodística."
+      ]
+    },
+    {
+      "id": "3.2.1",
+      "titulo": "Ejemplo antes y después: de una idea vaga a una idea central concreta",
+      "contenido": [
+        "Versión (idea vaga) — Versión mejorada (idea central concreta)",
+        "“Las redes sociales son importantes.” — “El uso excesivo de redes sociales entre estudiantes universitarios reduce medible mente su tiempo de lectura profunda.”",
+        "“La comunicación en las empresas es un problema.” — “La falta de retroalimentación ascendente en las empresas familiares mexicanas genera empleados desmotivados.”",
+        "§ Actividad sugerida",
+        "Elige un tema de tu interés profesional y redacta tres posibles ideas centrales distintas sobre ese tema, cada una en una sola oración. Después, elige la que consideres más concreta y demostrable, y justifica tu elección."
+      ]
+    },
+    {
+      "id": "3.3",
+      "titulo": "Desarrollo del argumento",
+      "contenido": [
+        "Una vez definida la idea central, el siguiente paso es desarrollarla con un argumento sólido: una secuencia lógica de razones y evidencias que convenzan al lector de que la idea central es válida. La estructura clásica de un argumento consta de tres partes:",
+        "Parte del argumento — Función",
+        "Premisa o afirmación — La idea que se quiere defender",
+        "Evidencia o soporte — Datos, ejemplos, citas o estadísticas que respaldan la afirmación",
+        "Conclusión o cierre — La consecuencia lógica que se desprende de unir la premisa con la evidencia",
+        "Un argumento se debilita cuando incurre en falacias lógicas: errores de razonamiento que parecen convincentes pero no lo son realmente.",
+        "Falacia lógica — En qué consiste — Ejemplo",
+        "Generalización apresurada — Sacar una conclusión general a partir de muy pocos casos — “Conocí a dos abogados deshonestos; todos los abogados son deshonestos.”",
+        "Falacia de autoridad — Dar por válida una afirmación solo porque la dijo alguien famoso o con títulos, sin evaluar la evidencia real — “Es cierto porque lo dijo un doctor en televisión.”",
+        "Falsa dicotomía — Presentar solo dos opciones extremas cuando existen más alternativas — “O apoyas el proyecto completo, o estás en contra del progreso.”",
+        "Ataque personal (ad hominem) — Desacreditar a la persona en vez de responder a su argumento — “No hay que escucharlo, si ni siquiera terminó la universidad.”",
+        "NOTA: La estructura de “premisa - evidencia - conclusión” tiene su origen en la lógica formal de Aristóteles (siglo IV a.C.), específicamente en lo que llamó silogismo: un razonamiento de dos premisas que conducen necesariamente a una conclusión. Aunque la redacción moderna no siempre usa silogismos estrictos, la lógica de fondo sigue siendo la misma.",
+        "• Puntos clave de los subtemas 3.2 y 3.3",
+        "• Todo texto debe girar alrededor de una sola idea central: concreta, demostrable y del tamaño adecuado.",
+        "• Un buen argumento tiene premisa, evidencia y conclusión.",
+        "• Deben evitarse falacias lógicas como la generalización apresurada, la falacia de autoridad, la falsa dicotomía y el ataque personal.",
+        "§ Actividad sugerida",
+        "Identifica una falacia lógica en un anuncio publicitario, discurso político o publicación de redes sociales real. Explica por qué es una falacia y cómo se podría reformular el argumento de forma válida."
+      ]
+    },
+    {
+      "id": "3.4",
+      "titulo": "Uso de citas, notas y referencias bibliográficas",
+      "contenido": [
+        "Cuando un texto propio incorpora ideas, datos o palabras de otra fuente, es obligatorio dar crédito a esa fuente. No hacerlo —presentar como propias las ideas de alguien más— constituye plagio, una falta grave tanto en el ámbito académico como en el profesional, con consecuencias que van desde la reprobación de un trabajo hasta demandas legales por violación de derechos de autor en el mundo editorial. Este tema se retoma con mucho mayor profundidad en el subtema 4.4 (aparato crítico) y en el subtema 4.4.3 (tipos de plagio), pero conviene adelantar aquí los conceptos básicos.",
+        "Tipo de cita — Cómo se usa",
+        "Cita textual corta (menos de 40 palabras) — Se incorpora entre comillas dentro del propio párrafo, con la referencia del autor.",
+        "Cita textual larga (más de 40 palabras) — Se separa del párrafo en un bloque con sangría propia, sin comillas, y letra ligeramente más pequeña.",
+        "Cita parafraseada — Se expresa la idea del autor original con palabras propias, dando igualmente el crédito correspondiente.",
+        "Cita de cita (fuente secundaria) — Cuando se cita a un autor que a su vez fue citado por otro texto que sí se consultó directamente; debe señalarse claramente.",
+        "RECUERDA: Toda idea, dato o frase que no sea de tu autoría original debe citarse, ya sea de forma textual o parafraseada. No hacerlo es plagio, con consecuencias académicas y legales.",
+        "§ Actividad sugerida",
+        "Elige un párrafo de una fuente confiable sobre un tema de tu interés. Redacta primero una cita textual correcta de ese párrafo (con comillas y referencia), y después una versión parafraseada del mismo contenido, también con su referencia correspondiente."
+      ]
+    },
+    {
+      "id": "3.9",
+      "titulo": "Ficha de consulta rápida — Tema 3",
+      "contenido": [
+        "Concepto — En una frase",
+        "Seis cualidades de la redacción — Claridad, concisión, coherencia, cohesión, corrección, adecuación.",
+        "Conectores — Palabras que señalan la relación lógica entre ideas: adición, contraste, causa, consecuencia, orden, ejemplo, conclusión, condición.",
+        "Vicios de redacción — Redundancia, monotonía léxica, queísmo/dequeísmo, ambigüedad, anacoluto, muletillas.",
+        "Tipos de párrafo — Deductivo, inductivo, de encuadre, comparativo, cronológico.",
+        "Idea central — Concreta, demostrable, del tamaño adecuado al espacio disponible.",
+        "Argumento — Premisa + evidencia + conclusión.",
+        "Falacias comunes — Generalización apresurada, falacia de autoridad, falsa dicotomía, ataque personal.",
+        "Plagio — Presentar como propia una idea, dato o frase de otra fuente sin dar crédito."
+      ]
+    }
+  ]
+}
