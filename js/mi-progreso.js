@@ -8,7 +8,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
 import { firebaseConfig } from "./firebase-config.js";
-import { calcularParcial, calcularCuatrimestre, NOMBRES_PARCIAL } from "./calculo.js";
+import { calcularParcial, calcularCuatrimestre, NOMBRES_PARCIAL, NOMBRES_ENTREGA_PROYECTO } from "./calculo.js";
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
@@ -81,7 +81,7 @@ async function cargarGruposEnSelect() {
 // Carga UNA sola vez todos los datos del alumno y los deja en datosCache.
 async function cargarDatos() {
   const base = ['grupos', sesion.grupoId, 'alumnos', sesion.alumnoId];
-  const [tareasSnap, partSnap, asisSnap, unifP1, unifP2, exaP1, exaP2, exaFinal] = await Promise.all([
+  const [tareasSnap, partSnap, asisSnap, unifP1, unifP2, exaP1, exaP2, exaFinal, proyE1, proyE2, proyEF] = await Promise.all([
     getDocs(collection(db, ...base, 'tareas')).catch(() => null),
     getDocs(collection(db, ...base, 'participaciones')).catch(() => null),
     getDocs(collection(db, ...base, 'asistencias')).catch(() => null),
@@ -90,6 +90,9 @@ async function cargarDatos() {
     getDoc(doc(db, ...base, 'examenes', 'p1')).catch(() => null),
     getDoc(doc(db, ...base, 'examenes', 'p2')).catch(() => null),
     getDoc(doc(db, ...base, 'examenes', 'final')).catch(() => null),
+    getDoc(doc(db, ...base, 'proyecto', 'entrega1')).catch(() => null),
+    getDoc(doc(db, ...base, 'proyecto', 'entrega2')).catch(() => null),
+    getDoc(doc(db, ...base, 'proyecto', 'entregaFinal')).catch(() => null),
   ]);
 
   datosCache = {
@@ -104,6 +107,11 @@ async function cargarDatos() {
       p1: exaP1 && exaP1.exists() ? exaP1.data() : null,
       p2: exaP2 && exaP2.exists() ? exaP2.data() : null,
       final: exaFinal && exaFinal.exists() ? exaFinal.data() : null,
+    },
+    proyecto: {
+      entrega1: proyE1 && proyE1.exists() ? proyE1.data() : null,
+      entrega2: proyE2 && proyE2.exists() ? proyE2.data() : null,
+      entregaFinal: proyEF && proyEF.exists() ? proyEF.data() : null,
     },
   };
 }
@@ -138,8 +146,11 @@ function renderParciales(resultados) {
     const esFinal = p === 'final';
 
     const filasDetalle = esFinal
-      ? filaRubro('Tareas y Participación', r.tareasParticipacion.pts, r.tareasParticipacion.tope) +
-        filaRubro('Examen / Proyecto', r.examen.pts, r.examen.tope, r.examen.calificacion !== null ? `${r.examen.calificacion}/10` : 'sin capturar') +
+      ? filaRubro('Examen', r.examen.pts, r.examen.tope, r.examen.calificacion !== null ? `${r.examen.calificacion}/10` : 'sin capturar') +
+        filaRubro(NOMBRES_ENTREGA_PROYECTO.entrega1, r.proyecto.detalle.entrega1.pts, r.proyecto.detalle.entrega1.tope, r.proyecto.detalle.entrega1.calificacion !== null ? `${r.proyecto.detalle.entrega1.calificacion}/10` : 'sin capturar') +
+        filaRubro(NOMBRES_ENTREGA_PROYECTO.entrega2, r.proyecto.detalle.entrega2.pts, r.proyecto.detalle.entrega2.tope, r.proyecto.detalle.entrega2.calificacion !== null ? `${r.proyecto.detalle.entrega2.calificacion}/10` : 'sin capturar') +
+        filaRubro(NOMBRES_ENTREGA_PROYECTO.entregaFinal, r.proyecto.detalle.entregaFinal.pts, r.proyecto.detalle.entregaFinal.tope, r.proyecto.detalle.entregaFinal.calificacion !== null ? `${r.proyecto.detalle.entregaFinal.calificacion}/10` : 'sin capturar') +
+        filaRubro('Tareas y Participación', r.tareasParticipacion.pts, r.tareasParticipacion.tope) +
         filaRubro('Asistencia', r.asistencia.pts, r.asistencia.tope, `${r.asistencia.presentes}/${r.asistencia.total} clases`)
       : filaRubro('Examen', r.examen.pts, r.examen.tope, r.examen.calificacion !== null ? `${r.examen.calificacion}/10` : 'sin capturar') +
         filaRubro('Tareas', r.tareas.pts, r.tareas.tope, r.tareas.promedio !== null ? `prom. ${r.tareas.promedio.toFixed(1)}/10` : 'sin capturar') +
