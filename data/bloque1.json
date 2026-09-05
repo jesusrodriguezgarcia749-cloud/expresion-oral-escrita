@@ -1,0 +1,263 @@
+{
+  "bloque": 1,
+  "nombre": "Comunicación",
+  "introduccion": "Este primer tema sienta las bases teóricas de toda la asignatura: qué es comunicar, cómo se explica el proceso comunicativo desde distintos modelos clásicos (Shannon-Weaver, Berlo, Lasswell), qué diferencia hay entre información y comunicación, qué barreras suelen impedir que un mensaje llegue bien, cómo circula la información dentro de una organización —formal e informalmente— y por qué la comunicación es una competencia central, no accesoria, en el mundo profesional. Los subtemas avanzan de lo conceptual (qué es comunicar) a lo aplicado (estilos de comunicación, ética y reputación en los negocios), y varias ideas de este tema —barreras, redes, estilos— se retoman más adelante en los temas de comunicación verbal y no verbal, y de comunicación oral.",
+  "subtemas": [
+    {
+      "id": "1.1",
+      "titulo": "Análisis conceptual",
+      "contenido": [
+        "Comunicar viene del latín communicare, que significa “poner en común” o “compartir”. Esa raíz etimológica ya contiene la idea central de todo este tema: comunicar no es simplemente hablar o escribir, sino lograr que dos o más personas construyan un significado compartido. Un profesionista puede dominar perfectamente su área técnica y, sin embargo, fracasar en su carrera si no logra explicar sus ideas con claridad, negociar con un cliente o redactar un informe comprensible. Por eso esta asignatura no es un curso de “buenos modales al hablar”: es una herramienta de trabajo tan importante como cualquier otra materia técnica de la carrera.",
+        "Existen decenas de definiciones académicas de comunicación, pero casi todas coinciden en tres elementos: (1) hay una intención de transmitir algo, (2) ese algo se codifica en signos —palabras, gestos, imágenes— y (3) existe la expectativa de una respuesta o efecto en quien lo recibe. Cuando falta cualquiera de estos tres elementos, no hablamos propiamente de comunicación sino de otra cosa: un ruido accidental, un dato archivado sin destinatario, una señal que nadie interpreta.",
+        "RECUERDA: Comunicación = poner en común un significado entre un emisor y un receptor, con la intención de producir un efecto y la expectativa de una respuesta.",
+        "IMPORTANTE: “El lenguaje es la casa del ser. En su morada habita el hombre.” — Martin Heidegger, filósofo alemán, en referencia al papel central del lenguaje en la experiencia humana.",
+        "NOTA: El término “comunicología” —el estudio científico y sistemático de la comunicación como disciplina académica propia— es relativamente reciente: se consolidó apenas en la segunda mitad del siglo XX, aunque el interés humano por la persuasión y el buen hablar se remonta, como se verá en el Tema 7, a la retórica de la Antigua Grecia."
+      ]
+    },
+    {
+      "id": "1.1.1",
+      "titulo": "Comunicación según el número de participantes y el contexto",
+      "contenido": [
+        "Antes de clasificar la comunicación por número de participantes, vale la pena precisar que este no es el único criterio posible: un segundo criterio la distingue según el canal empleado —comunicación verbal, cuando usa palabras habladas o escritas, y comunicación no verbal, cuando se transmite mediante gestos, postura corporal, distancia física o tono de voz—. Ambas ocurren casi siempre de forma simultánea, y esta segunda clasificación se estudia a fondo en el Tema 6 de este libro. Aquí nos concentramos en el criterio del número de participantes.",
+        "Antes de estudiar el proceso comunicativo a detalle, conviene distinguir los distintos niveles o contextos en los que ocurre la comunicación humana, ya que cada uno tiene dinámicas, riesgos y herramientas propias.",
+        "Tipo de comunicación — Participantes — Ejemplo",
+        "Intrapersonal — Un individuo consigo mismo — El diálogo interno antes de tomar una decisión importante",
+        "Interpersonal — Dos personas — Una conversación entre un cliente y un vendedor",
+        "Grupal — Un grupo reducido con posibilidad de interacción directa entre todos — Una junta de trabajo de 6 personas",
+        "Organizacional — Dentro de una institución, combinando redes formales e informales — La comunicación interna de una empresa (subtemas 1.5 y 1.6)",
+        "Masiva — Un emisor y una audiencia numerosa, heterogénea y dispersa, generalmente mediada por tecnología — Un noticiero de televisión, una publicación viral en redes sociales",
+        "Pública — Un emisor frente a una audiencia reunida físicamente — Una conferencia o un discurso político",
+        "La comunicación intrapersonal suele subestimarse, pero es la base de todas las demás: la forma en que una persona se explica las cosas a sí misma —su diálogo interno— influye directamente en cómo después comunica esas mismas ideas a otros. Un profesionista que no logra ordenar sus propias ideas internamente rara vez logra explicarlas con claridad a un cliente o a un jefe.",
+        "NOTA: La comunicación masiva, tal como se estudia hoy, es un fenómeno histórico relativamente reciente: se consolidó apenas con la prensa de gran tiraje del siglo XIX y se aceleró exponencialmente con la radio (década de 1920), la televisión (década de 1950) y, más recientemente, con internet y las redes sociales, que permiten que cualquier persona —no solo grandes medios— alcance a una audiencia masiva."
+      ]
+    },
+    {
+      "id": "1.1.2",
+      "titulo": "La comunicación de masas: filtros, agenda y efectos",
+      "contenido": [
+        "Retomando la comunicación masiva del subtema anterior, cuando un mensaje deja de circular entre pocas personas y pasa a dirigirse a audiencias numerosas y dispersas, surgen preguntas que los modelos clásicos de Shannon-Weaver y Berlo no resuelven por sí solos: ¿quién decide qué información llega finalmente al público?, ¿por qué unos temas dominan la conversación colectiva y otros desaparecen?, ¿qué efecto real tienen los medios sobre lo que pensamos? Un conjunto de teorías desarrolladas a lo largo del siglo XX responde a estas preguntas y resulta directamente aplicable al entorno profesional actual, incluidas las redes sociales.",
+        "El psicólogo social Kurt Lewin acuñó en 1947 el concepto de gatekeeper (“portero”) para describir a la persona o institución que funciona como filtro obligado por el que debe pasar una idea antes de difundirse a un grupo más amplio: un editor que decide qué nota se publica, un jefe que decide qué información sube a la dirección general, o un administrador de redes sociales que decide qué se comparte en la cuenta oficial de una empresa. Nada llega al público de forma automática; siempre atraviesa, al menos, un filtro humano.",
+        "A partir de esa idea, los investigadores Maxwell McCombs y Donald Shaw propusieron en 1972 la teoría de la agenda-setting (“establecimiento de agenda”): los medios de comunicación no logran decirle a la audiencia qué pensar sobre un tema, pero sí son extraordinariamente eficaces para decirle sobre qué temas pensar, simplemente al decidir a cuáles les dan cobertura y a cuáles no. Una vez que un tema entra en la agenda pública, los propios medios pueden además establecer una “agenda de atributos”: no solo qué tema importa, sino qué aspectos de ese tema conviene destacar.",
+        "Teoría — Autor(es) y año — Idea central",
+        "Gatekeeper — Kurt Lewin, 1947 — Toda información pasa por un filtro humano antes de difundirse a un grupo.",
+        "Agenda-setting — McCombs y Shaw, 1972 — Los medios no imponen qué pensar, pero sí determinan sobre qué temas pensamos.",
+        "Espiral del silencio — Elisabeth Noelle-Neumann, 1995 — Las personas callan sus opiniones cuando las perciben como minoritarias.",
+        "Usos y gratificaciones — Katz, Blumler y Gurevitch, 1973 — La audiencia elige activamente los medios para satisfacer necesidades propias, no solo los recibe de forma pasiva.",
+        "Determinismo tecnológico — Marshall McLuhan, 1964 — El canal o medio elegido transforma el mensaje y, con el tiempo, a la propia sociedad.",
+        "La socióloga alemana Elisabeth Noelle-Neumann observó, además, un fenómeno inverso: cuando una persona percibe que su opinión sobre un tema es minoritaria dentro de su entorno social, tiende a callarla en público por temor al aislamiento, aunque nadie se lo haya pedido explícitamente. A este fenómeno lo llamó espiral del silencio, porque cuantas menos personas expresan la opinión minoritaria, más minoritaria parece, y menos se atreve a expresarla la siguiente persona. En el entorno digital, este mecanismo ayuda a explicar por qué ciertos debates en redes sociales parecen tener consenso unánime cuando, en realidad, solo una parte de los usuarios se atrevió a opinar.",
+        "Una pregunta distinta, más centrada en la audiencia que en el emisor, es la que responde la teoría de los usos y gratificaciones de Elihu Katz, Jay Blumler y Michael Gurevitch: las personas no consumen medios de comunicación de forma pasiva, sino que los eligen activamente para satisfacer necesidades concretas —informarse, entretenerse, sentirse parte de un grupo o confirmar lo que ya piensan—. Esta última necesidad conecta con la teoría de la disonancia cognitiva del psicólogo Leon Festinger: cuando la información que recibimos contradice nuestras ideas previas, sentimos una incomodidad (disonancia) que nos motiva a buscar información que confirme, en cambio, lo que ya creíamos.",
+        "IMPORTANTE: “El medio es el mensaje.” — Marshall McLuhan, Understanding Media (1964).",
+        "El teórico canadiense Marshall McLuhan resumió en esa frase, hoy célebre, la idea de que el canal elegido para comunicar algo no es neutral: transforma el contenido y transforma, con el tiempo, a la sociedad que lo usa. Según su análisis, la humanidad ha atravesado tres grandes etapas comunicativas: una sociedad oral, donde predominaba el oído y la comunicación era intensa y participativa; una sociedad alfabética, donde la escritura favoreció el pensamiento lineal y analítico; y la sociedad electrónica actual, donde la inmediatez de los medios digitales nos ha devuelto a una percepción multisensorial y ha convertido al mundo, en su propia expresión, en una “aldea global”.",
+        "NOTA: En marketing digital, el fenómeno de las cámaras de eco (Jamieson y Cappella, 2008) describe cómo las redes sociales, mediante sus algoritmos de recomendación, tienden a mostrarnos contenido afín a lo que ya pensamos, reforzando la disonancia cognitiva descrita por Festinger: creemos estar viendo una pluralidad de opiniones cuando, en realidad, estamos recibiendo una y otra vez el mismo punto de vista.",
+        "RECUERDA: El gatekeeper filtra la información antes de que llegue al público; la agenda-setting determina sobre qué temas pensamos (no qué pensar); la espiral del silencio explica por qué callamos opiniones minoritarias; los usos y gratificaciones explican por qué elegimos activamente ciertos medios; y McLuhan advirtió que el medio mismo transforma el mensaje.",
+        "§ Actividad sugerida",
+        "Elige un tema que haya sido tendencia recientemente en redes sociales o noticieros. Identifica: (1) quién pudo haber actuado como gatekeeper para que el tema se difundiera, (2) qué agenda de atributos se estableció alrededor de él, y (3) si notas evidencia de una posible espiral del silencio en los comentarios."
+      ]
+    },
+    {
+      "id": "1.2",
+      "titulo": "Proceso de comunicación",
+      "contenido": [
+        "El modelo más citado en cualquier curso introductorio de comunicación es el que propusieron el ingeniero Claude Shannon y el matemático Warren Weaver en 1948, originalmente pensado para resolver un problema técnico de transmisión telefónica, y que después se adoptó como modelo general del proceso comunicativo humano.",
+        "Elemento — Función — Ejemplo",
+        "Emisor — Quien origina y codifica el mensaje — Un gerente que redacta un correo",
+        "Mensaje — El contenido que se transmite — El texto del correo",
+        "Código — El sistema de signos compartido (idioma, símbolos) — El español escrito",
+        "Canal — El medio físico por el que viaja el mensaje — El correo electrónico",
+        "Receptor — Quien recibe y decodifica el mensaje — El equipo que lo lee",
+        "Contexto — La situación que rodea al acto comunicativo — Una crisis de producción",
+        "Retroalimentación (feedback) — La respuesta del receptor, que confirma o corrige la comunicación — La respuesta del equipo al correo",
+        "Un elemento que Shannon y Weaver identificaron y que resulta clave para entender por qué la comunicación falla tantas veces es el ruido: cualquier interferencia que distorsiona el mensaje entre el emisor y el receptor. El ruido puede ser físico (una llamada con mala señal), semántico (una palabra que el receptor interpreta distinto de lo que quiso decir el emisor) o psicológico (un receptor que no presta atención por estar preocupado por otra cosa). Este concepto se retoma y se amplía en el subtema 1.4.1, dedicado específicamente a las barreras de la comunicación.",
+        "NOTA: El lingüista ruso Roman Jakobson amplió el modelo de Shannon y Weaver en 1960 y propuso que el lenguaje cumple seis funciones distintas según en qué elemento del proceso se ponga el énfasis: referencial (en el contexto), emotiva (en el emisor), conativa (en el receptor), fática (en el canal, como al decir “¿me escuchas?”), metalingüística (en el propio código, como al explicar el significado de una palabra) y poética (en el mensaje mismo, como en la literatura)."
+      ]
+    },
+    {
+      "id": "1.2.1",
+      "titulo": "El modelo de David Berlo (modelo SMCR)",
+      "contenido": [
+        "Otro modelo muy citado en los estudios de comunicación es el que propuso el investigador estadounidense David Berlo en 1960, conocido por las siglas en inglés SMCR: Source (fuente), Message (mensaje), Channel (canal) y Receiver (receptor). A diferencia del modelo de Shannon y Weaver, centrado en la transmisión técnica de la señal, Berlo puso el énfasis en los factores humanos que afectan cada uno de esos cuatro elementos.",
+        "Elemento del modelo de Berlo — Factores que lo afectan",
+        "Fuente (emisor) — Habilidades comunicativas, actitudes, conocimiento del tema, sistema social y cultura del emisor",
+        "Mensaje — Contenido, estructura, tratamiento, código y elementos utilizados",
+        "Canal — Los cinco sentidos por los que puede percibirse el mensaje: vista, oído, tacto, olfato, gusto",
+        "Receptor — Los mismos factores que la fuente: habilidades, actitudes, conocimiento, sistema social y cultura",
+        "La gran aportación de Berlo es recordar que ni el emisor ni el receptor son “máquinas neutras”: ambos llegan al acto comunicativo con su propia cultura, actitudes y nivel de conocimiento previo, lo cual explica por qué el mismo mensaje objetivo puede ser recibido de forma completamente distinta por dos personas diferentes.",
+        "• Puntos clave de los subtemas 1.1.1, 1.2 y 1.2.1",
+        "• El modelo de Shannon y Weaver (1948) identifica emisor, mensaje, código, canal, receptor, contexto y retroalimentación.",
+        "• El modelo de Berlo (SMCR, 1960) añade que tanto emisor como receptor están condicionados por su cultura, actitudes y conocimiento previo.",
+        "• La comunicación ocurre en distintos niveles: intrapersonal, interpersonal, grupal, organizacional, pública y masiva.",
+        "§ Actividad sugerida",
+        "Elige un mensaje que hayas enviado o recibido recientemente e identifica en él los siete elementos del modelo de Shannon y Weaver. Señala también si hubo algún tipo de ruido.",
+        "§ Actividad sugerida",
+        "Aplica el modelo de Berlo a una situación real de malentendido que hayas vivido: describe qué factores culturales, de actitud o de conocimiento previo del emisor y del receptor pudieron haber influido en el malentendido."
+      ]
+    },
+    {
+      "id": "1.2.2",
+      "titulo": "El modelo de Lasswell: las cinco preguntas",
+      "contenido": [
+        "Un tercer modelo clásico, contemporáneo al de Shannon y Weaver pero surgido desde la ciencia política y la sociología en vez de la ingeniería, es el que propuso el politólogo estadounidense Harold D. Lasswell en 1948. A diferencia de los modelos técnicos ya vistos, Lasswell no buscaba resolver un problema de transmisión de señales, sino ofrecer una fórmula sencilla y memorable para analizar cualquier acto de comunicación, especialmente en el ámbito de los medios masivos y la propaganda política, campo en el que Lasswell fue pionero desde la Primera Guerra Mundial.",
+        "Su modelo se resume en cinco preguntas encadenadas, cada una de las cuales corresponde además a una rama distinta de investigación dentro de las ciencias de la comunicación:",
+        "Pregunta — Elemento que analiza — Disciplina de análisis",
+        "¿Quién? — El emisor — Análisis de control",
+        "Dice ¿qué? — El mensaje — Análisis de contenido",
+        "¿En qué canal? — El medio — Análisis de medios",
+        "¿A quién? — El receptor — Análisis de audiencia",
+        "¿Con qué efecto? — El resultado — Análisis de efectos",
+        "La sencillez del modelo de Lasswell —que a primera vista puede parecer una simplificación excesiva frente al detalle técnico de Shannon-Weaver o la profundidad humana de Berlo— es precisamente su mayor virtud práctica: sigue usándose hoy como plantilla rápida para planear una campaña de comunicación, una nota de prensa o una estrategia en redes sociales, porque obliga a responder, en un orden lógico, las cinco preguntas que ninguna comunicación profesional puede dejar sin resolver. La última pregunta —¿con qué efecto?— es, además, el puente directo hacia las teorías de la agenda-setting, la espiral del silencio y los usos y gratificaciones presentadas en el subtema 1.1.2.",
+        "NOTA: Antes de proponer este modelo, Lasswell había estudiado exhaustivamente la propaganda política de la Primera Guerra Mundial en su libro Technique in the World War (1927), lo que explica por qué su modelo pone un énfasis especial en la pregunta “¿con qué efecto?”: a Lasswell le interesaba, ante todo, medir el impacto persuasivo de un mensaje sobre una audiencia masiva.",
+        "RECUERDA: El modelo de Lasswell (1948) resume el acto comunicativo en cinco preguntas: ¿quién dice qué, en qué canal, a quién y con qué efecto? Cada pregunta corresponde a una disciplina de análisis distinta: control, contenido, medios, audiencia y efectos.",
+        "§ Actividad sugerida",
+        "Aplica las cinco preguntas de Lasswell a una campaña publicitaria o de comunicación institucional que recuerdes bien. Responde cada pregunta en una frase y señala cuál de las cinco te resultó más difícil de responder, y por qué."
+      ]
+    },
+    {
+      "id": "1.3",
+      "titulo": "Diferencia entre comunicación e información",
+      "contenido": [
+        "Es común confundir estos dos términos, pero la diferencia es importante para cualquier profesionista. La información es el contenido en sí mismo: un dato, un hecho, una cifra. La comunicación es el proceso mediante el cual esa información se transmite, se comparte y —sobre todo— se comprende. Se puede tener información perfectamente correcta y, aun así, comunicarla mal.",
+        "Una segunda diferencia central: la información puede fluir en un solo sentido (un cartel, un letrero, un boletín impreso que nadie lee), mientras que la comunicación plena implica, al menos en potencia, una vía de retorno: la posibilidad de que el receptor responda, pregunte o corrija. Por eso el teórico austriaco Paul Watzlawick, en su primer axioma de la comunicación humana (1967), afirmó una idea que se ha vuelto célebre en el campo: “es imposible no comunicarse”.",
+        "IMPORTANTE: “Es imposible no comunicarse. Toda conducta, en una situación de interacción, tiene un valor de mensaje.” — Paul Watzlawick, Teoría de la comunicación humana (1967), primer axioma.",
+        "RECUERDA: Información = el contenido o dato en sí mismo. Comunicación = el proceso completo de compartir ese contenido, con intención de generar comprensión y con posibilidad de respuesta."
+      ]
+    },
+    {
+      "id": "1.4",
+      "titulo": "Principios de la comunicación",
+      "contenido": [
+        "Además del axioma de Watzlawick ya citado, conviene conocer un conjunto de principios generales aceptados en la disciplina, útiles para diagnosticar por qué una comunicación específica tuvo éxito o fracasó:",
+        "Principio — Qué significa",
+        "Es un proceso, no un evento único — La comunicación efectiva rara vez ocurre en un solo intercambio; suele requerir ajustes progresivos.",
+        "Es irreversible — Una vez dicho o escrito un mensaje, no puede “desdecirse” por completo; el efecto ya se produjo.",
+        "Es dinámica y bidireccional — Emisor y receptor intercambian roles constantemente durante una conversación.",
+        "Depende del contexto — El mismo mensaje puede interpretarse de forma distinta según el momento, el lugar y la relación entre las personas.",
+        "Es simbólica — Usamos signos (palabras, gestos) que representan ideas, pero no son la idea misma; por eso caben malentendidos.",
+        "Tiene contenido y relación — Segundo axioma de Watzlawick: todo mensaje transmite tanto un dato (contenido) como una definición del tipo de relación entre emisor y receptor.",
+        "NOTA: El principio de irreversibilidad explica por qué, en el mundo profesional, se recomienda releer un correo antes de enviarlo o pensar dos veces antes de hablar en una reunión tensa: a diferencia de un borrador de texto, un mensaje ya comunicado no puede simplemente “borrarse” de la mente de quien lo recibió."
+      ]
+    },
+    {
+      "id": "1.4.1",
+      "titulo": "Barreras de la comunicación",
+      "contenido": [
+        "Retomando el concepto de “ruido” del subtema 1.2, las barreras de la comunicación son todos los obstáculos que impiden que un mensaje se transmita o se interprete correctamente. Identificarlas con precisión es una de las habilidades más valiosas de cualquier comunicador profesional, porque permite diagnosticar por qué algo salió mal y corregirlo la próxima vez.",
+        "Tipo de barrera — Descripción — Ejemplo",
+        "Física — Elementos del entorno que dificultan la transmisión del mensaje — Ruido ambiental, mala señal telefónica, distancia excesiva",
+        "Semántica — El emisor y el receptor asignan significados distintos a las mismas palabras — Usar tecnicismos que el receptor no conoce; palabras con doble sentido",
+        "Psicológica — Estados emocionales o prejuicios que distorsionan la recepción del mensaje — Un receptor a la defensiva que interpreta cualquier comentario como un ataque",
+        "Fisiológica — Limitaciones del propio cuerpo del emisor o del receptor — Problemas de audición, fatiga extrema, dificultades del habla",
+        "Cultural — Diferencias de valores, costumbres o referencias entre emisor y receptor — Un gesto que es respetuoso en una cultura y ofensivo en otra",
+        "Administrativa u organizacional — Estructuras jerárquicas o burocráticas que distorsionan o retrasan el mensaje — Una instrucción que pasa por demasiados niveles jerárquicos y llega tarde o distorsionada",
+        "IMPORTANTE: “El mayor problema de la comunicación es la ilusión de que ha tenido lugar.” — Cita ampliamente atribuida a George Bernard Shaw, dramaturgo irlandés, y muy citada en manuales de comunicación organizacional.",
+        "RECUERDA: Ante cualquier falla de comunicación, conviene preguntarse primero qué tipo de barrera pudo haber intervenido —física, semántica, psicológica, fisiológica, cultural o administrativa— antes de asumir que el problema fue “mala intención” de alguna de las partes.",
+        "• Puntos clave de los subtemas 1.3, 1.4 y 1.4.1",
+        "• La información es el contenido; la comunicación es el proceso completo de compartirlo y comprenderlo.",
+        "• Watzlawick estableció que es imposible no comunicarse, y que todo mensaje tiene un nivel de contenido y un nivel de relación.",
+        "• Existen seis tipos principales de barreras comunicativas: física, semántica, psicológica, fisiológica, cultural y administrativa.",
+        "§ Actividad sugerida",
+        "Describe una situación real en la que una comunicación haya fallado. Identifica qué tipo(s) de barrera intervinieron, y propón una solución concreta para evitar que se repita."
+      ]
+    },
+    {
+      "id": "1.4.2",
+      "titulo": "Las máximas conversacionales de Grice",
+      "contenido": [
+        "Además de los principios generales ya vistos, el filósofo del lenguaje británico Paul Grice propuso en 1975 una perspectiva distinta, más cercana a la lógica que a la comunicación organizacional, pero igual de útil para diagnosticar por qué una conversación se siente “rara” o poco cooperativa aunque nadie mienta abiertamente. Grice partió de una idea sencilla: cuando dos personas conversan, ambas asumen tácitamente un principio de cooperación, es decir, dan por hecho que la otra persona está contribuyendo de forma honesta y relevante al propósito de la conversación.",
+        "Ese principio de cooperación se concreta, según Grice, en cuatro máximas conversacionales que casi siempre respetamos sin darnos cuenta, y cuya violación —intencional o no— es una fuente frecuente de malentendidos profesionales:",
+        "Máxima — Qué exige — Ejemplo de violación",
+        "Cantidad — Decir ni más ni menos información de la necesaria — Responder con un párrafo completo a una pregunta que solo pedía un “sí” o un “no”",
+        "Calidad — Decir solo lo que se cree verdadero y con evidencia suficiente — Afirmar una cifra o un dato sin haberlo verificado",
+        "Relación — Que la aportación sea relevante para el tema de la conversación — Cambiar de tema abruptamente cuando se hace una pregunta incómoda",
+        "Manera — Ser claro, breve, ordenado y evitar la ambigüedad — Dar instrucciones desordenadas que obligan a preguntar de nuevo",
+        "Lo más interesante de las máximas de Grice no es que se cumplan, sino lo que ocurre cuando alguien las viola de forma deliberada y evidente para la otra persona: en esos casos no estamos ante un error de comunicación, sino ante una implicatura conversacional, es decir, un mensaje implícito que el receptor puede inferir precisamente porque nota que se violó una máxima a propósito. Por ejemplo, si un jefe pide una carta de recomendación sobre un empleado y la respuesta se limita a “Siempre llegó puntual a la oficina”, quien lee la carta entenderá —por la violación evidente de la máxima de cantidad— que el emisor no tiene mucho más positivo que decir sobre ese empleado, aunque nunca lo haya dicho literalmente.",
+        "NOTA: Las máximas de Grice explican también por qué la ironía y el sarcasmo funcionan como comunicación: al violar abiertamente la máxima de calidad (decir algo que evidentemente no se cree), el emisor confía en que el receptor infiera el significado real por el contexto y el tono, no por las palabras literales.",
+        "RECUERDA: El principio de cooperación de Grice supone que ambas partes de una conversación intentan contribuir honesta y relevantemente. Sus cuatro máximas son cantidad, calidad, relación y manera; violarlas a propósito genera una implicatura: un mensaje implícito que el receptor debe inferir.",
+        "§ Actividad sugerida",
+        "Redacta un breve diálogo (4 a 6 líneas) en el que uno de los personajes viole deliberadamente una de las cuatro máximas de Grice para dar a entender algo sin decirlo directamente. Señala qué máxima se violó y qué implicatura se genera."
+      ]
+    },
+    {
+      "id": "1.5",
+      "titulo": "Redes formales de la comunicación",
+      "contenido": [
+        "En cualquier organización —una empresa, una escuela, un gobierno— existen canales oficiales por los que fluye la información de manera autorizada y siguiendo la estructura jerárquica. A estas se les llama redes formales de comunicación.",
+        "Tipo de red formal — Dirección del flujo — Ejemplo",
+        "Descendente — De niveles jerárquicos altos hacia niveles bajos — Una directriz del gerente general a todo el personal",
+        "Ascendente — De niveles bajos hacia niveles altos — Un reporte de resultados de un empleado a su jefe",
+        "Horizontal — Entre personas del mismo nivel jerárquico — La coordinación entre dos gerentes de área distintos",
+        "Diagonal — Entre niveles y áreas distintas sin relación jerárquica directa — Un especialista de sistemas que asesora directamente a un director de otra área",
+        "La comunicación descendente suele ser la más común en organizaciones jerárquicas tradicionales, pero investigaciones de comunicación organizacional han mostrado repetidamente que un exceso de comunicación descendente sin canales ascendentes robustos genera empleados desinformados sobre el impacto real de su trabajo y menos comprometidos con la organización."
+      ]
+    },
+    {
+      "id": "1.6",
+      "titulo": "Redes informales de la comunicación",
+      "contenido": [
+        "Junto a los canales oficiales, en toda organización existe una red paralela, no oficial, que circula la información de manera más rápida —aunque no siempre más precisa— a través de relaciones personales, afinidades y rumores. A esta red se le conoce popularmente como “radio pasillo” y, académicamente, como red de la vid (grapevine), término acuñado en el ejército estadounidense del siglo XIX, cuando las líneas de telégrafo de campaña se tendían enredadas como una vid silvestre, lo que distorsionaba los mensajes.",
+        "Patrón de la red informal — Cómo funciona",
+        "Cadena simple — A le cuenta a B, B le cuenta a C, y así sucesivamente.",
+        "Chisme (gossip) — Una sola persona difunde la información a muchas otras.",
+        "Probabilidad — La información se difunde al azar entre quienes se van encontrando.",
+        "Racimo (cluster) — Unas pocas personas selectivas difunden la información solo a su círculo de confianza; el patrón más común en la práctica.",
+        "NOTA: Estudios clásicos de comunicación organizacional (como los de Keith Davis en los años 1950) encontraron que entre el 75% y el 95% de la información que circula por la red informal de una organización resulta ser precisa en su núcleo factual, aunque suele venir acompañada de interpretaciones, exageraciones o detalles añadidos que sí distorsionan el mensaje original.",
+        "RECUERDA: Las redes formales siguen la estructura oficial de la organización (descendente, ascendente, horizontal, diagonal). Las redes informales —la “radio pasillo”— circulan en paralelo, más rápido pero con mayor riesgo de distorsión."
+      ]
+    },
+    {
+      "id": "1.7",
+      "titulo": "Importancia de la comunicación en los negocios",
+      "contenido": [
+        "En el entorno profesional, la comunicación no es un accesorio: es la herramienta con la que se coordina el trabajo, se negocia, se vende, se resuelven conflictos y se construye la reputación de una empresa o de una persona. Numerosas encuestas a directivos de recursos humanos, en distintos países y a lo largo de varias décadas, coinciden en colocar las habilidades de comunicación oral y escrita entre las tres competencias más solicitadas al momento de contratar, muy por encima incluso de conocimientos técnicos específicos que se pueden capacitar después.",
+        "Área de negocio — Impacto de una buena comunicación",
+        "Ventas y atención al cliente — Mensajes claros generan confianza y reducen malentendidos que provocan devoluciones o quejas.",
+        "Liderazgo de equipos — Instrucciones claras evitan reprocesos y elevan la productividad.",
+        "Negociación — La capacidad de argumentar y escuchar activamente determina el resultado de un acuerdo.",
+        "Reputación de marca — Los comunicados públicos mal redactados pueden generar crisis reputacionales evitables.",
+        "Trabajo en equipo — La retroalimentación clara y oportuna reduce conflictos interpersonales.",
+        "§ Actividad sugerida",
+        "Investiga un caso real (puede ser de una empresa conocida) en el que una mala comunicación —interna o pública— haya generado un problema de negocio documentado. Redacta media cuartilla explicando qué salió mal y qué principio o barrera de los vistos en este tema se relaciona con el caso."
+      ]
+    },
+    {
+      "id": "1.7.1",
+      "titulo": "Estilos de comunicación: sumiso, agresivo y asertivo",
+      "contenido": [
+        "Más allá de qué se dice, la forma en que una persona se comunica en el entorno laboral —sobre todo ante un desacuerdo, una crítica o una petición incómoda— suele clasificarse en tres grandes estilos. Reconocer el propio estilo, y el de las personas con quienes se trabaja, es una de las herramientas prácticas más valiosas de la comunicación profesional, porque permite anticipar conflictos y corregir patrones que dañan tanto las relaciones de trabajo como los resultados.",
+        "Estilo — Cómo se comunica — Riesgo profesional",
+        "Sumiso — Evita el conflicto, antepone las necesidades del otro a las propias, le cuesta decir “no” (ej. “No te preocupes, yo me quedo tarde otra vez, no hay problema”) — Acumula frustración, se le asignan cargas de trabajo injustas, su opinión técnica se ignora",
+        "Agresivo — Impone su punto de vista, interrumpe, eleva la voz, culpa a otros (ej. “Esto está mal hecho, otra vez, ¿es que nadie revisa nada aquí?”) — Genera un ambiente de miedo, desalienta la retroalimentación honesta de su equipo",
+        "Asertivo — Expresa su punto de vista con claridad y respeto, defiende sus derechos sin atropellar los del otro (ej. “Noto un error en este reporte; propongo revisarlo juntos antes de enviarlo”) — Ninguno particular: es el estilo que la literatura de comunicación organizacional recomienda cultivar",
+        "Una habilidad concreta asociada al estilo asertivo, y especialmente valorada en puestos de liderazgo y atención a clientes, es la escucha asertiva: prestar atención genuina a lo que la otra persona dice, sin interrumpir ni preparar mentalmente la respuesta propia mientras el otro todavía habla, confirmando después lo escuchado (“si entiendo bien, lo que te preocupa es…”) antes de responder. La escucha asertiva reduce directamente varias de las barreras vistas en el subtema 1.4.1, en particular la barrera psicológica.",
+        "RECUERDA: El estilo sumiso evita el conflicto a costa de las necesidades propias; el estilo agresivo impone las propias a costa de las del otro; el estilo asertivo defiende un punto de vista con claridad y respeto simultáneo. La escucha asertiva —confirmar lo escuchado antes de responder— es una habilidad entrenable, no un rasgo de personalidad fijo.",
+        "§ Actividad sugerida",
+        "Recuerda una situación reciente en la que hayas tenido que dar una mala noticia, hacer una petición incómoda o responder a una crítica en el trabajo o la escuela. Redacta cómo lo dijiste (o lo dirías) desde los tres estilos: sumiso, agresivo y asertivo."
+      ]
+    },
+    {
+      "id": "1.7.2",
+      "titulo": "Ética, relaciones públicas e imagen corporativa",
+      "contenido": [
+        "La comunicación profesional no solo debe ser clara y persuasiva: debe ser también éticamente responsable. La ética en la comunicación implica, como mínimo, no engañar deliberadamente al receptor, no manipular su decisión ocultando información relevante, y responsabilizarse públicamente de los propios errores en vez de negarlos o minimizarlos. Estos principios no son solo una cuestión moral abstracta: en la práctica, determinan si una organización conserva o pierde la confianza de sus clientes, empleados e inversionistas a largo plazo.",
+        "Íntimamente ligado a la ética está el trabajo de relaciones públicas: el conjunto de acciones planificadas mediante las cuales una organización gestiona la percepción que el público tiene de ella, a través de sus distintos grupos de interés (clientes, medios de comunicación, autoridades, comunidad, empleados). El resultado acumulado de ese trabajo —sumado a la calidad real de los productos o servicios— constituye la imagen corporativa de una organización: la representación mental que el público tiene de ella, la cual puede y debe auditarse periódicamente mediante encuestas de percepción, monitoreo de menciones en medios y redes sociales, y análisis de la competencia.",
+        "Un ámbito más especializado, pero cada vez más relevante para cualquier profesionista de la comunicación, es la comunicación financiera: la información que una organización dirige específicamente a inversionistas, accionistas y analistas financieros sobre su desempeño económico. A diferencia de la publicidad o las relaciones públicas generales, la comunicación financiera está sujeta en muchos países a regulaciones estrictas de transparencia, precisamente porque de ella dependen decisiones de inversión que afectan directamente el patrimonio de terceros.",
+        "NOTA: Una crisis de comunicación —el momento en que un error, accidente o escándalo de una organización se vuelve público— rara vez destruye la reputación por el hecho en sí mismo; con frecuencia es la respuesta comunicativa posterior (negar lo evidente, culpar a otros, tardar en pronunciarse) la que termina de dañar la imagen corporativa de forma duradera.",
+        "RECUERDA: La ética en la comunicación exige no engañar ni manipular. Las relaciones públicas gestionan la percepción pública de una organización; su resultado acumulado es la imagen corporativa, que puede auditarse. La comunicación financiera informa con transparencia a inversionistas y accionistas sobre el desempeño económico."
+      ]
+    },
+    {
+      "id": "1.9",
+      "titulo": "Ficha de consulta rápida — Tema 1",
+      "contenido": [
+        "Concepto — En una frase",
+        "Comunicación — Poner en común un significado, con intención y posibilidad de respuesta.",
+        "Modelo Shannon-Weaver — Emisor, mensaje, código, canal, receptor, contexto, retroalimentación, ruido.",
+        "Modelo de Berlo (SMCR) — Fuente, Mensaje, Canal, Receptor — cada uno afectado por cultura y actitudes.",
+        "Watzlawick, 1er axioma — Es imposible no comunicarse.",
+        "Watzlawick, 2do axioma — Todo mensaje tiene contenido y relación.",
+        "Barreras de comunicación — Física, semántica, psicológica, fisiológica, cultural, administrativa.",
+        "Redes formales — Descendente, ascendente, horizontal, diagonal.",
+        "Redes informales — Radio pasillo / red de la vid: cadena, chisme, probabilidad, racimo."
+      ]
+    }
+  ]
+}
