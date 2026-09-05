@@ -1,0 +1,205 @@
+{
+  "bloque": 9,
+  "nombre": "Comprensión de lectura",
+  "introduccion": "Este último tema cierra el libro donde, en cierto sentido, debió empezar: leer bien es la base de escribir bien, hablar bien y presentar bien, ya que casi todo conocimiento profesional se adquiere primero a través de la lectura. Comprender cómo funciona físicamente el proceso de lectura permite identificar hábitos que lo hacen más lento o menos eficaz, y corregirlos de forma consciente: los niveles de comprensión, el campo visual y las fijaciones oculares, la metodología de una buena lectura, los hábitos negativos más comunes, y las técnicas de skimming y scanning.",
+  "subtemas": [
+    {
+      "id": "9.1",
+      "titulo": "Lectura",
+      "contenido": [
+        "Leer no es un proceso simple de “decodificar letras”: es una actividad cognitiva compleja en la que el cerebro reconoce patrones visuales, los asocia con sonidos y significados, y construye activamente sentido a partir de ellos, integrando también el conocimiento previo del lector sobre el tema. Por eso dos personas pueden “leer” exactamente el mismo texto y comprenderlo de forma distinta, según su experiencia y vocabulario previos."
+      ]
+    },
+    {
+      "id": "9.1.1",
+      "titulo": "Niveles de comprensión lectora",
+      "contenido": [
+        "La pedagogía de la lectura distingue tradicionalmente tres niveles de comprensión, cada uno más profundo que el anterior. Un buen lector no se detiene en el primer nivel.",
+        "Nivel de comprensión — En qué consiste — Pregunta típica",
+        "Literal — Comprender exactamente lo que el texto dice, sin interpretación adicional — ¿Qué pasó? ¿Quién lo dijo? ¿Cuándo ocurrió?",
+        "Inferencial — Deducir información que el texto no dice explícitamente, pero que se desprende de él — ¿Por qué crees que actuó así? ¿Qué pasaría si...?",
+        "Crítico o valorativo — Evaluar, juzgar o tomar postura frente a lo leído, comparándolo con conocimiento previo o con otros criterios — ¿Estás de acuerdo con el argumento del autor? ¿Qué tan confiable es esta fuente?",
+        "RECUERDA: La mayoría de los exámenes escolares de comprensión lectora se quedan en el nivel literal; sin embargo, la comprensión profesional real —la que se necesita para tomar decisiones con base en un informe o un contrato— exige dominar también los niveles inferencial y crítico."
+      ]
+    },
+    {
+      "id": "9.2",
+      "titulo": "Campo visual",
+      "contenido": [
+        "El campo visual, en el contexto de la lectura, se refiere a la cantidad de texto que el ojo puede captar con nitidez en una sola mirada, sin mover la vista. Un lector con un campo visual entrenado logra abarcar varias palabras o incluso una frase corta completa en una sola mirada, mientras que un lector poco entrenado tiende a enfocar una palabra a la vez, lo cual reduce considerablemente la velocidad de lectura."
+      ]
+    },
+    {
+      "id": "9.3",
+      "titulo": "Fijaciones",
+      "contenido": [
+        "Contrario a lo que parece por experiencia subjetiva, el ojo humano no se desliza de forma continua sobre una línea de texto: se mueve en pequeños saltos rápidos llamados sacadas, deteniéndose brevemente en ciertos puntos llamados fijaciones, que es cuando realmente se procesa la información visual. Entre una fijación y otra, durante el salto ocular, el cerebro no capta información nueva.",
+        "Tipo de lector — Fijaciones aproximadas por línea — Consecuencia",
+        "Lector poco entrenado — Muchas fijaciones cortas, palabra por palabra — Lectura lenta, mayor fatiga visual",
+        "Lector entrenado — Pocas fijaciones, cada una abarca varias palabras — Lectura más rápida, con igual o mejor comprensión",
+        "NOTA: Los estudios de movimiento ocular en lectura tienen su origen en el trabajo pionero del oftalmólogo francés Louis Émile Javal a finales del siglo XIX, quien fue el primero en documentar científicamente que los ojos no se deslizan de forma continua al leer, sino que se mueven en saltos (sacadas) con pausas (fijaciones)."
+      ]
+    },
+    {
+      "id": "9.4",
+      "titulo": "Percepción visual",
+      "contenido": [
+        "La percepción visual en la lectura es la capacidad del cerebro para reconocer, de forma casi automática, patrones de letras como palabras completas o incluso frases, en vez de tener que descifrar letra por letra cada vez. Esta capacidad se desarrolla con la práctica y la exposición constante a la lectura."
+      ]
+    },
+    {
+      "id": "9.5",
+      "titulo": "Movimiento horizontal en la lectura",
+      "contenido": [
+        "En el sistema de escritura occidental, la lectura avanza de izquierda a derecha en cada línea. Este movimiento horizontal debe ser fluido y hacia adelante; cuando se interrumpe constantemente por regresiones (volver la vista atrás sin necesidad real), la velocidad y la comprensión se ven afectadas negativamente, como se retoma en el subtema 9.8."
+      ]
+    },
+    {
+      "id": "9.6",
+      "titulo": "Movimiento vertical en la lectura",
+      "contenido": [
+        "Al llegar al final de una línea, el ojo debe realizar un movimiento de retorno: bajar a la línea siguiente y regresar al margen izquierdo. Este movimiento vertical, aunque parece simple, también puede entrenarse para hacerse más eficiente, evitando que el lector pierda el punto exacto donde debe continuar.",
+        "RECUERDA: El movimiento ocular en la lectura no es continuo, sino una secuencia de sacadas (saltos) y fijaciones (pausas de procesamiento), tanto en sentido horizontal (avance por la línea) como vertical (cambio de línea)."
+      ]
+    },
+    {
+      "id": "9.7",
+      "titulo": "Metodología de la lectura",
+      "contenido": [
+        "Existen técnicas concretas, aplicables desde la primera lectura de un texto, que mejoran de forma medible tanto la velocidad como la comprensión lectora."
+      ]
+    },
+    {
+      "id": "9.7.1",
+      "titulo": "Concentración",
+      "contenido": [
+        "La concentración plena en el texto —sin distracciones simultáneas de pantallas, ruido o pensamientos ajenos al contenido— es la condición previa más importante para cualquier lectura eficaz. Investigaciones sobre atención y aprendizaje coinciden en que el cerebro humano no realiza bien varias tareas cognitivas complejas de forma verdaderamente simultánea."
+      ]
+    },
+    {
+      "id": "9.7.2",
+      "titulo": "Leer en silencio",
+      "contenido": [
+        "Leer en silencio, sin pronunciar las palabras ni siquiera mentalmente, es más rápido que la lectura en voz alta o subvocalizada, porque el proceso visual y de comprensión puede avanzar a un ritmo más veloz que el que permite el aparato articulatorio del habla."
+      ]
+    },
+    {
+      "id": "9.7.3",
+      "titulo": "Hacer pausas",
+      "contenido": [
+        "Contrario a la intuición de que “leer sin parar” es más eficiente, las pausas breves y deliberadas —al terminar un párrafo o una sección— permiten al cerebro consolidar lo leído antes de recibir información nueva, mejorando la retención a mediano plazo del contenido."
+      ]
+    },
+    {
+      "id": "9.7.4",
+      "titulo": "Identificar las ideas principales",
+      "contenido": [
+        "Un lector eficaz no le da el mismo peso mental a cada oración de un texto: distingue activamente entre la idea principal de un párrafo y los detalles o ejemplos que la apoyan. Esta habilidad, que se retoma de forma directa del Tema 3 (definir la idea central), es la misma que se necesita para escribir un buen resumen o esquema de cualquier texto leído.",
+        "• Puntos clave del subtema 9.7",
+        "• La concentración plena, sin multitarea, es condición previa de cualquier lectura eficaz.",
+        "• Leer en silencio (sin subvocalizar) es más rápido que la lectura en voz alta.",
+        "• Hacer pausas deliberadas mejora la retención, en vez de perjudicar la velocidad de lectura.",
+        "• Distinguir la idea principal de los detalles de apoyo es la habilidad central de la comprensión lectora."
+      ]
+    },
+    {
+      "id": "9.8",
+      "titulo": "Hábitos negativos de lectura",
+      "contenido": [
+        "Así como existen técnicas que mejoran la lectura, existen hábitos —muy comunes, adquiridos generalmente desde el aprendizaje inicial de la lectura en la infancia— que la vuelven más lenta e ineficiente si no se corrigen conscientemente."
+      ]
+    },
+    {
+      "id": "9.8.1",
+      "titulo": "Vocalización",
+      "contenido": [
+        "Consiste en pronunciar las palabras en voz baja o susurrada mientras se lee, en vez de procesarlas únicamente de forma visual y mental. Limita la velocidad de lectura al ritmo del habla, que es considerablemente más lento que la velocidad de procesamiento visual del cerebro."
+      ]
+    },
+    {
+      "id": "9.8.2",
+      "titulo": "Lectura con los labios",
+      "contenido": [
+        "Una variante más sutil de la vocalización: los labios se mueven formando las palabras sin emitir sonido audible. Aunque menos evidente para quien observa, tiene el mismo efecto de ralentizar la lectura al ritmo del habla."
+      ]
+    },
+    {
+      "id": "9.8.3",
+      "titulo": "Lectura en voz alta",
+      "contenido": [
+        "Cuando se practica de forma habitual para la lectura personal (no en un contexto donde es intencional, como leer en público o a otra persona), la lectura en voz alta impone el ritmo más lento del habla sobre un proceso que, mentalmente, podría avanzar mucho más rápido."
+      ]
+    },
+    {
+      "id": "9.8.4",
+      "titulo": "Lectura regresiva",
+      "contenido": [
+        "Consiste en volver la vista hacia atrás, releyendo palabras o líneas ya leídas, generalmente por distracción momentánea o por inseguridad sobre si se comprendió bien el contenido, y no porque el texto realmente lo requiera. Es, según diversos estudios de velocidad lectora, uno de los hábitos que más tiempo resta a la lectura eficiente, ya que puede llegar a representar hasta una tercera parte del tiempo total de lectura en lectores no entrenados.",
+        "RECUERDA: Los cuatro hábitos negativos más comunes son: vocalización, lectura con los labios, lectura en voz alta habitual, y lectura regresiva; todos ellos imponen al proceso visual y mental de la lectura el ritmo, más lento, del habla o de la relectura innecesaria."
+      ]
+    },
+    {
+      "id": "9.9",
+      "titulo": "Técnicas de comprensión de lectura",
+      "contenido": [
+        "Técnica — En qué consiste",
+        "Lectura previa o exploratoria (skimming) — Un primer vistazo rápido al texto completo (títulos, subtítulos, primeras y últimas oraciones de cada párrafo) antes de la lectura detallada.",
+        "Formulación de preguntas antes de leer — Anticipar qué se espera encontrar en el texto, orientando la atención durante la lectura.",
+        "Subrayado y anotación selectiva — Marcar solo las ideas principales, no fragmentos extensos, para facilitar el repaso posterior.",
+        "Resumen con palabras propias — Verificar la comprensión real reformulando el contenido sin copiar literalmente el texto original.",
+        "Relectura estratégica (no regresiva) — Volver deliberadamente a una sección específica solo cuando es necesario aclarar un punto concreto, no por hábito automático.",
+        "IMPORTANTE: “Comprender un texto no es recordarlo palabra por palabra: es poder reconstruir su sentido con las propias palabras.” — Principio general ampliamente compartido en la pedagogía de la comprensión lectora."
+      ]
+    },
+    {
+      "id": "9.9.1",
+      "titulo": "Skimming vs. scanning: dos técnicas distintas",
+      "contenido": [
+        "Es común confundir estas dos técnicas de lectura rápida, pero tienen propósitos distintos y complementarios.",
+        "Técnica — Propósito — Cuándo usarla",
+        "Skimming (lectura superficial) — Obtener una idea general del contenido completo del texto, sin buscar un dato específico — Antes de decidir si un texto es relevante para lo que se investiga; como primer paso antes de la lectura detallada",
+        "Scanning (lectura de rastreo) — Buscar un dato específico dentro de un texto (una fecha, un nombre, una cifra), ignorando el resto del contenido — Al buscar una respuesta puntual en un documento largo, como un contrato o un manual",
+        "RECUERDA: Skimming = vista panorámica de todo el texto. Scanning = búsqueda dirigida de un dato específico, ignorando el resto."
+      ]
+    },
+    {
+      "id": "9.10",
+      "titulo": "Textos de práctica con preguntas de comprensión",
+      "contenido": [
+        "Los siguientes textos breves permiten poner en práctica de inmediato las técnicas revisadas en este tema: aplica primero el skimming, después lee con atención evitando vocalización y regresiones, y finalmente responde las preguntas en los tres niveles de comprensión vistos en el subtema 9.1.1.",
+        "§ Texto de práctica 1",
+        "La miel es el único alimento producido por un insecto que el ser humano consume de forma directa y sin procesamiento industrial complejo. Las abejas la elaboran a partir del néctar de las flores, que transforman mediante enzimas propias y luego deshidratan dentro del panal hasta obtener la consistencia característica. Debido a su bajísimo contenido de agua y a su acidez natural, la miel es uno de los pocos alimentos que prácticamente no caduca si se almacena correctamente: se han encontrado recipientes de miel en tumbas egipcias de más de tres mil años de antigüedad todavía en condiciones comestibles.",
+        "Pregunta — Nivel de comprensión",
+        "¿De qué elabora la abeja la miel? — Literal",
+        "¿Por qué crees que la miel egipcia de tres mil años seguía siendo comestible? — Inferencial",
+        "¿Consideras confiable la afirmación sobre la miel encontrada en tumbas egipcias? ¿Qué tipo de fuente esperarías para verificarla? — Crítico",
+        "§ Texto de práctica 2",
+        "Durante mucho tiempo se creyó que la multitarea —atender varias actividades cognitivas exigentes al mismo tiempo— aumentaba la productividad. Sin embargo, la evidencia de la psicología cognitiva sugiere que lo que llamamos multitarea es, en realidad, una alternancia muy rápida de atención entre tareas distintas, no un procesamiento verdaderamente simultáneo. Cada cambio de atención tiene un costo cognitivo medible, conocido como costo de cambio de tarea, que reduce tanto la velocidad como la calidad con la que se realiza cada actividad por separado.",
+        "Pregunta — Nivel de comprensión",
+        "¿Qué es el costo de cambio de tarea? — Literal",
+        "¿Qué relación tiene este texto con la recomendación de concentración plena vista en el subtema 9.7.1? — Inferencial",
+        "¿Has notado en tu propia experiencia los efectos de la multitarea descritos en el texto? Justifica tu respuesta. — Crítico",
+        "• Puntos clave del Tema 9",
+        "• Existen tres niveles de comprensión lectora: literal, inferencial y crítico.",
+        "• La lectura eficaz depende de fijaciones oculares amplias, no de leer palabra por palabra.",
+        "• Los hábitos negativos de lectura (vocalización, lectura con labios, lectura en voz alta, regresiones) ralentizan la comprensión.",
+        "• El skimming da una vista panorámica del texto; el scanning busca un dato específico.",
+        "§ Actividad sugerida",
+        "Elige un texto de una cuartilla que no hayas leído antes. Aplica primero skimming durante 1 minuto. Después léelo completo evitando vocalización y regresiones. Finalmente, redacta un resumen de 3 líneas y responde una pregunta de cada nivel de comprensión sobre tu propio texto."
+      ]
+    },
+    {
+      "id": "9.11",
+      "titulo": "Ficha de consulta rápida — Tema 9",
+      "contenido": [
+        "Concepto — En una frase",
+        "Niveles de comprensión — Literal, inferencial, crítico.",
+        "Fijaciones — Pausas oculares donde se procesa la información visual, no en el salto (sacada).",
+        "Hábitos negativos — Vocalización, lectura con labios, lectura en voz alta, regresiones.",
+        "Skimming — Vista panorámica rápida de todo el texto.",
+        "Scanning — Búsqueda de un dato específico, ignorando el resto.",
+        "Idea principal vs. detalles — Distinguirlas es la base de un buen resumen."
+      ]
+    }
+  ]
+}
