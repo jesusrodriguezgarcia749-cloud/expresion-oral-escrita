@@ -1,0 +1,158 @@
+{
+  "bloque": 8,
+  "nombre": "Presentaciones",
+  "introduccion": "Una presentación profesional combina todo lo visto hasta ahora en el libro: redacción clara del contenido, dominio de la comunicación oral y no verbal, y una estructura pensada específicamente para un público que escucha, no que lee. Este tema cubre el proceso completo, desde la preparación hasta el manejo de preguntas al final, incluyendo storytelling, apoyo verbal y visual, presentaciones virtuales, los distintos tipos y formatos de exposición, y cómo manejar público difícil.",
+  "subtemas": [
+    {
+      "id": "8.1",
+      "titulo": "Preparación de una presentación",
+      "contenido": [
+        "Paso de preparación — Pregunta que responde",
+        "Definir el objetivo — ¿Qué quiero que el público piense, sienta o haga después de escucharme?",
+        "Analizar a la audiencia — ¿Quiénes son, qué ya saben del tema, qué esperan obtener?",
+        "Investigar y recopilar contenido — ¿Qué información necesito reunir antes de organizar el mensaje?",
+        "Definir el tiempo disponible — ¿Cuánto tiempo tengo, y cómo debo distribuir el contenido en ese tiempo?",
+        "Ensayar en voz alta — ¿El tiempo real de la presentación coincide con el tiempo planeado?",
+        "RECUERDA: El objetivo de una presentación nunca es “informar” en abstracto: siempre conviene definirlo en términos de una acción o cambio concreto esperado en el público."
+      ]
+    },
+    {
+      "id": "8.2",
+      "titulo": "Organización del contenido",
+      "contenido": [
+        "A diferencia de un texto escrito, que el lector puede releer si se pierde, una presentación oral no ofrece esa segunda oportunidad en el momento: si el público se distrae un segundo, esa información se pierde. Por eso la organización debe ser más simple y reiterativa que en un texto escrito.",
+        "Principio de organización — Aplicación práctica",
+        "Regla de tres — Organizar los puntos principales en grupos de tres (más fáciles de recordar que listas largas).",
+        "Anuncia, desarrolla, resume — “Diles lo que les vas a decir, díselo, y diles lo que les dijiste.”",
+        "Una idea por diapositiva o segmento — Evita saturar cada momento de la presentación con demasiada información simultánea.",
+        "Progresión lógica — Cada punto debe conducir naturalmente al siguiente, no saltar sin conexión aparente.",
+        "IMPORTANTE: “Dile a la audiencia lo que le vas a decir, luego dile lo que le tienes que decir; después, dile lo que le acabas de decir.” — Principio clásico de estructura para discursos y presentaciones, de amplia circulación en manuales de oratoria y educación."
+      ]
+    },
+    {
+      "id": "8.2.1",
+      "titulo": "Storytelling aplicado a presentaciones",
+      "contenido": [
+        "El storytelling —el arte de estructurar información en forma de historia, con un inicio, un conflicto o tensión, y una resolución— se ha vuelto una herramienta central en presentaciones profesionales, porque el cerebro humano procesa y recuerda relatos con mucha más facilidad que listas de datos aislados.",
+        "Elemento narrativo — Aplicación en una presentación de negocios",
+        "Situación inicial — El contexto o “estado normal” antes del problema que se va a resolver.",
+        "Conflicto o tensión — El problema, reto u oportunidad que motiva la presentación.",
+        "Punto de giro — El momento en que se introduce la solución, el hallazgo o la propuesta.",
+        "Resolución — El resultado, con evidencia de que la solución funciona o funcionaría.",
+        "NOTA: Estudios de neurociencia cognitiva han encontrado que cuando una persona escucha una historia bien estructurada, su actividad cerebral se sincroniza de forma medible con la del narrador: un fenómeno que no ocurre de la misma manera al escuchar una lista de datos sueltos, lo que respalda por qué el storytelling es tan efectivo para generar conexión y retención."
+      ]
+    },
+    {
+      "id": "8.3",
+      "titulo": "Apoyo verbal",
+      "contenido": [
+        "El apoyo verbal se refiere a los recursos lingüísticos que refuerzan la comprensión y el interés del público durante una exposición oral: analogías, ejemplos concretos, anécdotas, definiciones claras de términos técnicos, y transiciones explícitas entre un punto y el siguiente.",
+        "Recurso de apoyo verbal — Función",
+        "Analogía — Explica algo desconocido comparándolo con algo que el público ya conoce.",
+        "Ejemplo concreto — Aterriza una idea abstracta en un caso específico y memorable.",
+        "Anécdota — Genera conexión emocional (pathos) y hace memorable el contenido.",
+        "Transición explícita — Ayuda al público a seguir la estructura lógica sin perderse."
+      ]
+    },
+    {
+      "id": "8.4",
+      "titulo": "Apoyo visual",
+      "contenido": [
+        "El apoyo visual (diapositivas, pizarrón, objetos físicos, videos) debe complementar el discurso oral, no sustituirlo ni competir con él. Un error extremadamente común es saturar las diapositivas de texto, obligando al público a elegir entre leer la pantalla o escuchar al presentador.",
+        "Buena práctica de apoyo visual — Por qué funciona",
+        "Poco texto, letra grande y legible desde el fondo del salón — El público procesa mejor imágenes y palabras clave que párrafos completos.",
+        "Una imagen o gráfica que realmente aporte información nueva — Refuerza el mensaje sin duplicar exactamente lo que se dice en voz alta.",
+        "Consistencia visual (colores, tipografía) a lo largo de toda la presentación — Transmite profesionalismo y facilita seguir el hilo.",
+        "Contraste de color suficiente entre texto y fondo — Garantiza legibilidad en cualquier condición de iluminación del salón.",
+        "NOTA: El investigador australiano John Sweller desarrolló, desde los años 1980, la llamada teoría de la carga cognitiva, según la cual la memoria de trabajo humana solo puede procesar una cantidad limitada de información nueva a la vez. Cuando una diapositiva satura al público con texto denso mientras el presentador habla simultáneamente de otra cosa, ambos canales compiten por los mismos recursos mentales limitados del público."
+      ]
+    },
+    {
+      "id": "8.4.1",
+      "titulo": "Consideraciones para presentaciones virtuales o remotas",
+      "contenido": [
+        "Presentar a través de una videollamada plantea retos específicos que no existen en una presentación presencial, y que se han vuelto cada vez más relevantes en el entorno profesional actual.",
+        "Reto de la presentación virtual — Recomendación",
+        "Pérdida de comunicación no verbal completa — El público remoto solo ve el rostro y quizás las manos del presentador; hay que compensar con más expresividad vocal (paralingüística, Tema 6).",
+        "Distracciones del entorno del público — Sesiones más cortas y con mayor interacción explícita (preguntas directas, encuestas) para mantener la atención.",
+        "Fatiga por videollamada (“Zoom fatigue”) — Incluir pausas breves en sesiones largas; evitar exceso de tiempo con la cámara fija en el rostro del presentador.",
+        "Fallas técnicas — Tener siempre un plan B (versión en PDF de las diapositivas, número telefónico alterno) y hacer una prueba técnica previa.",
+        "Dificultad para leer el lenguaje corporal del público — Pedir retroalimentación verbal explícita con mayor frecuencia que en una presentación presencial.",
+        "RECUERDA: En una presentación virtual, el presentador debe compensar conscientemente la pérdida de comunicación no verbal completa con mayor variación vocal, pausas más claras, e interacción explícita con el público."
+      ]
+    },
+    {
+      "id": "8.5",
+      "titulo": "Tipos de exposiciones",
+      "contenido": [
+        "Tipo de exposición — Características",
+        "Informativa — Busca dar a conocer datos o hechos, sin intención de persuadir hacia una postura.",
+        "Persuasiva — Busca convencer al público de adoptar una opinión, decisión o acción concreta.",
+        "Demostrativa — Muestra cómo se hace algo, generalmente con apoyo práctico o físico.",
+        "Académica o de investigación — Presenta hallazgos de un trabajo de investigación, con rigor metodológico.",
+        "La clasificación anterior atiende al propósito de la exposición, pero existe un segundo criterio, igual de relevante en el ámbito profesional y académico, que clasifica las exposiciones grupales según su formato de participación. Es común confundir estos formatos entre sí —en particular mesa redonda, panel y simposio—, aunque cada uno sigue una dinámica distinta:",
+        "Formato — Dinámica — Ejemplo",
+        "Charla — Exposición breve e informal, generalmente sin gran protocolo, dirigida a un grupo pequeño o mediano. — Un egresado comparte su experiencia profesional con estudiantes.",
+        "Conferencia — Exposición formal y de mayor duración, a cargo de una sola persona experta, dirigida a una audiencia amplia. — Una ponencia magistral en un congreso académico.",
+        "Entrevista — Diálogo estructurado de preguntas y respuestas entre un entrevistador y uno o más entrevistados. — Una entrevista periodística a un especialista.",
+        "Mesa redonda — Varios expositores con posturas distintas dialogan libremente entre sí ante el público, moderados, sin buscar necesariamente un acuerdo. — Especialistas de distintas disciplinas discutiendo un tema de actualidad.",
+        "Panel — Varios expertos responden preguntas de un moderador o del público sobre su área de especialidad, con poco diálogo directo entre ellos. — Un panel de reclutadores respondiendo dudas sobre el mercado laboral.",
+        "Simposio — Serie de exposiciones breves y consecutivas de varios expertos, cada uno desde un ángulo distinto de un mismo tema general, sin debate entre ellos. — Varios investigadores presentan avances de un mismo proyecto, cada uno en su especialidad.",
+        "Foro — Tras una exposición inicial, se abre la participación libre del público con preguntas y comentarios. — Un foro comunitario sobre un problema local, abierto a los vecinos.",
+        "Debate — Confrontación formal y reglamentada de posturas opuestas, con turnos de palabra y réplica. — Un debate electoral entre candidatos.",
+        "RECUERDA: La diferencia clave entre los tres formatos que más se confunden: en la mesa redonda los expositores dialogan entre sí; en el panel, responden preguntas de un moderador o del público sin dialogar tanto entre ellos; en el simposio, cada experto expone su parte de forma consecutiva, sin debate.",
+        "§ Actividad sugerida",
+        "Elige un tema de tu carrera y decide qué formato —charla, conferencia, mesa redonda, panel, simposio, foro o debate— sería el más adecuado para explorarlo en clase. Justifica tu elección en función de la dinámica que buscas generar."
+      ]
+    },
+    {
+      "id": "8.6",
+      "titulo": "Estrategias en la sesión de preguntas y respuestas",
+      "contenido": [
+        "La sesión de preguntas al final de una presentación suele generar más nerviosismo que la propia exposición preparada, precisamente porque no se puede controlar de antemano lo que se preguntará.",
+        "Estrategia — Aplicación",
+        "Anticipar preguntas difíciles durante la preparación — Permite tener una respuesta ya pensada antes de que se formule en vivo.",
+        "Repetir o parafrasear la pregunta antes de responder — Da tiempo para pensar y asegura que se entendió correctamente, además de que todo el público la escuche.",
+        "Es válido decir “no lo sé, pero lo investigo y te confirmo” — Genera más credibilidad que inventar una respuesta insegura.",
+        "Mantener las respuestas breves y volver al mensaje central — Evita que una pregunta desvíe por completo el enfoque de la presentación."
+      ]
+    },
+    {
+      "id": "8.6.1",
+      "titulo": "Manejo de público difícil",
+      "contenido": [
+        "Además de las preguntas genuinas, todo presentador experimentado se encuentra eventualmente con participantes que buscan confrontar, monopolizar la sesión o desviar el tema por razones ajenas al contenido. Manejar estas situaciones con serenidad es una habilidad que se desarrolla con la práctica.",
+        "Tipo de participante difícil — Estrategia recomendada",
+        "El monopolizador (hace preguntas muy largas o múltiples) — Agradecer la primera pregunta, responderla, y ofrecer continuar la conversación después de la sesión para las demás.",
+        "El confrontativo (busca desafiar públicamente al presentador) — Mantener un tono calmado, reconocer el punto válido si lo hay, y responder con datos, no con actitud defensiva.",
+        "El que se sale del tema — Reconocer brevemente el comentario y redirigir con cortesía: “Es un tema interesante, aunque se aleja un poco del enfoque de hoy...”",
+        "El silencioso (nadie pregunta) — Tener 1 o 2 preguntas propias preparadas (“una pregunta que me han hecho antes es...”) para romper el hielo.",
+        "RECUERDA: Ante un participante confrontativo, responder con el mismo tono agresivo casi siempre empeora la percepción del público sobre el presentador. La serenidad y los datos concretos son la respuesta más persuasiva.",
+        "• Puntos clave del Tema 8",
+        "• Toda presentación debe partir de un objetivo concreto y un análisis previo de la audiencia.",
+        "• El storytelling estructura el contenido como una historia (situación, conflicto, giro, resolución) para facilitar su retención.",
+        "• El apoyo visual debe complementar, no competir con, el discurso oral (teoría de la carga cognitiva).",
+        "• Las presentaciones virtuales requieren compensar la pérdida de comunicación no verbal con más interacción explícita.",
+        "• Ante público difícil, la serenidad y los datos concretos son más persuasivos que la confrontación.",
+        "§ Actividad sugerida",
+        "Diseña el esquema de una presentación de 5 minutos sobre un tema de tu carrera: define el objetivo, la audiencia, los 3 puntos principales (regla de tres), y aplica la estructura de storytelling del subtema 8.2.1.",
+        "§ Actividad sugerida",
+        "Anticipa 2 preguntas difíciles y 1 comentario de un participante confrontativo que el público podría hacerte sobre tu presentación, y redacta tu respuesta preparada para cada uno."
+      ]
+    },
+    {
+      "id": "8.9",
+      "titulo": "Ficha de consulta rápida — Tema 8",
+      "contenido": [
+        "Concepto — En una frase",
+        "Objetivo de la presentación — Debe definirse como una acción o cambio concreto esperado en el público.",
+        "Regla de tres — Organizar puntos principales en grupos de tres.",
+        "Storytelling — Situación inicial, conflicto, punto de giro, resolución.",
+        "Carga cognitiva (Sweller) — El apoyo visual no debe competir con el discurso oral por los mismos recursos mentales.",
+        "Presentación virtual — Compensar la pérdida de no verbal con más interacción explícita.",
+        "Ante preguntas difíciles — Repetir la pregunta, admitir cuando no se sabe, volver al mensaje central.",
+        "Público confrontativo — Responder con serenidad y datos, nunca con el mismo tono agresivo."
+      ]
+    }
+  ]
+}
