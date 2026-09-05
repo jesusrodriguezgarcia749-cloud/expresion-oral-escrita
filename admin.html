@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel docente — Expresión Oral y Escrita</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/admin.css">
+<link rel="stylesheet" href="css/progreso.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">EOE</span>
+      <span class="brand-text">Expresión Oral y Escrita</span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="compendio.html">Compendio</a>
+      <a href="actividades.html">Actividades</a>
+      <a href="biblioteca.html">Biblioteca</a>
+      <a href="mi-progreso.html">Mi progreso</a>
+      <a href="admin.html" class="nav-admin" aria-current="page">Panel docente</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section id="login-screen" class="admin-wrap">
+  <div class="login-card">
+    <h1>Panel docente</h1>
+    <p class="login-sub">Acceso restringido — solo cuenta institucional.</p>
+    <form id="login-form">
+      <label for="login-email" class="sr-only">Correo</label>
+      <input id="login-email" type="email" placeholder="tu-correo@itesrenedescartes.edu.mx" required autocomplete="email">
+      <label for="login-pass" class="sr-only">Contraseña</label>
+      <input id="login-pass" type="password" placeholder="Contraseña" required autocomplete="current-password">
+      <button type="submit" class="btn btn-primary">Entrar</button>
+      <p id="login-error" class="login-error" hidden></p>
+    </form>
+  </div>
+</section>
+
+<section id="app-screen" class="admin-wrap" hidden>
+
+  <div class="admin-topbar">
+    <div class="group-select-wrap">
+      <label for="grupo-select" class="sr-only">Grupo activo</label>
+      <select id="grupo-select"><option value="">— Elige un grupo —</option></select>
+      <button id="btn-nuevo-grupo" class="btn-icon" title="Nuevo grupo">+ grupo</button>
+      <button id="btn-eliminar-grupo" class="btn-icon btn-icon-peligro" title="Eliminar grupo">🗑</button>
+    </div>
+    <button id="btn-logout" class="btn-logout">Salir</button>
+  </div>
+
+  <nav class="admin-tabs" aria-label="Secciones del panel">
+    <button class="tab-btn active" data-tab="alumnos">Alumnos</button>
+    <button class="tab-btn" data-tab="tareas">Tareas</button>
+    <button class="tab-btn" data-tab="participacion">Participación</button>
+    <button class="tab-btn" data-tab="proyecto">Proyecto</button>
+    <button class="tab-btn" data-tab="asistencia">Asistencia</button>
+    <button class="tab-btn" data-tab="uniformes">Uniformes</button>
+    <button class="tab-btn" data-tab="enlinea">Examen en línea</button>
+    <button class="tab-btn" data-tab="historial">Historial</button>
+    <button class="tab-btn" data-tab="avisos">Avisos</button>
+  </nav>
+
+  <!-- ===== ALUMNOS ===== -->
+  <div id="tab-alumnos" class="tab-panel active">
+    <form id="form-alumno" class="inline-form">
+      <input id="input-alumno-nombre" type="text" placeholder="Nombre completo del alumno" required>
+      <button type="submit" class="btn btn-primary">Agregar</button>
+    </form>
+    <ul id="lista-alumnos" class="student-list"></ul>
+    <p id="alumnos-empty" class="empty-state" hidden>Aún no hay alumnos en este grupo.</p>
+  </div>
+
+  <!-- ===== TAREAS ===== -->
+  <div id="tab-tareas" class="tab-panel">
+    <label for="tareas-parcial" class="field-label">Parcial</label>
+    <select id="tareas-parcial">
+      <option value="p1">Parcial 1</option>
+      <option value="p2">Parcial 2</option>
+      <option value="final">Examen Final (Tareas y Participación)</option>
+    </select>
+
+    <div class="bloques-activos-card">
+      <h3 class="section-title" style="margin-top:0;">Nueva tarea</h3>
+      <label for="tarea-nombre" class="field-label">Nombre de la tarea</label>
+      <input id="tarea-nombre" type="text" placeholder="Ej. Ensayo — Comunicación no verbal">
+      <label for="tarea-fecha" class="field-label">Fecha</label>
+      <input id="tarea-fecha" type="date">
+      <button id="btn-agregar-tarea" class="btn btn-primary btn-block">Agregar tarea</button>
+      <p id="tarea-nueva-msg" class="save-msg" hidden></p>
+    </div>
+
+    <h3 class="section-title">Tareas de este parcial</h3>
+    <div id="tareas-catalogo-lista" class="asis-list"></div>
+    <p id="tareas-catalogo-empty" class="empty-state" hidden>Elige un grupo primero.</p>
+
+    <div id="tarea-calificar" hidden>
+      <h3 class="section-title" id="tarea-calificar-titulo">Calificar tarea</h3>
+      <p class="field-hint">Captura la calificación de 0 a 10 de cada alumno.</p>
+      <div id="tarea-calificar-lista"></div>
+      <button id="btn-guardar-tarea-calif" class="btn btn-primary btn-block">Guardar calificaciones</button>
+      <p id="tarea-calif-msg" class="save-msg" hidden></p>
+    </div>
+  </div>
+
+  <!-- ===== PARTICIPACIÓN ===== -->
+  <div id="tab-participacion" class="tab-panel">
+    <label for="part-parcial" class="field-label">Parcial</label>
+    <select id="part-parcial">
+      <option value="p1">Parcial 1</option>
+      <option value="p2">Parcial 2</option>
+      <option value="final">Examen Final (Tareas y Participación)</option>
+    </select>
+
+    <div class="bloques-activos-card">
+      <h3 class="section-title" style="margin-top:0;">Nueva actividad de participación</h3>
+      <label for="part-nombre" class="field-label">Nombre de la actividad</label>
+      <input id="part-nombre" type="text" placeholder="Ej. Concurso de parónimos">
+      <label for="part-fecha" class="field-label">Fecha</label>
+      <input id="part-fecha" type="date">
+      <button id="btn-agregar-part" class="btn btn-primary btn-block">Agregar actividad</button>
+      <p id="part-nueva-msg" class="save-msg" hidden></p>
+    </div>
+
+    <h3 class="section-title">Actividades de este parcial</h3>
+    <div id="part-catalogo-lista" class="asis-list"></div>
+    <p id="part-catalogo-empty" class="empty-state" hidden>Elige un grupo primero.</p>
+
+    <div id="part-calificar" hidden>
+      <h3 class="section-title" id="part-calificar-titulo">Calificar actividad</h3>
+      <p class="field-hint">Captura la calificación de 0 a 10 de cada alumno.</p>
+      <div id="part-calificar-lista"></div>
+      <button id="btn-guardar-part-calif" class="btn btn-primary btn-block">Guardar calificaciones</button>
+      <p id="part-calif-msg" class="save-msg" hidden></p>
+    </div>
+  </div>
+
+  <!-- ===== PROYECTO: MI VOZ, MI HISTORIA ===== -->
+  <div id="tab-proyecto" class="tab-panel">
+    <p class="field-hint">"Mi Voz, Mi Historia" vive por completo en el Examen Final (40% de esa calificación), repartido en tres entregas que se van dando durante el cuatrimestre. Captura cada entrega en el momento en que ocurre.</p>
+
+    <div class="bloques-activos-card">
+      <h3 class="section-title" style="margin-top:0;">Entrega 1 — Ensayo (se entrega en Parcial 1) · vale 15 pts</h3>
+      <div id="proyecto-entrega1-lista"></div>
+      <button id="btn-guardar-entrega1" class="btn btn-primary btn-block">Guardar Entrega 1</button>
+      <p id="entrega1-msg" class="save-msg" hidden></p>
+    </div>
+
+    <div class="bloques-activos-card">
+      <h3 class="section-title" style="margin-top:0;">Entrega 2 — Ensayo ampliado + oral (se entrega en Parcial 2) · vale 15 pts</h3>
+      <p class="field-hint">Pondera tú mismo 60% ensayo + 40% presentación oral antes de capturar el número combinado.</p>
+      <div id="proyecto-entrega2-lista"></div>
+      <button id="btn-guardar-entrega2" class="btn btn-primary btn-block">Guardar Entrega 2</button>
+      <p id="entrega2-msg" class="save-msg" hidden></p>
+    </div>
+
+    <div class="bloques-activos-card">
+      <h3 class="section-title" style="margin-top:0;">Entrega final — Ensayo pulido y digital (Examen Final) · vale 10 pts</h3>
+      <div id="proyecto-entregaFinal-lista"></div>
+      <button id="btn-guardar-entregaFinal" class="btn btn-primary btn-block">Guardar Entrega final</button>
+      <p id="entregaFinal-msg" class="save-msg" hidden></p>
+    </div>
+
+    <p id="proyecto-empty" class="empty-state" hidden>Elige un grupo primero.</p>
+  </div>
+
+  <!-- ===== ASISTENCIA ===== -->
+  <div id="tab-asistencia" class="tab-panel">
+    <label for="asis-parcial" class="field-label">Parcial</label>
+    <select id="asis-parcial">
+      <option value="p1">Parcial 1</option>
+      <option value="p2">Parcial 2</option>
+      <option value="final">Examen Final</option>
+    </select>
+    <label for="asis-fecha" class="field-label">Fecha</label>
+    <input id="asis-fecha" type="date">
+    <p class="field-hint">Todos inician como <strong>presente</strong>. Toca a un alumno para ciclar: Presente → Retardo → Justificado → Falta.</p>
+    <div id="asistencia-lista" class="asis-list"></div>
+    <p id="asistencia-empty" class="empty-state" hidden>Elige un grupo primero.</p>
+    <button id="btn-guardar-asistencia" class="btn btn-primary btn-block">Guardar asistencia del día</button>
+    <p id="asis-msg" class="save-msg" hidden></p>
+  </div>
+
+  <!-- ===== UNIFORMES ===== -->
+  <div id="tab-uniformes" class="tab-panel">
+    <label for="unif-parcial" class="field-label">Parcial</label>
+    <select id="unif-parcial">
+      <option value="p1">Parcial 1</option>
+      <option value="p2">Parcial 2</option>
+    </select>
+    <p class="field-hint">Número de faltas de uniforme en el parcial. 2 o más faltas = 0% automático en este rubro.</p>
+    <div id="uniformes-lista"></div>
+    <p id="uniformes-empty" class="empty-state" hidden>Elige un grupo primero.</p>
+    <button id="btn-guardar-uniformes" class="btn btn-primary btn-block">Guardar uniformes</button>
+    <p id="unif-msg" class="save-msg" hidden></p>
+  </div>
+
+  <!-- ===== EXAMEN EN LÍNEA ===== -->
+  <div id="tab-enlinea" class="tab-panel">
+    <div class="bloques-activos-card">
+      <h3 class="section-title" style="margin-top:0;">Exámenes abiertos</h3>
+      <p class="field-hint">Mientras un examen esté cerrado, los alumnos no pueden abrirlo. Ábrelo solo el día de aplicación y ciérralo al terminar.</p>
+      <div id="examenes-abiertos-lista" class="asis-list"></div>
+      <button id="btn-guardar-examenes-abiertos" class="btn btn-primary btn-block">Guardar</button>
+      <p id="abiertos-msg" class="save-msg" hidden></p>
+    </div>
+
+    <label for="enlinea-parcial" class="field-label">Ver intentos de</label>
+    <select id="enlinea-parcial">
+      <option value="p1">Parcial 1</option>
+      <option value="p2">Parcial 2</option>
+      <option value="final">Examen Final</option>
+    </select>
+    <p class="field-hint">Aquí ves quién va en curso, quién entregó y a quién se le cerró el examen por salir de la pantalla.</p>
+    <div id="intentos-lista"></div>
+    <p id="intentos-empty" class="empty-state" hidden>Elige un grupo primero.</p>
+  </div>
+
+  <!-- ===== HISTORIAL ===== -->
+  <div id="tab-historial" class="tab-panel">
+    <div class="bloques-activos-card">
+      <h3 class="section-title" style="margin-top:0;">Exportar a Excel</h3>
+      <button id="btn-exportar" class="btn btn-ghost-dark btn-block">Descargar CSV del grupo (todos los parciales)</button>
+      <p id="export-msg" class="save-msg" hidden></p>
+    </div>
+
+    <h3 class="section-title">Resumen por alumno</h3>
+    <p class="field-hint">Toca un alumno para ver su desglose completo del cuatrimestre.</p>
+    <div id="hist-lista-alumnos" class="asis-list"></div>
+    <p id="historial-empty" class="empty-state" hidden>Elige un grupo primero.</p>
+    <div id="hist-resumen" hidden></div>
+  </div>
+
+  <!-- ===== AVISOS ===== -->
+  <div id="tab-avisos" class="tab-panel">
+    <p class="field-hint">Indicaciones y recordatorios para el grupo. Los alumnos los ven en "Mi progreso".</p>
+
+    <label for="aviso-titulo" class="field-label">Título</label>
+    <input id="aviso-titulo" type="text" placeholder="Ej. Fecha del Examen Parcial 1">
+
+    <label for="aviso-texto" class="field-label">Contenido</label>
+    <textarea id="aviso-texto" rows="5" placeholder="Escribe aquí el aviso…"></textarea>
+
+    <button id="btn-publicar-aviso" class="btn btn-primary btn-block">Publicar aviso</button>
+    <p id="aviso-msg" class="save-msg" hidden></p>
+
+    <h3 class="section-title">Avisos publicados</h3>
+    <div id="avisos-lista"></div>
+    <p id="avisos-empty" class="empty-state" hidden>Aún no has publicado avisos en este grupo.</p>
+  </div>
+
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Panel docente · Expresión Oral y Escrita · Acceso restringido.</p>
+  </div>
+</footer>
+
+<audio id="bg-music" loop preload="none">
+  <source src="https://commons.wikimedia.org/wiki/Special:FilePath/Gymnopedie_No._1..ogg" type="audio/ogg">
+</audio>
+<button id="bg-music-toggle" class="music-toggle" aria-label="Activar música de fondo" aria-pressed="false">🎵</button>
+
+<script src="js/app.js"></script>
+<script type="module" src="js/admin.js"></script>
+</body>
+</html>
