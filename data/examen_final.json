@@ -1,0 +1,308 @@
+{
+  "parcial": "final",
+  "titulo": "Examen Final — Repaso acumulado (Parcial 1 y 2) más Presentaciones y Comprensión de lectura",
+  "config": { "preguntasPorExamen": 30, "minutos": 60 },
+  "reactivos": [
+
+    { "id": "pf-001", "subtema": "1.1.1", "tipo": "opcion_multiple",
+      "pregunta": "Un director da un discurso en un auditorio lleno de empleados, sin que estos puedan interrumpir. ¿Qué tipo de comunicación es, según el criterio de número de participantes?",
+      "opciones": [
+        "Pública",
+        "Organizacional",
+        "Masiva",
+        "Grupal"
+      ], "correcta": 0,
+      "explicacion": "Es pública porque hay un emisor frente a una audiencia reunida físicamente. No es masiva porque no es dispersa ni mediada por tecnología, y no es grupal porque no hay interacción directa entre todos." },
+
+    { "id": "pf-002", "subtema": "1.2.1", "tipo": "opcion_multiple",
+      "pregunta": "Dos personas de culturas distintas interpretan de forma opuesta el mismo chiste. ¿Qué elemento del modelo de Berlo explica mejor esta diferencia?",
+      "opciones": [
+        "La cultura y el sistema social del receptor, que condicionan su interpretación",
+        "El canal por el que se transmitió el chiste",
+        "La estructura gramatical del mensaje",
+        "El código lingüístico compartido entre ambos"
+      ], "correcta": 0,
+      "explicacion": "Berlo señala que el receptor —igual que el emisor— está condicionado por su cultura y contexto social, lo que puede alterar por completo la interpretación de un mismo mensaje objetivo." },
+
+    { "id": "pf-003", "subtema": "1.4.1", "tipo": "opcion_multiple",
+      "pregunta": "Una orden de un director debe pasar por cuatro niveles de mando antes de llegar al operador, y llega tarde y distorsionada. ¿Qué tipo de barrera ilustra este caso?",
+      "opciones": [
+        "Administrativa u organizacional",
+        "Cultural",
+        "Psicológica",
+        "Semántica"
+      ], "correcta": 0,
+      "explicacion": "El problema nace de la estructura jerárquica y burocrática por la que debe pasar el mensaje, no de significados de palabras ni de estados emocionales: es una barrera administrativa." },
+
+    { "id": "pf-004", "subtema": "1.7.1", "tipo": "opcion_multiple",
+      "pregunta": "Un colaborador dice: «No hay problema, yo me quedo tarde otra vez» aunque por dentro está frustrado por la carga desigual de trabajo. ¿Qué estilo de comunicación está usando?",
+      "opciones": [
+        "Sumiso",
+        "Asertivo",
+        "Agresivo",
+        "Pasivo-agresivo"
+      ], "correcta": 0,
+      "explicacion": "Antepone las necesidades del otro a las propias y evita el conflicto, acumulando frustración — el patrón característico del estilo sumiso, no del asertivo." },
+
+    { "id": "pf-005", "subtema": "2.1.1", "tipo": "opcion_multiple",
+      "pregunta": "¿En cuál de las siguientes palabras la regla de la terminación verbal decide correctamente la B, y no una excepción?",
+      "opciones": [
+        "Cantaba (pretérito imperfecto de un verbo terminado en -ar)",
+        "Estuve (pretérito del verbo estar)",
+        "Anduve (pretérito del verbo andar)",
+        "Tuve (pretérito del verbo tener)"
+      ], "correcta": 0,
+      "explicacion": "Los imperfectos de verbos en -ar (cantaba) sí siguen la regla de la B; estuve, anduve y tuve son la excepción que se escribe con V a pesar de ser pretéritos." },
+
+    { "id": "pf-006", "subtema": "2.2.1", "tipo": "opcion_multiple",
+      "pregunta": "Según la actualización de la RAE de 2010, ¿cuál de estas oraciones está correctamente escrita?",
+      "opciones": [
+        "Trabaja solo los domingos.",
+        "Trabaja sólo los domingos.",
+        "Este es mi carro, aquél es el tuyo.",
+        "¿5 ó 6 personas vendrán?"
+      ], "correcta": 0,
+      "explicacion": "Desde 2010, “solo” nunca lleva tilde, los demostrativos como pronombres tampoco, y la “o” entre números se escribe siempre sin tilde." },
+
+    { "id": "pf-007", "subtema": "2.2.3", "tipo": "opcion_multiple",
+      "pregunta": "¿Por qué la palabra “país” lleva tilde en la “í” si termina en consonante, lo que no correspondería a la regla de agudas?",
+      "opciones": [
+        "Porque se trata de un hiato acentual: la vocal débil tónica rompe el diptongo con la fuerte",
+        "Porque todas las palabras de dos sílabas llevan tilde obligatoriamente",
+        "Porque “país” es un extranjerismo que conserva su acentuación original",
+        "Porque termina en “s”, y esa es justo la regla general de las agudas"
+      ], "correcta": 0,
+      "explicacion": "“País” sigue la regla del hiato acentual: la vocal débil (í) lleva el acento y por eso «rompe» el diptongo con la vocal fuerte (a)." },
+
+    { "id": "pf-008", "subtema": "2.2.13", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas afirmaciones sobre el leísmo es correcta según la RAE?",
+      "opciones": [
+        "Se acepta como uso culto el leísmo de persona masculino singular, pero no cuando el complemento es femenino, plural o una cosa",
+        "El leísmo está completamente prohibido en cualquier contexto y registro",
+        "El leísmo y el laísmo son exactamente el mismo fenómeno gramatical",
+        "El leísmo solo ocurre en quienes hablan español como segunda lengua"
+      ], "correcta": 0,
+      "explicacion": "La RAE hace una excepción específica: el leísmo de persona masculino singular se acepta por su extensión histórica, pero no en los demás casos." },
+
+    { "id": "pf-009", "subtema": "2.2.16", "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes es una sigla, y no un acrónimo ni una abreviatura?",
+      "opciones": [
+        "ONU",
+        "Pemex",
+        "Sr.",
+        "Láser"
+      ], "correcta": 0,
+      "explicacion": "ONU se lee letra por letra (sigla); Pemex y láser se pronuncian como palabra (acrónimos); “Sr.” es una abreviatura con punto." },
+
+    { "id": "pf-010", "subtema": "2.3", "tipo": "opcion_multiple",
+      "pregunta": "Un alumno de Campeche dice «va a ver mucha gente en la fiesta» al referirse a existencia, no a la acción de mirar. ¿Cuál es la corrección adecuada en registro formal?",
+      "opciones": [
+        "“Va a haber mucha gente”, porque se refiere a existencia y no al verbo ver",
+        "Está correcto tal cual, porque ambos verbos son intercambiables",
+        "Debe decir “va haber”, sin la preposición “a”",
+        "Debe decir “habrá de ver mucha gente”"
+      ], "correcta": 0,
+      "explicacion": "Cuando se expresa existencia se usa el verbo “haber” (“va a haber”), no “ver”; es uno de los vulgarismos regionales frecuentes que conviene corregir en registro formal." },
+
+    { "id": "pf-011", "subtema": "3.0.2", "tipo": "opcion_multiple",
+      "pregunta": "Un reporte dice: “el problema que tenemos, no sabemos cómo resolverlo”. ¿Qué vicio de redacción es este?",
+      "opciones": [
+        "Anacoluto",
+        "Redundancia",
+        "Monotonía léxica",
+        "Cacofonía"
+      ], "correcta": 0,
+      "explicacion": "La estructura gramatical cambia a mitad de la oración de forma incoherente, lo cual es la definición exacta de anacoluto." },
+
+    { "id": "pf-012", "subtema": "3.3", "tipo": "opcion_multiple",
+      "pregunta": "Un anuncio dice: “o compras esta laptop premium, o te conformas con equipo obsoleto”. ¿Qué falacia lógica utiliza?",
+      "opciones": [
+        "Falsa dicotomía",
+        "Generalización apresurada",
+        "Ataque personal",
+        "Falacia de autoridad"
+      ], "correcta": 0,
+      "explicacion": "Presenta solo dos opciones extremas cuando existen alternativas intermedias: es una falsa dicotomía." },
+
+    { "id": "pf-013", "subtema": "4.1.1", "tipo": "opcion_multiple",
+      "pregunta": "Un texto detalla, sin argumentar ninguna postura, el paisaje sonoro de un mercado tradicional. ¿Qué tipo de ensayo es?",
+      "opciones": [
+        "Descriptivo",
+        "Argumentativo",
+        "Crítico",
+        "Narrativo"
+      ], "correcta": 0,
+      "explicacion": "Detalla características sin defender una tesis ni juzgar con criterios explícitos: es descriptivo." },
+
+    { "id": "pf-014", "subtema": "4.4.2", "tipo": "opcion_multiple",
+      "pregunta": "En formato APA, ¿cómo se cita correctamente una fuente con cuatro autores dentro del texto?",
+      "opciones": [
+        "(García et al., 2020)",
+        "(García, Pérez, López y Ramírez, 2020)",
+        "(García & Pérez, 2020)",
+        "García, Pérez, López, Ramírez (2020, p. 12)"
+      ], "correcta": 0,
+      "explicacion": "A partir de tres autores, el estilo APA abrevia con “et al.”." },
+
+    { "id": "pf-015", "subtema": "5.2", "tipo": "opcion_multiple",
+      "pregunta": "En el esquema típico de argumentación de un informe, ¿qué elemento va justo antes de la recomendación final?",
+      "opciones": [
+        "Opciones consideradas",
+        "Situación actual",
+        "Análisis de causas",
+        "Próximos pasos"
+      ], "correcta": 0,
+      "explicacion": "El orden es: situación actual, análisis de causas, opciones consideradas, recomendación, próximos pasos." },
+
+    { "id": "pf-016", "subtema": "5.5", "tipo": "opcion_multiple",
+      "pregunta": "¿Qué distingue principalmente a una monografía de un reporte?",
+      "opciones": [
+        "La monografía desarrolla un tema a fondo desde varios ángulos; el reporte comunica resultados de un periodo acotado y reciente",
+        "El reporte siempre es más extenso que la monografía",
+        "La monografía nunca requiere fuentes documentales",
+        "El reporte se usa únicamente en contextos académicos, nunca en negocios"
+      ], "correcta": 0,
+      "explicacion": "La monografía tiene un enfoque temporal amplio; el reporte se centra en resultados de un periodo específico y reciente." },
+
+    { "id": "pf-017", "subtema": "6.1", "tipo": "opcion_multiple",
+      "pregunta": "¿Qué principio lingüístico explica que no exista una razón natural por la que la palabra “mesa” deba referirse a ese mueble?",
+      "opciones": [
+        "El principio de arbitrariedad del signo lingüístico, de Ferdinand de Saussure",
+        "El axioma de que es imposible no comunicarse, de Watzlawick",
+        "La teoría de usos y gratificaciones",
+        "El determinismo tecnológico de McLuhan"
+      ], "correcta": 0,
+      "explicacion": "Saussure formuló que la relación entre significante y significado es arbitraria, sostenida solo por convención social." },
+
+    { "id": "pf-018", "subtema": "6.2.1", "tipo": "relacionar",
+      "pregunta": "Relaciona cada zona proxémica de Edward T. Hall con el tipo de relación asociada.",
+      "pares": [
+        { "izquierda": "Íntima (0-45 cm)", "derecha": "Pareja o familia muy cercana" },
+        { "izquierda": "Personal (45 cm-1.2 m)", "derecha": "Amigos, conversación cotidiana" },
+        { "izquierda": "Social (1.2-3.6 m)", "derecha": "Compañeros de trabajo, trato formal" },
+        { "izquierda": "Pública (más de 3.6 m)", "derecha": "Conferencias, discursos públicos" }
+      ],
+      "explicacion": "Hall identificó estas cuatro zonas de distancia interpersonal, cada una con un tipo de relación característico." },
+
+    { "id": "pf-019", "subtema": "7.2.2", "tipo": "opcion_multiple",
+      "pregunta": "“El perro de mi vecino que ladra mucho” es un ejemplo de:",
+      "opciones": [
+        "Anfibología, porque no queda claro si el perro o el vecino ladra mucho",
+        "Barbarismo, por una palabra mal usada",
+        "Cacofonía, por repetición de sonidos",
+        "Muletilla, por una expresión de relleno"
+      ], "correcta": 0,
+      "explicacion": "La construcción gramatical permite dos lecturas distintas sobre quién ladra: es anfibología." },
+
+    { "id": "pf-020", "subtema": "7.4", "tipo": "opcion_multiple",
+      "pregunta": "En un debate formal, ¿qué elemento responde directamente a los argumentos del equipo contrario, señalando sus debilidades?",
+      "opciones": [
+        "La refutación",
+        "La postura o moción",
+        "La argumentación inicial",
+        "El moderador"
+      ], "correcta": 0,
+      "explicacion": "La refutación es la etapa donde cada equipo responde a los argumentos contrarios." },
+
+    { "id": "pf-021", "subtema": "8.1", "tipo": "opcion_multiple",
+      "pregunta": "Antes incluso de investigar el contenido de una presentación, ¿qué debe definirse primero?",
+      "opciones": [
+        "El objetivo: qué se quiere que el público piense, sienta o haga después",
+        "El diseño de las diapositivas",
+        "El tiempo disponible para exponer",
+        "La anécdota con la que se abrirá la presentación"
+      ], "correcta": 0,
+      "explicacion": "El objetivo nunca es «informar» en abstracto; conviene definirlo como una acción o cambio concreto esperado en el público, antes de investigar o diseñar nada." },
+
+    { "id": "pf-022", "subtema": "8.2", "tipo": "opcion_multiple",
+      "pregunta": "Un presentador organiza sus tres ideas principales para que sean más fáciles de recordar. ¿Qué principio está aplicando?",
+      "opciones": [
+        "La regla de tres",
+        "El storytelling",
+        "La teoría de la carga cognitiva",
+        "El principio de la pirámide"
+      ], "correcta": 0,
+      "explicacion": "La regla de tres agrupa los puntos principales de tres en tres precisamente porque son más fáciles de recordar que listas más largas." },
+
+    { "id": "pf-023", "subtema": "8.2.1", "tipo": "opcion_multiple",
+      "pregunta": "En el storytelling aplicado a presentaciones, ¿qué momento introduce la solución o propuesta, después de haber planteado el conflicto?",
+      "opciones": [
+        "El punto de giro",
+        "La situación inicial",
+        "La resolución",
+        "El conflicto o tensión"
+      ], "correcta": 0,
+      "explicacion": "El punto de giro introduce la solución; la resolución viene después, mostrando el resultado de haberla aplicado." },
+
+    { "id": "pf-024", "subtema": "8.4", "tipo": "opcion_multiple",
+      "pregunta": "Según la teoría de la carga cognitiva de John Sweller, ¿qué ocurre si una diapositiva satura de texto al público mientras el presentador habla de otra cosa?",
+      "opciones": [
+        "Ambos canales compiten por los recursos mentales limitados del público, reduciendo la comprensión",
+        "El público retiene automáticamente más información por tener dos fuentes simultáneas",
+        "No hay ningún efecto medible, siempre que la letra sea legible",
+        "Solo afecta a audiencias con poca experiencia en el tema"
+      ], "correcta": 0,
+      "explicacion": "La memoria de trabajo humana procesa una cantidad limitada de información nueva a la vez; saturar los dos canales los hace competir entre sí en vez de reforzarse." },
+
+    { "id": "pf-025", "subtema": "8.4.1", "tipo": "opcion_multiple",
+      "pregunta": "¿Qué debe compensar principalmente un presentador en una videollamada, respecto a una presentación presencial?",
+      "opciones": [
+        "La pérdida de comunicación no verbal completa, con más variación vocal e interacción explícita",
+        "La falta de diapositivas, sustituyéndolas por texto hablado más largo",
+        "La imposibilidad de recibir preguntas del público en cualquier momento",
+        "La ausencia total de lenguaje corporal por parte del presentador"
+      ], "correcta": 0,
+      "explicacion": "El público remoto solo ve rostro y quizás manos; el presentador debe compensar con más expresividad vocal, pausas claras e interacción explícita." },
+
+    { "id": "pf-026", "subtema": "8.5", "tipo": "opcion_multiple",
+      "pregunta": "Varios expertos exponen, uno tras otro, distintos aspectos de un mismo tema general, sin debatir entre ellos. ¿Qué formato de exposición es?",
+      "opciones": [
+        "Simposio",
+        "Mesa redonda",
+        "Panel",
+        "Foro"
+      ], "correcta": 0,
+      "explicacion": "El simposio se distingue precisamente por la ausencia de debate entre expositores, a diferencia de la mesa redonda (que sí dialoga) y el panel (que responde preguntas)." },
+
+    { "id": "pf-027", "subtema": "8.6.1", "tipo": "opcion_multiple",
+      "pregunta": "Un participante confronta abiertamente al presentador durante la sesión de preguntas. ¿Cuál es la estrategia recomendada?",
+      "opciones": [
+        "Mantener un tono calmado, reconocer el punto válido si lo hay, y responder con datos",
+        "Responder con el mismo tono agresivo para no parecer débil frente al público",
+        "Ignorar la pregunta por completo y continuar con el siguiente tema",
+        "Terminar la presentación de inmediato para evitar mayor conflicto"
+      ], "correcta": 0,
+      "explicacion": "Responder con el mismo tono agresivo casi siempre empeora la percepción del público; la serenidad y los datos son más persuasivos." },
+
+    { "id": "pf-028", "subtema": "9.1.1", "tipo": "opcion_multiple",
+      "pregunta": "Un lector deduce, a partir de las pistas del texto, por qué un personaje actuó de cierta forma, aunque el texto no lo diga explícitamente. ¿Qué nivel de comprensión lectora está usando?",
+      "opciones": [
+        "Inferencial",
+        "Literal",
+        "Crítico o valorativo",
+        "Fonético"
+      ], "correcta": 0,
+      "explicacion": "Deducir información que el texto no dice explícitamente, pero que se desprende de él, corresponde al nivel inferencial, más profundo que el literal." },
+
+    { "id": "pf-029", "subtema": "9.3", "tipo": "opcion_multiple",
+      "pregunta": "¿Qué distingue a un lector entrenado de uno poco entrenado, en términos de fijaciones oculares?",
+      "opciones": [
+        "El entrenado realiza pocas fijaciones por línea, pero cada una abarca varias palabras",
+        "El entrenado realiza más fijaciones por línea, cada una más breve",
+        "El entrenado no realiza ninguna fijación, solo sacadas continuas",
+        "No existe diferencia real en el número de fijaciones entre ambos tipos de lector"
+      ], "correcta": 0,
+      "explicacion": "Un lector entrenado abarca varias palabras por fijación, logrando avanzar más rápido con menos pausas oculares que uno sin entrenar." },
+
+    { "id": "pf-030", "subtema": "9.9.1", "tipo": "opcion_multiple",
+      "pregunta": "Un investigador busca una fecha específica dentro de un contrato largo, ignorando el resto del contenido. ¿Qué técnica de lectura está aplicando?",
+      "opciones": [
+        "Scanning",
+        "Skimming",
+        "Vocalización",
+        "Percepción visual"
+      ], "correcta": 0,
+      "explicacion": "El scanning es una búsqueda dirigida de un dato específico, ignorando el resto del texto; el skimming, en cambio, da una vista panorámica de todo el contenido." }
+
+  ]
+}
