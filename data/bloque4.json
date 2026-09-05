@@ -1,0 +1,165 @@
+{
+  "bloque": 4,
+  "nombre": "Los escritos académicos",
+  "introduccion": "Este tema aplica todo lo visto en Redacción a los formatos concretos que un estudiante universitario o un profesionista deberá producir a lo largo de su carrera: ensayos, reseñas, artículos de divulgación, productos de investigación y, de forma transversal a todos ellos, el correcto manejo de citas y referencias, es decir, el aparato crítico.",
+  "subtemas": [
+    {
+      "id": "4.1",
+      "titulo": "Ensayos y reseñas",
+      "contenido": [
+        "El ensayo es un escrito en prosa, generalmente breve, en el que el autor expone su punto de vista personal sobre un tema, argumentándolo con libertad de estilo pero con rigor en el razonamiento. A diferencia de un reporte de investigación, el ensayo permite —e incluso espera— la voz y la interpretación propia del autor, siempre que esté bien fundamentada.",
+        "Parte del ensayo — Función",
+        "Introducción — Presenta el tema y la tesis (idea central) que se va a defender.",
+        "Desarrollo — Expone los argumentos, en párrafos organizados de forma lógica, cada uno con su propia idea de apoyo.",
+        "Conclusión — Retoma la tesis a la luz de lo argumentado y cierra con una reflexión final, sin introducir información nueva.",
+        "La reseña, en cambio, es un texto más breve cuyo propósito principal es informar y valorar una obra específica —un libro, una película, un artículo, un producto—, describiendo brevemente su contenido y ofreciendo una opinión fundamentada sobre su calidad o relevancia. Mientras que el ensayo desarrolla una idea propia usando el tema como pretexto, la reseña se mantiene más centrada en describir y evaluar la obra en cuestión.",
+        "RECUERDA: Ensayo: desarrolla una tesis propia con argumentos personales sobre un tema. Reseña: describe y valora una obra específica, con menos espacio para la digresión personal."
+      ]
+    },
+    {
+      "id": "4.1.1",
+      "titulo": "Tipos de ensayo",
+      "contenido": [
+        "Tipo de ensayo — Propósito principal — Ejemplo de tema",
+        "Argumentativo — Defender una postura clara con razones y evidencia — “Por qué la educación a distancia debería ser obligatoria en las universidades”",
+        "Expositivo — Explicar un tema con objetividad, sin necesariamente defender una postura — “Cómo funciona el sistema de pensiones en México”",
+        "Descriptivo — Detallar las características de algo (un lugar, un fenómeno, una persona) sin argumentar una tesis — “El paisaje sonoro de un mercado tradicional”",
+        "Narrativo o personal — Relatar una experiencia propia, reflexionando sobre su significado — “Lo que aprendí al fracasar en mi primer proyecto”",
+        "Crítico — Evaluar y juzgar una obra, postura o fenómeno con criterios explícitos — “Los aciertos y límites de la reforma educativa de 2019”"
+      ]
+    },
+    {
+      "id": "4.1.2",
+      "titulo": "Plantilla básica de ensayo",
+      "contenido": [
+        "Sección — Extensión orientativa — Contenido",
+        "Título — Una línea — Debe anticipar la tesis o generar interés genuino, sin ser vago.",
+        "Párrafo introductorio — 10-15% del texto — Contextualiza el tema, presenta la tesis al final del párrafo.",
+        "Párrafos de desarrollo (2 a 4) — 70-80% del texto — Cada uno con una idea de apoyo distinta, evidencia y conectores claros (Tema 3).",
+        "Párrafo de conclusión — 10-15% del texto — Retoma la tesis, sintetiza los argumentos, cierra con una reflexión final."
+      ]
+    },
+    {
+      "id": "4.2",
+      "titulo": "Artículos de divulgación científica",
+      "contenido": [
+        "El artículo de divulgación científica tiene un propósito distinto al ensayo: traducir hallazgos técnicos o especializados a un lenguaje comprensible para un público general, sin sacrificar la precisión de la información. Es uno de los géneros de redacción más exigentes, porque obliga a simplificar sin distorsionar.",
+        "Elemento del artículo de divulgación — Función",
+        "Título atractivo pero preciso — Debe generar interés sin exagerar ni tergiversar el hallazgo real.",
+        "Analogías y comparaciones — Se usan para explicar conceptos técnicos con referencias de la vida cotidiana.",
+        "Contexto de por qué importa — Explica al lector no especializado por qué el hallazgo es relevante para su vida.",
+        "Fuentes citadas de forma accesible — Se menciona la fuente original (revista científica, investigador) sin usar el aparato crítico técnico completo.",
+        "NOTA: Uno de los mayores riesgos de la divulgación científica mal hecha es el llamado “efecto teléfono descompuesto”: cada nivel de simplificación (del artículo científico original, al comunicado de prensa de la universidad, a la nota periodística, a la publicación en redes sociales) va perdiendo matices, hasta que la afirmación final puede llegar a decir algo muy distinto —o hasta contrario— de lo que el estudio original encontró."
+      ]
+    },
+    {
+      "id": "4.3",
+      "titulo": "Productos de investigación",
+      "contenido": [
+        "A diferencia del ensayo, un producto de investigación busca generar o sistematizar conocimiento nuevo mediante un método verificable, no solo argumentar una opinión personal. Puede tratarse de un proyecto de investigación documental, un estudio de caso, una investigación de campo con encuestas o entrevistas, entre otros formatos, pero todos comparten una estructura general reconocida en el ámbito académico.",
+        "Sección del producto de investigación — Contenido",
+        "Planteamiento del problema — Qué se investiga y por qué es relevante investigarlo.",
+        "Marco teórico o antecedentes — Qué se sabe ya sobre el tema, a partir de fuentes previas.",
+        "Metodología — Cómo se obtuvo la información (encuesta, entrevista, análisis documental, experimento).",
+        "Resultados — Qué se encontró, presentado de forma objetiva, antes de interpretarlo.",
+        "Discusión y conclusiones — Qué significan esos resultados y qué implicaciones tienen."
+      ]
+    },
+    {
+      "id": "4.3.1",
+      "titulo": "La estructura IMRYD de los artículos científicos",
+      "contenido": [
+        "Los artículos de investigación científica formal, publicados en revistas especializadas, suelen seguir un formato estandarizado internacionalmente conocido por sus siglas: IMRYD (Introducción, Métodos, Resultados y Discusión), o IMRAD por sus siglas en inglés. Conocer esta estructura resulta útil incluso para quien no se dedica a la investigación científica pura, porque es la misma lógica detrás de cualquier producto de investigación bien organizado.",
+        "Sección IMRYD — Pregunta que responde",
+        "Introducción — ¿Cuál es el problema y por qué es importante investigarlo?",
+        "Métodos — ¿Cómo se investigó exactamente? (para que otros puedan replicarlo)",
+        "Resultados — ¿Qué se encontró, sin interpretación todavía?",
+        "Y Discusión — ¿Qué significan esos resultados, y qué preguntas quedan abiertas?",
+        "RECUERDA: La diferencia esencial entre un ensayo y un producto de investigación: el ensayo argumenta una interpretación personal; la investigación sigue un método verificable (frecuentemente organizado en la estructura IMRYD) para generar conocimiento que otros puedan replicar o comprobar."
+      ]
+    },
+    {
+      "id": "4.4",
+      "titulo": "Uso e importancia del aparato crítico",
+      "contenido": [
+        "El aparato crítico es el conjunto de elementos —citas, notas, referencias bibliográficas— que permiten a cualquier lector rastrear de dónde proviene cada afirmación de un texto académico. No es un simple requisito formal: es lo que distingue a un texto académico riguroso de una opinión sin fundamento, y protege tanto al autor original (a quien se le da el crédito debido) como al lector (quien puede verificar la información por sí mismo).",
+        "Existen dos grandes sistemas para incorporar el aparato crítico en un texto, y la elección entre uno u otro suele depender de la disciplina académica o de los lineamientos de la institución."
+      ]
+    },
+    {
+      "id": "4.4.1",
+      "titulo": "El sistema a pie de página",
+      "contenido": [
+        "En este sistema —usado tradicionalmente en historia, derecho y otras humanidades, y asociado sobre todo al estilo Chicago/Turabian— cada cita se marca con un número volado en el cuerpo del texto, y el detalle completo de la referencia (autor, título, editorial, año, página) aparece al pie de la misma página, fuera del cuerpo principal del texto.",
+        "Ventaja del sistema a pie de página — Consideración",
+        "El lector puede consultar la fuente sin interrumpir la lectura del cuerpo del texto. — Requiere más espacio en cada página y puede saturar visualmente si hay muchas notas.",
+        "Permite incluir comentarios adicionales del autor sin interrumpir el argumento principal. — Es más laborioso de mantener actualizado si se editan varias versiones del documento."
+      ]
+    },
+    {
+      "id": "4.4.2",
+      "titulo": "El sistema parentético",
+      "contenido": [
+        "En este sistema —asociado sobre todo al estilo APA, muy usado en ciencias sociales, comunicación y psicología— la referencia se incorpora directamente dentro del texto, entre paréntesis, inmediatamente después de la cita o la idea parafraseada, generalmente con el apellido del autor y el año de publicación. El detalle completo de cada fuente se concentra al final del documento, en la lista de referencias.",
+        "Formato típico del sistema parentético (estilo APA) — Ejemplo",
+        "Cita textual con número de página — “la comunicación es un proceso irreversible” (Watzlawick, 1967, p. 45).",
+        "Idea parafraseada sin número de página — Watzlawick (1967) sostiene que no es posible dejar de comunicar.",
+        "Dos autores — (García y Pérez, 2020)",
+        "Tres o más autores — (García et al., 2020)",
+        "IMPORTANTE: “El propósito de las referencias no es solo dar crédito: es permitir que el conocimiento sea acumulativo y verificable, punto por punto.” — Idea central del manual de estilo de la American Psychological Association, recogida en sucesivas ediciones."
+      ]
+    },
+    {
+      "id": "4.4.3",
+      "titulo": "Formato APA: elementos generales de presentación",
+      "contenido": [
+        "Más allá del sistema de citación, el estilo APA (American Psychological Association) establece también lineamientos generales de formato para la presentación de trabajos académicos, muy usados como referencia institucional en universidades de toda Hispanoamérica, incluso fuera del área de psicología.",
+        "Elemento de formato APA — Especificación general",
+        "Tipografía — Times New Roman 12 pt, o alternativas sans-serif como Calibri 11 pt (según la edición del manual).",
+        "Interlineado — Doble espacio en todo el documento, incluyendo referencias.",
+        "Márgenes — 2.54 cm (1 pulgada) en los cuatro lados de la página.",
+        "Alineación — Texto alineado a la izquierda, sin justificar, con sangría de primera línea en cada párrafo.",
+        "Portada — Título, nombre del autor, institución, y en algunos formatos, nota del autor y número de página en el encabezado.",
+        "Lista de referencias — Orden alfabético por apellido del autor, con sangría francesa (la segunda línea de cada referencia con sangría)."
+      ]
+    },
+    {
+      "id": "4.4.4",
+      "titulo": "Tipos de plagio académico",
+      "contenido": [
+        "Ya se adelantó en el Tema 3 que no citar una fuente constituye plagio. Conviene, sin embargo, distinguir los distintos tipos de plagio que se reconocen en el ámbito académico, ya que no todos consisten en copiar texto de forma literal.",
+        "Tipo de plagio — En qué consiste",
+        "Plagio directo — Copiar texto de forma literal sin comillas ni referencia, presentándolo como propio.",
+        "Plagio parafraseado — Cambiar algunas palabras del texto original, pero mantener la estructura y las ideas sin dar crédito.",
+        "Autoplagio — Presentar un trabajo propio ya entregado anteriormente (en otra materia o institución) como si fuera nuevo, sin autorización.",
+        "Plagio de mosaico o patchwork — Combinar fragmentos de varias fuentes distintas, ligeramente modificados, sin citar ninguna.",
+        "Plagio de fuentes secundarias — Citar una fuente que en realidad nunca se consultó directamente, presentándola como si sí se hubiera leído.",
+        "NOTA: La proliferación de herramientas de inteligencia artificial generativa ha añadido una nueva categoría al debate sobre integridad académica: presentar como propio un texto generado enteramente por una IA, sin declararlo, se considera en la mayoría de las instituciones educativas una forma de plagio o de falta de honestidad académica, incluso si el texto no proviene literalmente de otro autor humano.",
+        "• Puntos clave del subtema 4.4",
+        "• El aparato crítico da crédito a las fuentes y permite verificar la información de un texto académico.",
+        "• El sistema a pie de página (Chicago/Turabian) coloca el detalle de la referencia al final de cada página; el sistema parentético (APA) lo coloca entre paréntesis dentro del texto.",
+        "• El formato APA también regula tipografía, interlineado, márgenes y presentación general del documento.",
+        "• Existen varios tipos de plagio: directo, parafraseado, autoplagio, de mosaico y de fuentes secundarias.",
+        "§ Actividad sugerida",
+        "Redacta un párrafo breve (5-6 líneas) sobre un tema de tu carrera que incluya al menos una cita textual y una idea parafraseada, usando el sistema parentético (estilo APA). Después, reescribe las mismas referencias usando el sistema a pie de página.",
+        "§ Actividad sugerida",
+        "Toma un párrafo de una fuente real y reescríbelo de tres formas distintas: como plagio directo (para identificarlo, no para entregarlo), como parafraseo correcto con cita, y como cita textual correcta. Compara las tres versiones y explica las diferencias."
+      ]
+    },
+    {
+      "id": "4.9",
+      "titulo": "Ficha de consulta rápida — Tema 4",
+      "contenido": [
+        "Concepto — En una frase",
+        "Ensayo — Prosa breve con tesis propia, argumentada con libertad de estilo.",
+        "Tipos de ensayo — Argumentativo, expositivo, descriptivo, narrativo, crítico.",
+        "Reseña — Describe y valora una obra específica.",
+        "IMRYD — Introducción, Métodos, Resultados y Discusión: estructura de artículos científicos.",
+        "Sistema a pie de página — Chicago/Turabian: referencia al final de cada página.",
+        "Sistema parentético — APA: referencia entre paréntesis dentro del texto.",
+        "Formato APA general — Times New Roman 12, doble espacio, márgenes de 2.54 cm, sangría francesa en referencias.",
+        "Tipos de plagio — Directo, parafraseado, autoplagio, de mosaico, de fuentes secundarias."
+      ]
+    }
+  ]
+}
