@@ -1,0 +1,143 @@
+{
+  "bloque": 5,
+  "actividades": [
+    {
+      "id": "5.1-a",
+      "subtema": "5.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un informe que presenta evidencia y concluye con una recomendación de acción concreta se clasifica como:",
+      "opciones": ["Informe descriptivo", "Informe expositivo", "Informe argumentativo o de recomendación", "Memorándum"],
+      "correcta": 2,
+      "explicacion": "El informe argumentativo o de recomendación presenta evidencia y concluye con una acción propuesta."
+    },
+    {
+      "id": "5.1-b",
+      "subtema": "5.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "El registro formal de lo tratado y acordado en una reunión se llama:",
+      "opciones": ["Memorándum", "Minuta o acta", "Informe técnico", "Monografía"],
+      "correcta": 1,
+      "explicacion": "La minuta o acta documenta formalmente lo discutido y acordado en una reunión."
+    },
+    {
+      "id": "5.1.1-a",
+      "subtema": "5.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un informe que evalúa la viabilidad técnica, económica, legal y operativa de un proyecto antes de emprenderlo se llama informe de:",
+      "opciones": ["Avance", "Factibilidad", "Auditoría", "Incidentes"],
+      "correcta": 1,
+      "explicacion": "El informe de factibilidad se realiza antes de iniciar un proyecto, para decidir si conviene o no realizarlo."
+    },
+    {
+      "id": "5.1.1-b",
+      "subtema": "5.1.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "El informe de avance compara lo planeado contra lo realmente logrado hasta la fecha durante la ejecución de un proyecto.",
+      "correcta": true,
+      "explicacion": "También llamado informe de progreso, se usa durante la ejecución para comunicar el estado actual."
+    },
+    {
+      "id": "5.2-a",
+      "subtema": "5.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "En el esquema típico de argumentación de un informe, después de “análisis de causas” sigue:",
+      "opciones": ["Situación actual", "Opciones consideradas", "Próximos pasos", "Recomendación"],
+      "correcta": 1,
+      "explicacion": "El orden es: situación actual, análisis de causas, opciones consideradas, recomendación y próximos pasos."
+    },
+    {
+      "id": "5.3-a",
+      "subtema": "5.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "La sección de un informe que ofrece una síntesis de una página o menos, pensada para quien no tiene tiempo de leer todo el documento, es:",
+      "opciones": ["La portada", "El resumen ejecutivo", "Los anexos", "El cuerpo del informe"],
+      "correcta": 1,
+      "explicacion": "El resumen ejecutivo es un resumen completo y autónomo de las conclusiones más importantes, no una simple introducción."
+    },
+    {
+      "id": "5.3.1-a",
+      "subtema": "5.3.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Para mostrar la evolución de un dato a lo largo del tiempo en un informe, conviene usar:",
+      "opciones": ["Una gráfica de barras", "Una gráfica de líneas", "Una gráfica circular", "Siempre texto corrido"],
+      "correcta": 1,
+      "explicacion": "La gráfica de líneas es la más adecuada para mostrar evolución temporal de un dato."
+    },
+    {
+      "id": "5.3.1-b",
+      "subtema": "5.3.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "Se recomienda usar una gráfica circular (pastel) con moderación, evitando más de 5-6 categorías.",
+      "correcta": true,
+      "explicacion": "Más de 5-6 categorías satura visualmente una gráfica circular y dificulta su lectura."
+    },
+    {
+      "id": "5.4-a",
+      "subtema": "5.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según la metodología para elaborar un informe, el primer paso es:",
+      "opciones": ["Redactar un primer borrador", "Definir el propósito y el destinatario", "Dar formato final", "Revisar y editar"],
+      "correcta": 1,
+      "explicacion": "Antes de recopilar información o escribir, es necesario definir para qué se escribe el informe y quién lo leerá."
+    },
+    {
+      "id": "5.5-a",
+      "subtema": "5.5",
+      "tipo": "opcion_multiple",
+      "pregunta": "A diferencia del reporte, la monografía se caracteriza por:",
+      "opciones": [
+        "Ser siempre más breve",
+        "Desarrollar de forma extensa y documentada un solo tema desde varios ángulos",
+        "Referirse solo a un periodo muy reciente",
+        "No requerir ninguna fuente documental"
+      ],
+      "correcta": 1,
+      "explicacion": "La monografía desarrolla un tema a fondo con fines educativos, mientras que el reporte comunica resultados concretos de un periodo acotado."
+    },
+    {
+      "id": "5.6-a",
+      "subtema": "5.6",
+      "tipo": "opcion_multiple",
+      "pregunta": "El “principio de la pirámide”, usado por consultoras como McKinsey en informes de negocios, consiste en:",
+      "opciones": [
+        "Desarrollar primero los datos y terminar con la conclusión",
+        "Comenzar con la conclusión o recomendación principal y después desarrollar los argumentos",
+        "Usar siempre gráficas en forma de pirámide",
+        "Escribir el informe de mayor a menor extensión por sección"
+      ],
+      "correcta": 1,
+      "explicacion": "Este principio invierte el orden natural que muchos estudiantes usan al escribir, priorizando la conclusión desde el inicio."
+    },
+    {
+      "id": "5.6.1-a",
+      "subtema": "5.6.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "La apertura “Por medio de la presente, me permito informar a usted...” corresponde a un nivel de formalidad:",
+      "opciones": ["Informal", "Semiformal", "Formal estándar", "Muy formal"],
+      "correcta": 3,
+      "explicacion": "Este nivel se usa en comunicación externa con autoridades, clientes desconocidos o documentos legales."
+    },
+    {
+      "id": "5.6.1-b",
+      "subtema": "5.6.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "Un formalismo excesivo con colegas cercanos puede sonar tan inadecuado como un registro demasiado informal con un cliente nuevo.",
+      "correcta": true,
+      "explicacion": "El principio de adecuación (Tema 3) exige ajustar el registro tanto hacia arriba como hacia abajo según el destinatario."
+    },
+    {
+      "id": "5.6.2-a",
+      "subtema": "5.6.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "A diferencia de una carta formal, el memorándum se caracteriza por:",
+      "opciones": [
+        "Usar siempre una despedida extensa",
+        "Tener un cuerpo de un solo párrafo breve y directo, sin despedida extensa",
+        "No llevar fecha ni asunto",
+        "Ser exclusivo para comunicación externa"
+      ],
+      "correcta": 1,
+      "explicacion": "El memorándum es breve y directo, sin la despedida extensa que sí lleva una carta formal."
+    }
+  ]
+}
