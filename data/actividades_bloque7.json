@@ -1,0 +1,123 @@
+{
+  "bloque": 7,
+  "actividades": [
+    {
+      "id": "7.1-a",
+      "subtema": "7.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según la teoría aristotélica de la persuasión, la apelación a las emociones del público se llama:",
+      "opciones": ["Ethos", "Pathos", "Logos", "Mythos"],
+      "correcta": 1,
+      "explicacion": "Pathos es la apelación emocional, complementaria a ethos (credibilidad) y logos (razón)."
+    },
+    {
+      "id": "7.1-b",
+      "subtema": "7.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Mencionar la experiencia o las credenciales propias antes de argumentar es un recurso que refuerza principalmente:",
+      "opciones": ["El ethos", "El pathos", "El logos", "Ninguna apelación en particular"],
+      "correcta": 0,
+      "explicacion": "El ethos es la credibilidad y el carácter percibido del orador."
+    },
+    {
+      "id": "7.1-c",
+      "subtema": "7.1",
+      "tipo": "verdadero_falso",
+      "pregunta": "El miedo a hablar en público, llamado glosofobia, se reduce medible mente sobre todo con talento natural, no con exposición práctica.",
+      "correcta": false,
+      "explicacion": "Es al contrario: la evidencia indica que se reduce con la exposición práctica repetida y técnicas de preparación, no principalmente con talento natural."
+    },
+    {
+      "id": "7.1.1-a",
+      "subtema": "7.1.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "El discurso de Gettysburg de Abraham Lincoln es célebre, entre otras cosas, por ser un ejemplo de:",
+      "opciones": ["Uso excesivo de pathos sin logos", "Concisión persuasiva (apenas 270 palabras)", "El discurso más largo de la historia", "Un ejemplo de mala oratoria"],
+      "correcta": 1,
+      "explicacion": "Dura apenas alrededor de dos minutos y se estudia como ejemplo de concisión persuasiva."
+    },
+    {
+      "id": "7.2-a",
+      "subtema": "7.2",
+      "tipo": "verdadero_falso",
+      "pregunta": "Los vicios de dicción dificultan la comprensión del mensaje independientemente de qué tan buena sea la técnica de oratoria empleada.",
+      "correcta": true,
+      "explicacion": "Incluso un orador técnicamente preparado puede debilitar su discurso si comete vicios de dicción."
+    },
+    {
+      "id": "7.2.1-a",
+      "subtema": "7.2.1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Decir “nadien” en vez de “nadie” es un ejemplo de barbarismo por:",
+      "opciones": ["Extranjerismo innecesario", "Palabra inexistente", "Mala pronunciación de una palabra que sí existe", "Mala conjugación verbal"],
+      "correcta": 1,
+      "explicacion": "“Nadien” es una palabra que no existe en español; “nadie” es la forma correcta."
+    },
+    {
+      "id": "7.2.2-a",
+      "subtema": "7.2.2",
+      "tipo": "opcion_multiple",
+      "pregunta": "“Vi a un hombre con un telescopio” es un ejemplo de:",
+      "opciones": ["Cacofonía", "Anfibología", "Barbarismo", "Muletilla"],
+      "correcta": 1,
+      "explicacion": "La oración permite dos interpretaciones (quién tenía el telescopio), una construcción gramaticalmente ambigua."
+    },
+    {
+      "id": "7.2.3-a",
+      "subtema": "7.2.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "“Necesitamos un banco cerca de la oficina” es ambiguo porque:",
+      "opciones": [
+        "“Banco” puede referirse a una institución financiera o a un asiento",
+        "La oración tiene un error gramatical",
+        "Repite sonidos de forma molesta",
+        "Usa una palabra que no existe"
+      ],
+      "correcta": 0,
+      "explicacion": "Es un caso de ambigüedad por polisemia: la palabra “banco” tiene varios significados posibles."
+    },
+    {
+      "id": "7.2.4-a",
+      "subtema": "7.2.4",
+      "tipo": "verdadero_falso",
+      "pregunta": "“La mamá ama a Ana en la cama” es un ejemplo de cacofonía por la repetición excesiva de sonidos similares.",
+      "correcta": true,
+      "explicacion": "La repetición del sonido “ma/ama” produce un efecto sonoro desagradable, típico de la cacofonía."
+    },
+    {
+      "id": "7.2.5-a",
+      "subtema": "7.2.5",
+      "tipo": "opcion_multiple",
+      "pregunta": "Palabras de relleno repetidas inconscientemente, como “este”, “o sea” o “¿verdad?”, se llaman:",
+      "opciones": ["Barbarismos", "Muletillas", "Anfibologías", "Cacofonías"],
+      "correcta": 1,
+      "explicacion": "Las muletillas se corrigen sustituyéndolas por una pausa silenciosa breve y tomando conciencia de ellas al grabarse."
+    },
+    {
+      "id": "7.3-a",
+      "subtema": "7.3",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un discurso de graduación o un brindis se clasifican como discurso:",
+      "opciones": ["Informativo", "Persuasivo", "De ocasión (ceremonial)", "Motivacional"],
+      "correcta": 2,
+      "explicacion": "El discurso de ocasión marca un evento social o institucional específico."
+    },
+    {
+      "id": "7.4-a",
+      "subtema": "7.4",
+      "tipo": "opcion_multiple",
+      "pregunta": "El enunciado concreto sobre el que se debate (“Se debe/no se debe...”) se llama:",
+      "opciones": ["Réplica", "Postura o moción", "Argumentación inicial", "Refutación"],
+      "correcta": 1,
+      "explicacion": "La postura o moción es el planteamiento central que ambos equipos argumentarán a favor o en contra."
+    },
+    {
+      "id": "7.4-b",
+      "subtema": "7.4",
+      "tipo": "verdadero_falso",
+      "pregunta": "Practicar el debate formal desarrolla simultáneamente las habilidades de argumentación, oratoria y escucha activa.",
+      "correcta": true,
+      "explicacion": "El debate formal integra conocimientos de los Temas 3, 6 y 7 en una sola práctica."
+    }
+  ]
+}
