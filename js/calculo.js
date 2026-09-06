@@ -40,6 +40,11 @@ export const NOMBRES_ENTREGA_PROYECTO = {
   entregaFinal: 'Entrega final (Examen Final)',
 };
 
+// Meta de participaciones por parcial para llegar al tope de 25 pts.
+// Con 40 alumnos es imposible que todos hablen todos los días: llegar a
+// esta meta (no participar TODOS los días) ya da la calificación completa.
+export const META_PARTICIPACION = { p1: 6, p2: 6 };
+
 export const PESO_CUATRIMESTRE = { p1: 0.25, p2: 0.25, final: 0.50 };
 
 export const NOMBRES_PARCIAL = { p1: 'Parcial 1', p2: 'Parcial 2', final: 'Examen Final' };
@@ -75,6 +80,16 @@ function calcularRubroPromedio(lista, tope) {
   const prom = promedioCalificaciones(lista); // 0-10 o null
   const pts = prom === null ? 0 : (prom / 10) * tope;
   return { pts, tope, lista: lista || [], promedio: prom };
+}
+
+// Participacion por CONTEO contra una meta (no promedio, no todo-o-nada):
+// llegar a la meta de participaciones da el tope completo; menos, proporcional.
+// Ej. con meta 6 y tope 25: 6+ participaciones = 25 pts; 3 = 12.5; 2 = 8.33.
+function calcularParticipacionConteo(lista, meta, tope) {
+  const cantidad = (lista || []).length;
+  const efectiva = Math.min(cantidad, meta);
+  const pts = meta > 0 ? (efectiva / meta) * tope : 0;
+  return { pts, tope, cantidad, meta, lista: lista || [] };
 }
 
 function calcularExamen(dato, tope) {
@@ -119,7 +134,7 @@ export function calcularParcial(parcial, datos) {
 
   const tope = TOPES[parcial];
   const tareas = calcularRubroPromedio(tareasDelParcial, tope.tareas);
-  const participacion = calcularRubroPromedio(participacionDelParcial, tope.participacion);
+  const participacion = calcularParticipacionConteo(participacionDelParcial, META_PARTICIPACION[parcial], tope.participacion);
   const asistencia = calcularAsistencia(asistenciaDelParcial, tope.asistencia);
   const uniformes = calcularUniformes((datos.uniformes || {})[parcial], tope.uniformes);
   const examen = calcularExamen((datos.examenes || {})[parcial], tope.examen);
