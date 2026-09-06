@@ -619,7 +619,7 @@ async function entregar(automatico) {
         { ...intento, actualizado: serverTimestamp() });
       // Resumen simple que calculo.js lee para el rubro de Examen de este parcial:
       await setDoc(doc(db, ...base, 'examenes', parcialActivo),
-        { calificacion, origen: 'examen en línea', actualizado: serverTimestamp() });
+        { calificacion, origen: 'examen en línea', pinVerificado: sesion.pin, actualizado: serverTimestamp() });
       guardado = true;
       marcarConexion(true);
     } catch (e) {
