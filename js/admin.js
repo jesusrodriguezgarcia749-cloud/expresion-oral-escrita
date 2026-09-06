@@ -433,6 +433,8 @@ async function calificarItem(tipo, item) {
     filasCont.querySelectorAll('.calif-input').forEach(inp => { inp.value = ''; });
   });
 
+  document.getElementById(cfg.calificarWrap).scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 
 async function guardarCalificaciones(tipo) {
   const cfg = CONFIG_TIPO[tipo];
