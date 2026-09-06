@@ -753,15 +753,20 @@ async function cargarIntentos() {
   const filas = [];
   for (const a of alumnosCache) {
     let est = null;
+    let examenDoc = null;
     try {
       const snap = await getDoc(doc(db, 'grupos', grupoActivo, 'alumnos', a.id, 'intentos', parcial));
       est = snap.exists() ? snap.data() : null;
     } catch { /* sin intento */ }
-    filas.push({ alumno: a, est });
+    try {
+      const snapEx = await getDoc(doc(db, 'grupos', grupoActivo, 'alumnos', a.id, 'examenes', parcial));
+      examenDoc = snapEx.exists() ? snapEx.data() : null;
+    } catch { /* sin examen */ }
+    filas.push({ alumno: a, est, examenDoc });
   }
 
   cont.innerHTML = '';
-  filas.forEach(({ alumno, est }) => {
+  filas.forEach(({ alumno, est, examenDoc }) => {
     const div = document.createElement('div');
     div.className = 'intento-card';
 
@@ -805,7 +810,26 @@ async function cargarIntentos() {
           <button class="btn btn-ghost-dark btn-small" data-extra="${alumno.id}">+ tiempo</button>
         </div>`;
     }
+
+    // El ajuste manual del docente siempre está disponible, sin importar el
+    // estado del examen en línea: sirve para recuperaciones, trabajos de
+    // sustitución o correcciones de cualquier tipo. Si ya hay uno capturado
+    // por el docente (no por el examen automático), se muestra aquí.
+    const ajusteInfo = document.createElement('div');
+    ajusteInfo.className = 'intento-acciones';
+    ajusteInfo.style.marginTop = '6px';
+    const esAjusteManual = examenDoc && examenDoc.origen && examenDoc.origen !== 'examen en línea';
+    ajusteInfo.innerHTML = `
+      ${esAjusteManual ? `<p class="intento-detalle">Calificación ajustada manualmente: <strong>${Number(examenDoc.calificacion).toFixed(1)} / 10</strong></p>` : ''}
+      <button class="btn btn-ghost-dark btn-small" data-ajustar-examen="${alumno.id}">Ajustar calificación de examen</button>
+    `;
+    div.appendChild(ajusteInfo);
+
     cont.appendChild(div);
+  });
+
+  cont.querySelectorAll('[data-ajustar-examen]').forEach(b => {
+    b.addEventListener('click', () => ajustarCalificacionExamen(b.dataset.ajustarExamen, parcial));
   });
 
   cont.querySelectorAll('[data-reabrir]').forEach(b => {
@@ -919,6 +943,48 @@ async function darTiempoExtra(alumnoId, parcial) {
 
   await setDoc(ref, { ...est, minutosExtra: (est.minutosExtra || 0) + n, actualizado: serverTimestamp() });
   alert(`Se agregaron ${n} minutos.`);
+  cargarIntentos();
+}
+
+// Ajuste manual de la calificación de Examen para un parcial. Sirve para
+// recuperaciones, trabajos de sustitución o cualquier corrección — sin
+// importar si el alumno presentó el examen en línea, y sin tocar su
+// intento (que queda intacto como registro histórico de lo que contestó).
+// Como el docente entra autenticado, esta escritura pasa por la regla
+// general de Firestore y no necesita el pinVerificado del alumno.
+async function ajustarCalificacionExamen(alumnoId, parcial) {
+  const alumno = alumnosCache.find(a => a.id === alumnoId);
+  const actualRef = doc(db, 'grupos', grupoActivo, 'alumnos', alumnoId, 'examenes', parcial);
+  let actual = null;
+  try {
+    const snap = await getDoc(actualRef);
+    actual = snap.exists() ? snap.data() : null;
+  } catch { /* sin dato previo */ }
+
+  const sugerido = actual && actual.calificacion !== undefined ? actual.calificacion : '';
+  const val = prompt(
+    `Calificación de examen para ${alumno?.nombre || 'este alumno'} (0-10).\n\n` +
+    `Esto reemplaza la calificación del examen en línea, sin borrar sus respuestas guardadas.\n` +
+    `Déjalo vacío y cancela si no quieres hacer ningún cambio.`,
+    sugerido !== '' ? String(sugerido) : ''
+  );
+  if (val === null) return;
+  const calificacion = parseFloat(val);
+  if (isNaN(calificacion) || calificacion < 0 || calificacion > 10) {
+    alert('Escribe un número entre 0 y 10.');
+    return;
+  }
+
+  try {
+    await setDoc(actualRef, {
+      calificacion, origen: 'ajuste manual del docente', actualizado: serverTimestamp(),
+    });
+  } catch (err) {
+    alert('No se pudo guardar el ajuste: ' + (err.message || err));
+    return;
+  }
+
+  alert(`Calificación de examen actualizada a ${calificacion.toFixed(1)} / 10.`);
   cargarIntentos();
 }
 
