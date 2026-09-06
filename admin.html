@@ -230,8 +230,26 @@
   <!-- ===== HISTORIAL ===== -->
   <div id="tab-historial" class="tab-panel">
     <div class="bloques-activos-card">
-      <h3 class="section-title" style="margin-top:0;">Exportar a Excel</h3>
-      <button id="btn-exportar" class="btn btn-ghost-dark btn-block">Descargar CSV del grupo (todos los parciales)</button>
+      <h3 class="section-title" style="margin-top:0;">Generar reporte</h3>
+
+      <label for="hist-modo" class="field-label">¿De quién?</label>
+      <select id="hist-modo">
+        <option value="grupo">Todo el grupo</option>
+        <option value="alumno">Por alumno</option>
+      </select>
+
+      <div id="hist-alumno-wrap" hidden>
+        <label for="hist-alumno-select" class="field-label">Alumno</label>
+        <select id="hist-alumno-select"><option value="">— Elige un alumno —</option></select>
+      </div>
+
+      <label class="field-label">Parciales a incluir (solo aplica a "Todo el grupo")</label>
+      <div id="hist-parciales" class="asis-list"></div>
+
+      <div class="reporte-botones">
+        <button id="btn-pdf" class="btn btn-primary">Reporte PDF</button>
+        <button id="btn-exportar" class="btn btn-ghost-dark">Excel (CSV)</button>
+      </div>
       <p id="export-msg" class="save-msg" hidden></p>
     </div>
 
