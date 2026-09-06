@@ -154,7 +154,7 @@ function renderParciales(resultados) {
         filaRubro('Asistencia', r.asistencia.pts, r.asistencia.tope, `${r.asistencia.presentes}/${r.asistencia.total} clases`)
       : filaRubro('Examen', r.examen.pts, r.examen.tope, r.examen.calificacion !== null ? `${r.examen.calificacion}/10` : 'sin capturar') +
         filaRubro('Tareas', r.tareas.pts, r.tareas.tope, r.tareas.promedio !== null ? `prom. ${r.tareas.promedio.toFixed(1)}/10` : 'sin capturar') +
-        filaRubro('Participación', r.participacion.pts, r.participacion.tope, r.participacion.promedio !== null ? `prom. ${r.participacion.promedio.toFixed(1)}/10` : 'sin capturar') +
+        filaRubro('Participación', r.participacion.pts, r.participacion.tope, `${r.participacion.cantidad} de ${r.participacion.meta} participaciones`) +
         filaRubro('Asistencia', r.asistencia.pts, r.asistencia.tope, `${r.asistencia.presentes}/${r.asistencia.total} clases`) +
         filaRubro('Uniformes', r.uniformes.pts, r.uniformes.tope, `${r.uniformes.faltas} falta(s)`);
 
