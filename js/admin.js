@@ -23,6 +23,7 @@ import {
 
 import { firebaseConfig } from "./firebase-config.js";
 import { calcularParcial, calcularCuatrimestre, NOMBRES_PARCIAL, TOPES } from "./calculo.js";
+import { reporteGrupo, reporteAlumno, reporteExamenAlumno, reporteExamenGrupo } from "./reporte.js";
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
@@ -403,7 +404,16 @@ async function calificarItem(tipo, item) {
     } catch { valores[a.id] = ''; }
   }));
 
-  cont.innerHTML = '';
+  cont.innerHTML = `
+    <div class="quiz-actions" style="margin-bottom:12px; display:flex; gap:8px;">
+      <button type="button" class="btn btn-ghost-dark btn-small" data-accion="marcar-diez">Marcar todos con 10</button>
+      <button type="button" class="btn btn-ghost-dark btn-small" data-accion="limpiar-todos">Limpiar todos (nadie participó)</button>
+    </div>
+  `;
+  const filasCont = document.createElement('div');
+  filasCont.id = `${cfg.calificarLista}-filas`;
+  cont.appendChild(filasCont);
+
   alumnosCache.forEach(a => {
     const row = document.createElement('div');
     row.className = 'ens-row';
@@ -412,11 +422,17 @@ async function calificarItem(tipo, item) {
       <span class="student-name">${escaparHTML(a.nombre)}</span>
       <input type="number" min="0" max="10" step="0.1" class="calif-input" value="${valores[a.id] ?? ''}" placeholder="0-10">
     `;
-    cont.appendChild(row);
+    filasCont.appendChild(row);
   });
 
-  document.getElementById(cfg.calificarWrap).scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
+  cont.querySelector('[data-accion="marcar-diez"]').addEventListener('click', () => {
+    filasCont.querySelectorAll('.calif-input').forEach(inp => { inp.value = '10'; });
+  });
+  cont.querySelector('[data-accion="limpiar-todos"]').addEventListener('click', () => {
+    if (!confirm('¿Vaciar la captura de todos los alumnos para esta actividad? (nadie quedará con calificación aquí)')) return;
+    filasCont.querySelectorAll('.calif-input').forEach(inp => { inp.value = ''; });
+  });
+
 
 async function guardarCalificaciones(tipo) {
   const cfg = CONFIG_TIPO[tipo];
@@ -434,12 +450,19 @@ async function guardarCalificaciones(tipo) {
   filas.forEach(row => {
     const alumnoId = row.dataset.alumnoId;
     const input = row.querySelector('.calif-input');
-    const calificacion = input.value === '' ? null : parseFloat(input.value);
     const ref = doc(db, 'grupos', grupoActivo, 'alumnos', alumnoId, cfg.sub, itemId);
-    escrituras.push(setDoc(ref, {
-      parcial: item.parcial, nombre: item.nombre, fecha: item.fecha,
-      calificacion, actualizado: serverTimestamp(),
-    }));
+    if (input.value === '') {
+      // Sin captura = no participó en ESTA actividad: no se guarda ningún
+      // registro, para que no cuente como 0 en su promedio. Si antes tenía
+      // una calificación aquí y el docente la borró a propósito, se elimina.
+      escrituras.push(deleteDoc(ref).catch(() => {}));
+    } else {
+      const calificacion = parseFloat(input.value);
+      escrituras.push(setDoc(ref, {
+        parcial: item.parcial, nombre: item.nombre, fecha: item.fecha,
+        calificacion, actualizado: serverTimestamp(),
+      }));
+    }
   });
 
   try {
@@ -710,6 +733,19 @@ async function cargarIntentos() {
   empty.hidden = true;
 
   const parcial = document.getElementById('enlinea-parcial').value;
+
+  let btnTodos = document.getElementById('btn-descargar-examenes-grupo');
+  if (!btnTodos) {
+    btnTodos = document.createElement('button');
+    btnTodos.id = 'btn-descargar-examenes-grupo';
+    btnTodos.type = 'button';
+    btnTodos.className = 'btn btn-ghost-dark btn-small';
+    btnTodos.style.marginBottom = '14px';
+    cont.parentNode.insertBefore(btnTodos, cont);
+  }
+  btnTodos.textContent = `Descargar todos los exámenes de ${NOMBRES_PARCIAL[parcial]} (PDF)`;
+  btnTodos.onclick = () => descargarExamenesGrupo(parcial);
+
   cont.innerHTML = '<p class="empty-inline">Cargando…</p>';
 
   const filas = [];
@@ -739,7 +775,10 @@ async function cargarIntentos() {
           <span class="student-name">${escaparHTML(alumno.nombre)}</span>
           <span class="intento-estado est-ok">${Number(est.calificacion).toFixed(1)} / 10</span>
         </div>
-        <p class="intento-detalle">${est.aciertos}/${est.total} correctas${est.automatico ? ' · se acabó el tiempo' : ''}${est.salidas ? ` · ${est.salidas} salida(s) previas` : ''}</p>`;
+        <p class="intento-detalle">${est.aciertos}/${est.total} correctas${est.automatico ? ' · se acabó el tiempo' : ''}${est.salidas ? ` · ${est.salidas} salida(s) previas` : ''}</p>
+        <div class="intento-acciones">
+          <button class="btn btn-ghost-dark btn-small" data-descargar-examen="${alumno.id}">Descargar examen (PDF)</button>
+        </div>`;
     } else if (est.estado === 'bloqueado') {
       div.innerHTML = `
         <div class="intento-top">
@@ -773,7 +812,69 @@ async function cargarIntentos() {
   cont.querySelectorAll('[data-extra]').forEach(b => {
     b.addEventListener('click', () => darTiempoExtra(b.dataset.extra, parcial));
   });
+  cont.querySelectorAll('[data-descargar-examen]').forEach(b => {
+    b.addEventListener('click', () => descargarExamenAlumno(b.dataset.descargarExamen, parcial));
+  });
 }
+
+// Caché del banco de reactivos por parcial — evita volver a descargar el
+// mismo JSON varias veces en una sesión de revisión.
+let bancosExamenCache = {};
+
+async function cargarBancoExamen(parcial) {
+  if (bancosExamenCache[parcial]) return bancosExamenCache[parcial];
+  const res = await fetch(`data/examen_${parcial}.json`, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`No se encontró el banco de reactivos de ${NOMBRES_PARCIAL[parcial]} (HTTP ${res.status})`);
+  const banco = await res.json();
+  bancosExamenCache[parcial] = banco;
+  return banco;
+}
+
+async function descargarExamenAlumno(alumnoId, parcial) {
+  const alumno = alumnosCache.find(a => a.id === alumnoId);
+  if (!alumno) return;
+  try {
+    const [snap, banco] = await Promise.all([
+      getDoc(doc(db, 'grupos', grupoActivo, 'alumnos', alumnoId, 'intentos', parcial)),
+      cargarBancoExamen(parcial),
+    ]);
+    if (!snap.exists()) { alert('Este alumno no tiene un examen registrado en este parcial.'); return; }
+    const intento = snap.data();
+    await reporteExamenAlumno({ nombreGrupo: nombreDelGrupo(), alumno, parcial, intento, banco });
+  } catch (err) {
+    console.error('Error generando el PDF del examen:', err);
+    alert('No se pudo generar el examen: ' + (err.message || err));
+  }
+}
+
+async function descargarExamenesGrupo(parcial) {
+  if (!grupoActivo) { alert('Elige un grupo primero.'); return; }
+  if (alumnosCache.length === 0) { alert('Este grupo no tiene alumnos.'); return; }
+
+  const btnTodos = document.getElementById('btn-descargar-examenes-grupo');
+  const textoOriginal = btnTodos ? btnTodos.textContent : '';
+  if (btnTodos) { btnTodos.disabled = true; btnTodos.textContent = 'Generando…'; }
+
+  try {
+    const banco = await cargarBancoExamen(parcial);
+    const entregas = [];
+    for (const alumno of alumnosCache) {
+      let intento = null;
+      try {
+        const snap = await getDoc(doc(db, 'grupos', grupoActivo, 'alumnos', alumno.id, 'intentos', parcial));
+        intento = snap.exists() ? snap.data() : null;
+      } catch { /* sin intento */ }
+      entregas.push({ alumno, intento });
+    }
+    await reporteExamenGrupo({ nombreGrupo: nombreDelGrupo(), parcial, entregas, banco });
+  } catch (err) {
+    console.error('Error generando el PDF de exámenes del grupo:', err);
+    alert('No se pudo generar el PDF: ' + (err.message || err));
+  } finally {
+    if (btnTodos) { btnTodos.disabled = false; btnTodos.textContent = textoOriginal; }
+  }
+}
+
 
 async function reabrirExamen(alumnoId, parcial) {
   const alumno = alumnosCache.find(a => a.id === alumnoId);
@@ -857,6 +958,89 @@ async function datosDeAlumno(alumnoId) {
   };
 }
 
+// ---------- SELECTOR DE PARCIALES PARA EL REPORTE ----------
+let parcialesReporte = ['p1', 'p2', 'final'];
+
+function renderParcialesReporte() {
+  const cont = document.getElementById('hist-parciales');
+  if (!cont) return;
+  cont.innerHTML = '';
+  PARCIALES.forEach(p => {
+    const incluido = parcialesReporte.includes(p);
+    const row = document.createElement('button');
+    row.type = 'button';
+    row.className = 'asis-row ' + (incluido ? 'asis-presente' : 'asis-falta');
+    row.innerHTML = `
+      <span class="asis-dot"></span>
+      <span class="student-name">${NOMBRES_PARCIAL[p]}</span>
+      <span class="asis-estado-label">${incluido ? 'Incluido' : 'Omitido'}</span>
+    `;
+    row.addEventListener('click', () => {
+      if (incluido) {
+        if (parcialesReporte.length === 1) { alert('Deja al menos un parcial incluido.'); return; }
+        parcialesReporte = parcialesReporte.filter(x => x !== p);
+      } else {
+        parcialesReporte = [...parcialesReporte, p];
+      }
+      renderParcialesReporte();
+    });
+    cont.appendChild(row);
+  });
+}
+
+on('hist-modo', 'change', () => {
+  const esAlumno = document.getElementById('hist-modo').value === 'alumno';
+  document.getElementById('hist-alumno-wrap').hidden = !esAlumno;
+});
+
+function renderSelectHistAlumno() {
+  const selectHist = document.getElementById('hist-alumno-select');
+  if (!selectHist) return;
+  const actual = selectHist.value;
+  selectHist.innerHTML = '<option value="">— Elige un alumno —</option>';
+  alumnosCache.forEach(a => {
+    const opt = document.createElement('option');
+    opt.value = a.id;
+    opt.textContent = a.nombre;
+    selectHist.appendChild(opt);
+  });
+  if (actual && alumnosCache.some(a => a.id === actual)) selectHist.value = actual;
+}
+
+on('btn-pdf', 'click', generarPDF);
+
+async function generarPDF() {
+  if (!grupoActivo) { alert('Elige un grupo primero.'); return; }
+  if (alumnosCache.length === 0) { alert('Este grupo no tiene alumnos.'); return; }
+
+  const modo = document.getElementById('hist-modo').value;
+  const msg = document.getElementById('export-msg');
+  msg.textContent = 'Generando reporte…';
+  msg.hidden = false;
+
+  try {
+    if (modo === 'alumno') {
+      const alumnoId = document.getElementById('hist-alumno-select').value;
+      if (!alumnoId) { alert('Elige un alumno de la lista.'); msg.hidden = true; return; }
+      const alumno = alumnosCache.find(a => a.id === alumnoId);
+      if (!alumno) { msg.hidden = true; return; }
+      const datos = await datosDeAlumno(alumno.id);
+      await reporteAlumno({ nombreGrupo: nombreDelGrupo(), alumno, datos });
+    } else {
+      const alumnos = [];
+      for (const alumno of alumnosCache) {
+        alumnos.push({ alumno, datos: await datosDeAlumno(alumno.id) });
+      }
+      await reporteGrupo({ nombreGrupo: nombreDelGrupo(), alumnos, parciales: parcialesReporte });
+    }
+    msg.textContent = '✓ Reporte abierto en una ventana nueva.';
+    setTimeout(() => { msg.hidden = true; }, 4000);
+  } catch (err) {
+    console.error('Error generando el reporte:', err);
+    msg.textContent = 'No se pudo generar el reporte: ' + (err.message || err);
+  }
+}
+
 function cargarHistorial() {
   const cont = document.getElementById('hist-lista-alumnos');
   const empty = document.getElementById('historial-empty');
@@ -864,6 +1048,8 @@ function cargarHistorial() {
   if (!cont) return;
   cont.innerHTML = '';
   resumen.hidden = true;
+  renderParcialesReporte();
+  renderSelectHistAlumno();
 
   if (!grupoActivo) { empty.hidden = false; empty.textContent = 'Elige un grupo primero.'; return; }
   if (alumnosCache.length === 0) { empty.hidden = false; empty.textContent = 'Este grupo aún no tiene alumnos.'; return; }
@@ -893,6 +1079,19 @@ async function mostrarResumenAlumno(alumno) {
   const filaRubro = (nombre, pts, tope) => `
     <div class="res-row"><span>${nombre}</span><strong>${pts.toFixed(1)} / ${tope}</strong></div>`;
 
+  // Detalle de fechas (para revisiones): qué tareas entregó y en qué días
+  // participó, ordenado cronológicamente. Se muestra en un desplegable para
+  // no saturar la vista por defecto.
+  const listaDetalleHTML = (lista, vacio, conCalificacion) => {
+    if (!lista || lista.length === 0) return `<p class="empty-inline">${vacio}</p>`;
+    const filas = lista
+      .slice()
+      .sort((a, b) => (a.fecha || '').localeCompare(b.fecha || ''))
+      .map(x => `<li>${escaparHTML(x.fecha || 'sin fecha')} — ${escaparHTML(x.nombre || '')}${conCalificacion ? `: <strong>${(Number(x.calificacion) || 0).toFixed(1)}/10</strong>` : ''}</li>`)
+      .join('');
+    return `<ul style="margin:6px 0 0; padding-left:18px; font-size:.85em;">${filas}</ul>`;
+  };
+
   resumen.innerHTML = `
     <p class="eval-alumno-activo">Resumen de: ${escaparHTML(alumno.nombre)}</p>
     ${PARCIALES.map(p => {
@@ -910,9 +1109,21 @@ async function mostrarResumenAlumno(alumno) {
               filaRubro('Asistencia', r.asistencia.pts, r.asistencia.tope)
             : filaRubro('Examen', r.examen.pts, r.examen.tope) +
               filaRubro('Tareas', r.tareas.pts, r.tareas.tope) +
-              filaRubro('Participación', r.participacion.pts, r.participacion.tope) +
+              filaRubro(`Participación (${r.participacion.cantidad} de ${r.participacion.meta})`, r.participacion.pts, r.participacion.tope) +
               filaRubro('Asistencia', r.asistencia.pts, r.asistencia.tope) +
               filaRubro('Uniformes', r.uniformes.pts, r.uniformes.tope)}
+          ${!esFinal ? `
+          <details class="prog-detalle-bloque" style="margin-top:8px;">
+            <summary>Ver fechas — Tareas y Participación</summary>
+            <p class="field-hint" style="margin:8px 0 2px;">Tareas:</p>
+            ${listaDetalleHTML(r.tareas.lista, 'Sin tareas capturadas.', true)}
+            <p class="field-hint" style="margin:10px 0 2px;">Participación:</p>
+            ${listaDetalleHTML(r.participacion.lista, 'Sin participación capturada.', false)}
+          </details>` : `
+          <details class="prog-detalle-bloque" style="margin-top:8px;">
+            <summary>Ver fechas — Tareas y Participación</summary>
+            ${listaDetalleHTML([...r.tareasParticipacion.lista], 'Sin capturas.', true)}
+          </details>`}
           <div class="res-row res-total"><span>Total</span><strong>${r.total.toFixed(1)} / 100 pts</strong></div>
         </div>`;
     }).join('')}
