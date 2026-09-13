@@ -2,122 +2,168 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+  <meta name="google-site-verification" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Coordinación Académica — ITES René Descartes</title>
+<title>Aula Virtual — Expresión Oral y Escrita | ITES René Descartes</title>
+<!-- SEO -->
+<meta name="description" content="Compendio digital completo de la asignatura Expresión Oral y Escrita: comunicación, ortografía, redacción y expresión oral. Licenciatura en Comunicación, ITES René Descartes.">
+<meta name="author" content="Jesús Rodríguez García">
+<link rel="canonical" href="https://jesusrodriguezgarcia749-cloud.github.io/expresion-oral-escrita/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aula Virtual — Expresión Oral y Escrita | ITES René Descartes">
+<meta property="og:description" content="Compendio digital completo de la asignatura Expresión Oral y Escrita: comunicación, ortografía, redacción y expresión oral. Licenciatura en Comunicación, ITES René Descartes.">
+<meta property="og:url" content="https://jesusrodriguezgarcia749-cloud.github.io/expresion-oral-escrita/">
+<meta property="og:site_name" content="Aula Virtual — Expresión Oral y Escrita">
+<meta property="og:locale" content="es_MX">
+<meta name="twitter:card" content="summary">
+<!-- /SEO -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/admin.css">
-<link rel="stylesheet" href="css/progreso.css">
-<style>
-  /* Mismo diseño de campo grande y redondeado que usan los formularios de
-     las plataformas de cada materia — se aplica a los tres desplegables
-     para que se vean iguales entre sí. */
-  .select-grande{
-    width:100%;
-    padding:15px 18px;
-    margin-bottom:20px;
-    border-radius:14px;
-    border:1.5px solid var(--line, #E0D9CB);
-    background:#fff;
-    color:var(--ink, #231F1A);
-    font-family:var(--font-body, 'Public Sans', sans-serif);
-    font-size:1.05rem;
-    box-shadow:0 1px 3px rgba(0,0,0,0.05);
-  }
-</style>
+<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="index.html" style="display:flex; align-items:center; gap:10px;">
-      <img src="assets/escudo.png" alt="Escudo ITES René Descartes" style="width:34px; height:34px; object-fit:contain; flex-shrink:0;" onerror="this.style.display='none'">
-      <span class="brand-mark">CA</span>
-      <span class="brand-text">Coordinación Académica</span>
+    <a class="brand" href="index.html">
+      <span class="brand-mark">EOE</span>
+      <span class="brand-text">Expresión Oral y Escrita</span>
     </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="compendio.html">Compendio</a>
+      <a href="actividades.html">Actividades</a>
+      <a href="biblioteca.html">Biblioteca</a>
+      <a href="examen.html">Examen</a>
+      <a href="mi-progreso.html">Mi progreso</a>
+      <a href="admin.html" class="nav-admin">Panel docente</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 
-<section id="login-screen" class="admin-wrap">
-  <div class="login-card">
-    <img src="assets/escudo.png" alt="Escudo ITES René Descartes" style="width:64px; height:64px; object-fit:contain; display:block; margin:0 auto 14px;" onerror="this.style.display='none'">
-    <h1>Coordinación Académica</h1>
-    <p class="login-sub">Acceso restringido — solo cuenta institucional.</p>
-    <form id="login-form">
-      <label for="login-email" class="sr-only">Correo</label>
-      <input id="login-email" type="email" placeholder="tu-correo@itesrenedescartes.edu.mx" required autocomplete="email">
-      <label for="login-pass" class="sr-only">Contraseña</label>
-      <input id="login-pass" type="password" placeholder="Contraseña" required autocomplete="current-password">
-      <button type="submit" class="btn btn-primary">Entrar</button>
-      <p id="login-error" class="login-error" hidden></p>
-    </form>
+<section class="hero">
+  <div class="hero-texture"></div>
+  <div class="wrap hero-inner">
+    <p class="studio-seal">LudoMente Studio</p>
+    <p class="eyebrow">Plataforma educativa</p>
+    <h1>Aula Virtual</h1>
+    <p class="hero-sub">Expresión Oral y Escrita — compendio, actividades de estudio y seguimiento de tu avance, todo en un mismo lugar. Licenciatura en Comunicación, ITES René Descartes.</p>
+    <div class="hero-actions">
+      <a href="compendio.html" class="btn btn-primary">Ver el Compendio</a>
+      <a href="actividades.html" class="btn btn-ghost">Ir a Actividades</a>
+    </div>
   </div>
 </section>
 
-<section id="app-screen" class="admin-wrap" hidden>
-
-  <div class="admin-topbar">
-    <span style="font-family:'Fraunces',serif; font-weight:600; font-size:1.1rem;">Coordinación Académica</span>
-    <button id="btn-logout" class="btn-logout">Salir</button>
+<section class="search-band">
+  <div class="wrap">
+    <form class="search-form" id="home-search-form">
+      <label for="search-input" class="sr-only">Buscar en el compendio</label>
+      <input id="search-input" type="text" placeholder="Busca un tema, por ejemplo: comunicación, ortografía, oratoria…">
+      <button type="submit">Buscar</button>
+    </form>
+    <p class="search-hint">La búsqueda te lleva directo al subtema correspondiente en el compendio.</p>
   </div>
+</section>
 
-  <div class="bloques-activos-card">
-    <h3 class="section-title" style="margin-top:0;">Selecciona</h3>
+<section class="blocks">
+  <div class="wrap">
+    <p class="section-eyebrow">Explora la plataforma</p>
+    <h2>¿A dónde quieres ir?</h2>
 
-    <label for="carrera-select" class="field-label">Carrera</label>
-    <select id="carrera-select" class="select-grande"></select>
-
-    <label for="materia-select" class="field-label">Materia</label>
-    <select id="materia-select" class="select-grande"></select>
-
-    <label for="alumno-select" class="field-label">Alumno</label>
-    <select id="alumno-select" class="select-grande"><option value="">Selecciona…</option></select>
-
-    <!-- El grupo ya no se elige a mano: como cada materia tiene un solo
-         grupo, app.js lo selecciona automáticamente y carga sus alumnos. -->
-    <select id="grupo-select" hidden></select>
-    <p id="alumno-empty" class="empty-state" hidden>Elige un grupo primero.</p>
-  </div>
-
-  <div id="alumno-panel" hidden>
-
-    <div class="bloques-activos-card">
-      <h3 class="section-title" style="margin-top:0;">Descargas para revisión</h3>
-      <p class="field-hint">Elige qué quieres descargar de este alumno. El examen y la asistencia se descargan por bloque.</p>
-
-      <label for="descarga-bloque" class="field-label">Bloque (para examen y asistencia)</label>
-      <select id="descarga-bloque">
-        <option value="1">Bloque 1</option>
-        <option value="2">Bloque 2</option>
-        <option value="3">Bloque 3</option>
-      </select>
-
-      <div class="reporte-botones" style="flex-wrap:wrap;">
-        <button id="btn-descargar-examen" class="btn btn-ghost-dark">Examen resuelto (PDF)</button>
-        <button id="btn-descargar-asistencia" class="btn btn-ghost-dark">Asistencia (PDF)</button>
-        <button id="btn-descargar-participacion" class="btn btn-ghost-dark">Participación (PDF)</button>
-        <button id="btn-descargar-practicas" class="btn btn-ghost-dark">Prácticas de cocina (PDF)</button>
+    <div class="block-cards">
+      <div class="index-card" style="--card-accent:#C98A2C">
+        <div class="index-card-top">
+          <span class="index-card-num">01</span>
+          <span class="index-card-pin"></span>
+        </div>
+        <h3>Compendio</h3>
+        <ul>
+          <li>Todos los temas completos de la asignatura</li>
+          <li>Navegación por subtema, con buscador</li>
+        </ul>
+        <a href="compendio.html" class="card-link">Entrar →</a>
       </div>
-      <div class="reporte-botones" style="margin-top:10px;">
-        <button id="btn-descargar-concentrado" class="btn btn-primary">Descargar concentrado (PDF)</button>
+
+      <div class="index-card" style="--card-accent:#A63D2F">
+        <div class="index-card-top">
+          <span class="index-card-num">02</span>
+          <span class="index-card-pin"></span>
+        </div>
+        <h3>Actividades</h3>
+        <ul>
+          <li>Práctica y repaso por subtema</li>
+          <li>Con retroalimentación explicada</li>
+        </ul>
+        <a href="actividades.html" class="card-link">Entrar →</a>
       </div>
-      <p id="descarga-msg" class="save-msg" hidden></p>
+
+      <div class="index-card" style="--card-accent:#6B7A5E">
+        <div class="index-card-top">
+          <span class="index-card-num">03</span>
+          <span class="index-card-pin"></span>
+        </div>
+        <h3>Biblioteca</h3>
+        <ul>
+          <li>Material de consulta adicional</li>
+        </ul>
+        <a href="biblioteca.html" class="card-link">Entrar →</a>
+      </div>
+
+      <div class="index-card" style="--card-accent:#C98A2C">
+        <div class="index-card-top">
+          <span class="index-card-num">04</span>
+          <span class="index-card-pin"></span>
+        </div>
+        <h3>Mi progreso</h3>
+        <ul>
+          <li>Tu calificación por parcial</li>
+          <li>Solo tú puedes ver tu información</li>
+        </ul>
+        <a href="mi-progreso.html" class="card-link">Entrar →</a>
+      </div>
+
+      <div class="index-card" style="--card-accent:#A63D2F">
+        <div class="index-card-top">
+          <span class="index-card-num">05</span>
+          <span class="index-card-pin"></span>
+        </div>
+        <h3>Panel docente</h3>
+        <ul>
+          <li>Acceso restringido</li>
+        </ul>
+        <a href="admin.html" class="card-link">Entrar →</a>
+      </div>
     </div>
-
-    <h3 class="section-title">Resumen del alumno</h3>
-    <div id="alumno-resumen"></div>
   </div>
-
 </section>
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>Coordinación Académica · ITES René Descartes · Acceso restringido.</p>
+    <p>Aula Virtual · Expresión Oral y Escrita · LudoMente Studio</p>
   </div>
 </footer>
 
-<script type="module" src="js/app.js"></script>
+<!-- Música de fondo (opcional, apagada por defecto) -->
+<audio id="bg-music" loop preload="none">
+  <source src="https://commons.wikimedia.org/wiki/Special:FilePath/Gymnopedie_No._1..ogg" type="audio/ogg">
+</audio>
+<button id="bg-music-toggle" class="music-toggle" aria-label="Activar música de fondo" aria-pressed="false">🎵</button>
+
+<script src="js/app.js"></script>
+<script>
+  // Conecta el buscador de la portada con el filtro que ya existe en
+  // compendio.js — al buscar aquí, te manda a Compendio con el resultado
+  // ya filtrado (compendio.js lee el parámetro ?buscar= de la URL).
+  document.getElementById('home-search-form')?.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const termino = document.getElementById('search-input').value.trim();
+    window.location.href = 'compendio.html' + (termino ? '?buscar=' + encodeURIComponent(termino) : '');
+  });
+</script>
 </body>
 </html>
